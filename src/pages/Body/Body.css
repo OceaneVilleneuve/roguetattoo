@@ -1,0 +1,50 @@
+body,
+body button{
+  transition: background-color 1.5s, color 0.5s;
+  background-color: black;
+  color: white;
+}
+
+
+.body-container.project-visible,
+body.project-visible,
+body.project-visible p,
+body.project-visible button,
+body.project-visible h1,
+body.project-visible h2 {
+  color: #ffffff !important;
+  transition: background-color 1.5s, color 0.2s;
+}
+
+body.project-visible p,
+body.project-visible button,
+body.project-visible h2 {
+  color: #ffffff;
+}
+
+.body-container.project-visible .m-scroll {
+  border-color: white;
+}
+
+body.m-scroll__title h1 {
+  margin: 0;
+  font-size: 9px;
+  color: white;
+  transition: all 1s ease;
+}
+
+/* Animation de fond pour tous les éléments body-container */
+.body-container {
+  will-change: background-color; /* Optimisation pour l'animation */
+}
+
+.body-container.project-visible {
+  background-color: #C6E6D3;
+  color: black !important;
+  transition: background-color 1.5s, color 0.2s; /* Durée de transition plus lente pour le fond sur Projects */
+}
+
+/* Animation pour le retour au fond de base */
+.body-container:not(.project-visible) {
+  transition: background-color 1.5s, color 0.2s;
+}
