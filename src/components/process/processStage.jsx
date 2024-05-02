@@ -2,11 +2,11 @@ import React, { useState } from "react";
 import styled from "styled-components";
 import { motion } from "framer-motion";
 import arrowImage from "../../assets/image-80b19b4b-21f3-4e0f-8ffe-069bf976b0f2 (1).png";
-import "../home/infiniteScolling.css";
 import { useMediaQuery } from "react-responsive";
 
 const SectionContainer = styled.div`
   margin-bottom: 20px;
+  padding-top: 2em;
 `;
 
 const SubTitleContainer = styled.div`
@@ -50,7 +50,7 @@ const Title = ({ index, title, text, left }) => {
         $isOpen={isOpen}
         onClick={() => setIsOpen(!isOpen)}
         style={{
-          color: isOpen ? "black" : "#3E3D3D",
+          color: isOpen ? "#3E3D3D" : "white",
           paddingBottom: isMobile ? "1rem" : null,
         }}
       >

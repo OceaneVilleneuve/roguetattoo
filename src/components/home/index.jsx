@@ -3,6 +3,7 @@ import { useMediaQuery } from "react-responsive";
 import styled from "styled-components";
 import ProfilPicture from "../../assets/IMG_0748.JPG";
 import "./infiniteScolling.css";
+import "./glitch.css"
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
@@ -12,9 +13,12 @@ const HeightPage = styled.div`
 `;
 const TitleWebsite = styled.h1`
   font-weight: lighter;
+  font-family: 'Metal Vengeance';
   position: absolute; /* Modifier cette ligne */
   z-index: -2;
+  color: #70e000;
 `;
+
 const SubTitleWebsiteWeb = styled.h1`
   position: absolute;
   z-index: -2;
@@ -55,6 +59,11 @@ const SocialLink = styled.a`
   text-decoration: none;
   font-family: "Ade Display", serif;
   color: white;
+  &:hover {
+    text-shadow: 2px 2px 10px #fff;
+
+    filter: dropshadow(color=#fff, offx=2, offy=2);
+  }
 `;
 
 
@@ -90,12 +99,13 @@ const Home = () => {
           transition={{ ease: "easeOut", duration: 1 }}
         >
           <TitleWebsite
+            className="glitch"
             style={{
-              fontSize: isMobile ? "30px" : "50px",
-              padding: isMobile ? "30px 33px" : "30px 80px",
+              fontSize: isMobile ? "30px" : "85px",
+              padding: isMobile ? "30px 33px" : "0px 230px",
             }}
           >
-            JE SUIS ROGUE
+            ROGUE
           </TitleWebsite>
         </motion.div>
       </div>
@@ -110,7 +120,7 @@ const Home = () => {
           <SubTitleWebsiteWeb
             style={{
               fontSize: isMobile ? "30px" : "50px",
-              padding: isMobile ? "24rem 4.9rem" : "15rem 9rem",
+              padding: isMobile ? "24rem 4.9rem" : "17rem 9rem",
             }}
           >
             TATOUEUSE
@@ -118,7 +128,7 @@ const Home = () => {
           <SubTitleWebsiteDeveloper
             style={{
               fontSize: isMobile ? "30px" : "50px",
-              padding: isMobile ? "26rem 2rem" : "19rem 2rem",
+              padding: isMobile ? "26rem 2rem" : "21rem 2rem",
             }}
           >
             HEAVY BLACKWORK
@@ -126,7 +136,7 @@ const Home = () => {
           <SubTitleWebsiteDesigner
             style={{
               fontSize: isMobile ? "30px" : "50px",
-              padding: isMobile ? "28rem 1.9rem" : "23rem 6rem",
+              padding: isMobile ? "28rem 1.9rem" : "25rem 6rem",
             }}
           >
             ORNEMENTAL

@@ -6,7 +6,7 @@ import LoadingSpinner from "./loadingSpinner";
 
 const Label = styled.label`
   font-family: "Mina";
-  color: #888686;
+  color: white;
   font-size: 12px;
 `;
 const Overlay = styled.div`
@@ -25,12 +25,13 @@ const Overlay = styled.div`
 
 const SendButton = styled.button`
   background-color: transparent;
-  border: 1px solid #888686;
+  border: 1px solid #343a40;
   border-radius: 25px;
   padding: 16px 43px;
   font-family: "Mina";
   font-size: 12px;
-  color: black;
+  color: white;
+  font-family: 'Metal Vengeance';
 `;
 const Flex = styled.div`
   display: flex;
@@ -43,7 +44,9 @@ const InputForm = styled.input`
   background-color: transparent;
   margin-bottom: 20px;
   border: none;
-  border-bottom: #888686 1px solid;
+  border-bottom: #343a40 1px solid;
+  color: white;
+  outline: none;
 `;
 
 const InputFormMobile = styled.textarea`
@@ -52,21 +55,24 @@ const InputFormMobile = styled.textarea`
   background-color: transparent;
   margin-bottom: 20px;
   border: none;
-  border-bottom: #888686 1px solid;
+  border-bottom: #343a40 1px solid;
 `;
 const MessageFrom = styled.textarea`
   height: 10em;
   width: 50em;
   background-color: transparent;
   border: none;
-  border-bottom: #888686 1px solid;
+  border-bottom: #343a40 1px solid;
+  color: white;
+  outline: none;
 `;
 const MessageFormMobile = styled.textarea`
   height: 10em;
   width: 21em;
   border: none;
   background-color: transparent;
-  border-bottom: #888686 1px solid;
+  border-bottom: #343a40 1px solid;
+  outline: none;
 `;
 const FlexInputs = styled.div`
   display: flex;
@@ -212,7 +218,7 @@ function Form() {
             </div>
             <div className="mb-3">
               <FlexInputs>
-                <Label>Message :</Label>
+                <Label>Ton projet / son emplacement / sa taille en cm :</Label>
                 <MessageFrom
                   className="form-control"
                   id="message"

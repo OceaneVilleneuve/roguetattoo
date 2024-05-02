@@ -6,30 +6,35 @@ body button{
 }
 
 
-.body-container.project-visible,
-body.project-visible,
-body.project-visible p,
-body.project-visible button,
-body.project-visible h1,
-body.project-visible h2 {
-  color: #ffffff !important;
+.body-container.contact-visible,
+body.contact-visible,
+body.contact-visible p,
+body.contact-visible button,
+body.contact-visible h1,
+body.contact-visible h2,
+body.contact-visible a {
+  color: black !important;
   transition: background-color 1.5s, color 0.2s;
 }
 
-body.project-visible p,
-body.project-visible button,
-body.project-visible h2 {
-  color: #ffffff;
+body.contact-visible label {
+  color: #343a40;
 }
 
-.body-container.project-visible .m-scroll {
-  border-color: white;
+body.contact-visible p,
+body.contact-visible button,
+body.contact-visible h2 {
+  color: black;
+}
+
+.body-container.contact-visible .m-scroll {
+  border-color: black;
 }
 
 body.m-scroll__title h1 {
   margin: 0;
   font-size: 9px;
-  color: white;
+  color: black;
   transition: all 1s ease;
 }
 
@@ -38,13 +43,13 @@ body.m-scroll__title h1 {
   will-change: background-color; /* Optimisation pour l'animation */
 }
 
-.body-container.project-visible {
-  background-color: #C6E6D3;
+.body-container.contact-visible {
+  background-color: #77DF0F;
   color: black !important;
   transition: background-color 1.5s, color 0.2s; /* Durée de transition plus lente pour le fond sur Projects */
 }
 
 /* Animation pour le retour au fond de base */
-.body-container:not(.project-visible) {
+.body-container:not(.contact-visible) {
   transition: background-color 1.5s, color 0.2s;
 }

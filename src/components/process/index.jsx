@@ -10,10 +10,6 @@ const ContainerProcess = styled.div`
   position: relative;
 `;
 
-const OpenToWorkContainer = styled.h1`
-  word-spacing: 1rem;
-  font-weight: lighter;
-`;
 
 const Process = () => {
   const isMobile = useMediaQuery({ maxWidth: 767 });
@@ -39,11 +35,11 @@ const Process = () => {
       text: "Je réalise une maquette très simple en wireframe de ton application sur Figma. Une fois cette maquette réalisée, une maquette réaliste de ton site est créée sur Figma, qui servira de template définitif pour ton application.",
     },
     {
-      title: "DEVELOPPEMENT",
+      title: "PRISE DE RENDEZ-VOUS",
       text: "Je développe ton application dans le langage le plus adapté.",
     },
     {
-      title: "PRODUCTION",
+      title: "RENDEZ-VOUS",
       text: "C'est la phase finale du projet. Le site est enfin mis en production après validation de votre part de la partie développement. L'application est donc maintenant en ligne.",
     },
   ];
@@ -73,7 +69,7 @@ const Process = () => {
             padding: isMobile ? "45px 33px" : "85px 85px 10px 85px",
           }}
         >
-          MY PROCESSUS
+          MON PROCESSUS
         </h1>
         {sectionsData.map((section, index) => (
           <ProcessStage
@@ -89,42 +85,6 @@ const Process = () => {
           />
         ))}
       </motion.div>
-      <div style={{ paddingTop: isMobile ? "7rem" : "12.5rem" }}>
-        <div className="m-scroll">
-          <div className="m-scroll__title ">
-            <div>
-              <OpenToWorkContainer>
-                WEB DEVELOPPEMENT • DESIGN • WEB DEVELOPPEMENT • DESIGN • WEB
-                DEVELOPPEMENT • DESIGN • WEB DEVELOPPEMENT • DESIGN • WEB
-                DEVELOPPEMENT • DESIGN • WEB DEVELOPPEMENT • DESIGN • WEB
-                DEVELOPPEMENT • DESIGN • WEB DEVELOPPEMENT • DESIGN • WEB
-                DEVELOPPEMENT • DESIGN • WEB DEVELOPPEMENT • DESIGN • WEB
-                DEVELOPPEMENT • DESIGN • WEB DEVELOPPEMENT • DESIGN • WEB
-                DEVELOPPEMENT • DESIGN • WEB DEVELOPPEMENT • DESIGN • WEB
-                DEVELOPPEMENT • DESIGN • WEB DEVELOPPEMENT • DESIGN • WEB
-                DEVELOPPEMENT • DESIGN • WEB DEVELOPPEMENT • DESIGN • WEB
-                DEVELOPPEMENT • DESIGN • WEB DEVELOPPEMENT • DESIGN • WEB
-                DEVELOPPEMENT • DESIGN • WEB DEVELOPPEMENT • DESIGN • WEB
-                DEVELOPPEMENT • DESIGN • WEB DEVELOPPEMENT • DESIGN • WEB
-                DEVELOPPEMENT • DESIGN • WEB DEVELOPPEMENT • DESIGN • WEB
-                DEVELOPPEMENT • DESIGN • WEB DEVELOPPEMENT • DESIGN • WEB
-                DEVELOPPEMENT • DESIGN • WEB DEVELOPPEMENT • DESIGN • WEB
-                DEVELOPPEMENT • DESIGN • WEB DEVELOPPEMENT • DESIGN • WEB
-                DEVELOPPEMENT • DESIGN • WEB DEVELOPPEMENT • DESIGN • WEB
-                DEVELOPPEMENT • DESIGN • WEB DEVELOPPEMENT • DESIGN • WEB
-                DEVELOPPEMENT • DESIGN • WEB DEVELOPPEMENT • DESIGN • WEB
-                DEVELOPPEMENT • DESIGN • WEB DEVELOPPEMENT • DESIGN • WEB
-                DEVELOPPEMENT • DESIGN • WEB DEVELOPPEMENT • DESIGN • WEB
-                DEVELOPPEMENT • DESIGN • WEB DEVELOPPEMENT • DESIGN • WEB
-                DEVELOPPEMENT • DESIGN • WEB DEVELOPPEMENT • DESIGN • WEB
-                DEVELOPPEMENT • DESIGN • WEB DEVELOPPEMENT • DESIGN • WEB
-                DEVELOPPEMENT • DESIGN • WEB DEVELOPPEMENT • DESIGN • WEB
-                DEVELOPPEMENT • DESIGN • WEB DEVELOPPEMENT •
-              </OpenToWorkContainer>
-            </div>
-          </div>
-        </div>
-      </div>
     </ContainerProcess>
   );
 };

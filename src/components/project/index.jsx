@@ -71,6 +71,16 @@ const Projects = () => {
 
   return (
     <ContainerProjects id="projectsPage" style={{minHeight: isMobile ? "80vh" : "100vh"}}>
+      <div>
+      <h1
+        style={{
+          fontSize: isMobile ? "10px" : "25px",
+          padding: isMobile ? "45px 33px" : "120px 85px 10px ",
+        }}
+      >
+        MES TATOUAGES
+      </h1>
+      </div>
       <Button direction="prev" onClick={handlePrev}>
         {"<"}
       </Button>

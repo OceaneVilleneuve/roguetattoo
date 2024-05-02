@@ -1,7 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import { FaGithub, FaLinkedinIn } from "react-icons/fa6";
-import colors from "../../utils/style/colors";
 import Form from "./form";
 import HeartPicture from "../../assets/heart.png";
 import { useMediaQuery } from "react-responsive";
@@ -30,19 +28,10 @@ const PersonnalInfo = styled.div`
   margin-top: 3em;
   position: relative;
 `;
-const IconWrapper = styled.div`
-  color: ${colors.primary};
-  padding-right: 10px;
-  font-size: 15px;
-`;
-
-const Flex = styled.p`
-  display: flex;
-`;
 
 const LinkToSocials = styled.a`
   text-decoration: none;
-  color: black;
+  color: white;
 `;
 const PaddingName = styled.div`
   padding-top: 4px;
@@ -84,7 +73,7 @@ function Contact() {
           marginLeft: isMobile ? "66px" : "10em",
         }}
       >
-        I’m available for new projects and collaborations.
+        Je suis disponible pour répondre à vos demandes de projet.
       </Description>
       </div>
       <PageContact
@@ -126,32 +115,23 @@ function Contact() {
             RETROUVEZ MOI SUR
           </SubTitle>
           <LinkToSocials
-            href="https://www.linkedin.com/in/océane-villeneuve-746449277/"
+            href="https://www.instagram.com/countess_rogue/"
             target="_blank"
             style={{
               paddingTop: isMobile ? "3em" : null,
             }}
           >
-            <Flex>
-              <IconWrapper>
-                <FaLinkedinIn icon="fa-brands fa-linkedin-in" />
-              </IconWrapper>
-              <PaddingName>LINKEDIN</PaddingName>
-            </Flex>
+              <PaddingName>INSTAGRAM</PaddingName>
           </LinkToSocials>
+          <br />
           <LinkToSocials
-            href="https://github.com/OceaneVilleneuve"
+            href="https://www.tiktok.com/@countess_rogue?_t=8m113AW3SaH&_r=1"
             target="_blank"
             style={{
               paddingTop: isMobile ? "3em" : null,
             }}
           >
-            <Flex>
-              <IconWrapper>
-                <FaGithub icon="fa-brands fa-github" />
-              </IconWrapper>
-              <PaddingName>GITHUB</PaddingName>
-            </Flex>
+              <PaddingName>TIKTOK</PaddingName>
           </LinkToSocials>
         </PersonnalInfo>
       </PageContact>

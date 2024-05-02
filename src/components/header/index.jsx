@@ -20,6 +20,7 @@ const HeaderContainer = styled.nav`
 
 const HeaderBanner = styled.h1`
   font-size: 16px;
+  font-family: 'Metal Vengeance';
 `;
 
 const WrapperFlex = styled.div`
