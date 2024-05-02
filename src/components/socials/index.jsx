@@ -8,8 +8,10 @@ const Socials = () => {
   // const location = useLocation();
 
   return (
-    <div id="socialsPage">
-    {/* Contenu du composant */}
+    <div id="socialsPage" style={{
+    height: "100vh",
+    }}>
+    HELLOOOOOO
     </div>
   )
 };
