@@ -6,11 +6,12 @@ import { useInView } from "react-intersection-observer";
 import { motion } from "framer-motion";
 
 const AboutMeContainer = styled.div`
-  min-height: 75vh;
+  min-height: 96vh;
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 4.5rem;
 `;
 
 const AboutMeTitle = styled.h1`
@@ -50,7 +51,7 @@ const AboutMe = () => {
       >
         <div
           style={{
-            paddingBottom: "9rem",
+            paddingBottom: "6rem",
             textAlign: "center",
           }}
         >
