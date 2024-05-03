@@ -10,7 +10,6 @@ const ContainerProcess = styled.div`
   position: relative;
 `;
 
-
 const Process = () => {
   const isMobile = useMediaQuery({ maxWidth: 767 });
   const [animationKey, setAnimationKey] = useState(0);
@@ -44,8 +43,8 @@ const Process = () => {
     },
   ];
 
-  const subtitleStylesLeft = ["37%", "50%", "12%", "50%"];
-  const subtitleStylesLeftMobile = ["30%", "40%", "12%", "38%"];
+  const subtitleStylesLeft = ["37%", "50%", "10%", "50%"];
+  const subtitleStylesLeftMobile = ["30%", "40%", "10%", "38%"];
 
   return (
     <ContainerProcess
@@ -53,6 +52,8 @@ const Process = () => {
       ref={ref}
       style={{
         paddingTop: isMobile ? "4rem" : "",
+        paddingBottom: isMobile ? "4rem" : "3rem",
+        paddingRight: isMobile ? "1rem" : "2.5rem",
         minHeight: isMobile ? "70vh" : "100vh",
       }}
     >

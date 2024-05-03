@@ -58,28 +58,28 @@ function Contact() {
     <div
       id="contactPage"
       style={{
-        marginTop: isMobile ? null : "20em",
+        marginTop: isMobile ? null : "9em",
         display: isMobile ? "flex" : null,
         flexDirection: isMobile ? "column" : null,
       }}
     >
       <div>
-      <h1
-        style={{
-          marginLeft: isMobile ? null : "3em",
-          justifyContent: isMobile ? "center" : null,
-          textAlign: isMobile ? "center" : null,
-        }}
-      >
-        CONTACTEZ MOI
-      </h1>
-      <Description
-        style={{
-          marginLeft: isMobile ? "66px" : "10em",
-        }}
-      >
-        Je suis disponible pour répondre à vos demandes de projet.
-      </Description>
+        <h1
+          style={{
+            marginLeft: isMobile ? null : "3em",
+            justifyContent: isMobile ? "center" : null,
+            textAlign: isMobile ? "center" : null,
+          }}
+        >
+          CONTACTEZ MOI
+        </h1>
+        <Description
+          style={{
+            marginLeft: isMobile ? "66px" : "10em",
+          }}
+        >
+          Je suis disponible pour répondre à vos demandes de projet.
+        </Description>
       </div>
       <PageContact
         style={{
@@ -126,7 +126,7 @@ function Contact() {
               paddingTop: isMobile ? "3em" : null,
             }}
           >
-              <PaddingName>INSTAGRAM</PaddingName>
+            <PaddingName>INSTAGRAM</PaddingName>
           </LinkToSocials>
           <br />
           <LinkToSocials
@@ -136,7 +136,7 @@ function Contact() {
               paddingTop: isMobile ? "3em" : null,
             }}
           >
-              <PaddingName>TIKTOK</PaddingName>
+            <PaddingName>TIKTOK</PaddingName>
           </LinkToSocials>
         </PersonnalInfo>
       </PageContact>

@@ -5,12 +5,10 @@ import AlexaStudioPicture from "../../assets/alexa_dark-min-p-1600 2-Photoroom.p
 import FerdPicture from "../../assets/ferd-removebg-preview 2-Photoroom.png-Photoroom.png";
 import { useMediaQuery } from "react-responsive";
 
-
-
 const ContainerProjects = styled.div`
   position: relative;
   overflow: hidden;
-
+  margin-top: 7rem;
 `;
 
 const ProjectContainer = styled.div`
@@ -71,9 +69,12 @@ const Projects = () => {
   };
 
   return (
-    <ContainerProjects id="projectsPage" style={{minHeight: isMobile ? "80vh" : "100vh"}}>
+    <ContainerProjects
+      id="projectsPage"
+      style={{ minHeight: isMobile ? "80vh" : "100vh" }}
+    >
       <div>
-      {/* <h1
+        {/* <h1
         style={{
           fontSize: isMobile ? "10px" : null,
           padding: isMobile ? "45px 33px" : "200px 85px 0px ",

@@ -12,7 +12,7 @@ const HeightPage = styled.div`
 `;
 const TitleWebsite = styled.h1`
   font-weight: lighter;
-  font-family: 'Metal Vengeance';
+  font-family: "Metal Vengeance";
   position: absolute; /* Modifier cette ligne */
   z-index: -2;
   color: #70e000;
@@ -65,7 +65,6 @@ const SocialLink = styled.a`
   }
 `;
 
-
 const Home = () => {
   const isMobile = useMediaQuery({ maxWidth: 767 });
   const [animationKey, setAnimationKey] = useState(0);
@@ -80,7 +79,6 @@ const Home = () => {
       // Réinitialise hasHovered à false lorsque l'ancre est revisitée
     }
   }, [inView]);
-
 
   return (
     <HeightPage
@@ -105,7 +103,7 @@ const Home = () => {
             }}
           >
             COUNTESS
-            <br/>
+            <br />
             ROGUE
           </TitleWebsite>
         </motion.div>

@@ -6,7 +6,7 @@ const FooterContainer = styled.div`
   padding-bottom: 2em;
 `;
 const FooterInformation = styled.p`
-  color: #000;
+  color: #fff;
   font-family: "Mina";
   font-size: 10px;
   display: flex;
