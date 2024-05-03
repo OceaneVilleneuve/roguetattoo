@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Form from "./form";
-import HeartPicture from "../../assets/heart.png";
+// import HeartPicture from "../../assets/heart.png";
 import { useMediaQuery } from "react-responsive";
 
 const PageContact = styled.div`
@@ -43,13 +43,13 @@ const PaddingName = styled.div`
   font-family: "Ade Display", serif;
 `;
 
-const HeartWrapper = styled.img`
-  position: absolute;
-  transform: rotate(-25deg);
-  top: -179px;
-  right: -31em;
-  z-index: -2;
-`;
+// const HeartWrapper = styled.img`
+//   position: absolute;
+//   transform: rotate(-25deg);
+//   top: -179px;
+//   right: -31em;
+//   z-index: -2;
+// `;
 
 function Contact() {
   const isMobile = useMediaQuery({ maxWidth: 767 });
@@ -58,7 +58,7 @@ function Contact() {
     <div
       id="contactPage"
       style={{
-        marginTop: isMobile ? null : "7em",
+        marginTop: isMobile ? null : "20em",
         display: isMobile ? "flex" : null,
         flexDirection: isMobile ? "column" : null,
       }}
@@ -103,7 +103,7 @@ function Contact() {
             marginLeft: isMobile ? "6em" : null,
           }}
         >
-          <HeartWrapper
+          {/* <HeartWrapper
             src={HeartPicture}
             alt="Heart"
             style={{
@@ -111,7 +111,7 @@ function Contact() {
               top: isMobile ? "-36px" : "-179px",
               right: isMobile ? "50px" : "-385px",
             }}
-          />
+          /> */}
           <SubTitle
             style={{
               paddingTop: isMobile ? "3em" : null,

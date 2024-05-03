@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import Home from "../../components/home";
 import Process from "../../components/process";
 import Project from "../../components/project";
-// import AboutMe from "../../components/aboutMe";
+import AboutMe from "../../components/aboutMe";
 import Contact from "../../components/contact";
 import Socials from "../../components/socials";
 import Footer from "../../components/footer"
@@ -47,9 +47,9 @@ const Body = () => {
       className={`body-container ${isProjectVisible ? "contact-visible" : ""}`}
     >
       <Home />
+      <AboutMe />
       <Process />
       <Project />
-      {/* <AboutMe /> */}
       <Contact />
       <Socials />
       <Footer />

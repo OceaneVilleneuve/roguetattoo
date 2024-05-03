@@ -45,7 +45,7 @@ const InputForm = styled.input`
   margin-bottom: 20px;
   border: none;
   border-bottom: #343a40 1px solid;
-  color: white;
+  color: black;
   outline: none;
 `;
 
@@ -63,7 +63,7 @@ const MessageFrom = styled.textarea`
   background-color: transparent;
   border: none;
   border-bottom: #343a40 1px solid;
-  color: white;
+  color: black;
   outline: none;
 `;
 const MessageFormMobile = styled.textarea`
@@ -86,22 +86,26 @@ function Form() {
   const [name, setName] = React.useState(""); // Utilisez des états locaux pour les valeurs des champs
   const [email, setEmail] = React.useState("");
   const [message, setMessage] = React.useState("");
+  const [size, setSize] = React.useState("");
+  const [placement, setPlacement] = React.useState("");
 
   const onSubmit = (e) => {
     e.preventDefault();
     setIsLoading(true);
     setFormStatus("Envoi en cours...");
-    const { name, email, message } = e.target.elements;
+    const { name, email, message, size, placement } = e.target.elements;
 
     // Send the form data to EmailJS
     emailjs
       .send(
         "service_ez46afr", // Replace with your EmailJS service ID
-        "template_m82rppg", // Replace with your EmailJS template ID
+        "template_fa8b5rt", // Replace with your EmailJS template ID
         {
           from_name: name.value,
           reply_to: email.value,
           message: message.value,
+          size: size.value,
+          placement: placement.value,
         },
         "l0FUOUOrma9W3qPJ8" // Replace with your EmailJS user ID
       )
@@ -111,10 +115,12 @@ function Form() {
           setFormStatus("Message envoyé!");
           setTimeout(() => {
             setFormStatus("Envoyer une demande"); // Reset to the default value
-          }, 5000);
+          }, 10000);
           // Réinitialiser les valeurs des champs de formulaire
           setName("");
           setEmail("");
+          setPlacement("");
+          setSize("");
           setMessage("");
         },
         (error) => {
@@ -163,6 +169,33 @@ function Form() {
                   required
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
+                  disabled={isLoading}
+                />
+              </FlexInputs>
+            </div>
+            <div className="mb-3">
+              <FlexInputs>
+                <Label>Emplacement :</Label>
+                <InputFormMobile
+                  className="form-control"
+                  type="text"
+                  id="placement"
+                  required
+                  value={placement}
+                  onChange={(e) => setPlacement(e.target.value)}
+                  disabled={isLoading}
+                />
+              </FlexInputs>
+            </div><div className="mb-3">
+              <FlexInputs>
+                <Label>Taille en cm :</Label>
+                <InputFormMobile
+                  className="form-control"
+                  type="text"
+                  id="size"
+                  required
+                  value={size}
+                  onChange={(e) => setSize(e.target.value)}
                   disabled={isLoading}
                 />
               </FlexInputs>
@@ -218,7 +251,35 @@ function Form() {
             </div>
             <div className="mb-3">
               <FlexInputs>
-                <Label>Ton projet / son emplacement / sa taille en cm :</Label>
+                <Label>Emplacement :</Label>
+                <InputForm
+                  className="form-control"
+                  type="text"
+                  id="placement"
+                  required
+                  value={placement}
+                  onChange={(e) => setPlacement(e.target.value)}
+                  disabled={isLoading}
+                />
+              </FlexInputs>
+            </div>
+            <div className="mb-3">
+              <FlexInputs>
+                <Label>Taille en cm :</Label>
+                <InputForm
+                  className="form-control"
+                  type="text"
+                  id="size"
+                  required
+                  value={size}
+                  onChange={(e) => setSize(e.target.value)}
+                  disabled={isLoading}
+                />
+              </FlexInputs>
+            </div>
+            <div className="mb-3">
+              <FlexInputs>
+                <Label>Ton projet :</Label>
                 <MessageFrom
                   className="form-control"
                   id="message"

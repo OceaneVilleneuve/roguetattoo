@@ -33,9 +33,9 @@ const MenuWrapperNumber = styled.div`
 `;
 
 const menuData = [
+  { label: "à propos de moi", id: "aboutMePage" },
   { label: "processus", id: "processPage" },
   { label: "projets", id: "projectsPage" },
-  // { label: "à propos de moi", id: "aboutMePage" },
   { label: "contact", id: "contactPage" },
   { label: "réseaux sociaux", id: "socialsPage" },
 ];

@@ -3,13 +3,12 @@ import { useMediaQuery } from "react-responsive";
 import styled from "styled-components";
 import ProfilPicture from "../../assets/IMG_0748.JPG";
 import "./infiniteScolling.css";
-import "./glitch.css"
+import "./glitch.css";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
 const HeightPage = styled.div`
   min-height: 100vh;
-  padding-top: 2rem;
 `;
 const TitleWebsite = styled.h1`
   font-weight: lighter;
@@ -87,7 +86,7 @@ const Home = () => {
     <HeightPage
       id="homePage"
       style={{
-        paddingTop: isMobile ? "1rem" : "5rem",
+        paddingTop: isMobile ? "1rem" : "1rem",
         minHeight: isMobile ? "75vh" : "100vh",
       }}
     >
@@ -101,10 +100,12 @@ const Home = () => {
           <TitleWebsite
             className="glitch"
             style={{
-              fontSize: isMobile ? "30px" : "85px",
-              padding: isMobile ? "30px 33px" : "0px 230px",
+              fontSize: isMobile ? "30px" : "75px",
+              padding: isMobile ? "30px 33px" : "0px 240px",
             }}
           >
+            COUNTESS
+            <br/>
             ROGUE
           </TitleWebsite>
         </motion.div>
@@ -120,7 +121,7 @@ const Home = () => {
           <SubTitleWebsiteWeb
             style={{
               fontSize: isMobile ? "30px" : "50px",
-              padding: isMobile ? "24rem 4.9rem" : "17rem 9rem",
+              padding: isMobile ? "24rem 4.9rem" : "16rem 14rem",
             }}
           >
             TATOUEUSE
@@ -128,7 +129,7 @@ const Home = () => {
           <SubTitleWebsiteDeveloper
             style={{
               fontSize: isMobile ? "30px" : "50px",
-              padding: isMobile ? "26rem 2rem" : "21rem 2rem",
+              padding: isMobile ? "26rem 2rem" : "20rem 5rem",
             }}
           >
             HEAVY BLACKWORK
@@ -136,7 +137,7 @@ const Home = () => {
           <SubTitleWebsiteDesigner
             style={{
               fontSize: isMobile ? "30px" : "50px",
-              padding: isMobile ? "28rem 1.9rem" : "25rem 6rem",
+              padding: isMobile ? "28rem 1.9rem" : "24rem 11rem",
             }}
           >
             ORNEMENTAL
@@ -188,7 +189,7 @@ const Home = () => {
             width: isMobile ? "230px" : "420px",
           }}
           src={ProfilPicture}
-          alt="Oceane"
+          alt="Rogue"
         />
       </PictureContainer>
       <div style={{ paddingTop: isMobile ? "18rem" : "7rem" }}>

@@ -6,6 +6,7 @@ import FerdPicture from "../../assets/ferd-removebg-preview 2-Photoroom.png-Phot
 import { useMediaQuery } from "react-responsive";
 
 
+
 const ContainerProjects = styled.div`
   position: relative;
   overflow: hidden;
@@ -72,14 +73,14 @@ const Projects = () => {
   return (
     <ContainerProjects id="projectsPage" style={{minHeight: isMobile ? "80vh" : "100vh"}}>
       <div>
-      <h1
+      {/* <h1
         style={{
-          fontSize: isMobile ? "10px" : "25px",
-          padding: isMobile ? "45px 33px" : "120px 85px 10px ",
+          fontSize: isMobile ? "10px" : null,
+          padding: isMobile ? "45px 33px" : "200px 85px 0px ",
         }}
       >
         MES TATOUAGES
-      </h1>
+      </h1> */}
       </div>
       <Button direction="prev" onClick={handlePrev}>
         {"<"}
