@@ -71,14 +71,14 @@ function Contact() {
             textAlign: isMobile ? "center" : null,
           }}
         >
-          CONTACTEZ MOI
+          CONTACTE MOI
         </h1>
         <Description
           style={{
             marginLeft: isMobile ? "66px" : "10em",
           }}
         >
-          Je suis disponible pour répondre à vos demandes de projet.
+          Je suis disponible pour répondre à tes demandes de projet.
         </Description>
       </div>
       <PageContact

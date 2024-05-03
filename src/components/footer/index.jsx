@@ -23,7 +23,7 @@ const Footer = () => {
       }}
     >
       <FooterInformation>
-        2023 - Développement et design par Rogue
+        2024 - Développement et design par Rogue
       </FooterInformation>
     </FooterContainer>
   );
