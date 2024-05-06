@@ -99,7 +99,7 @@ const Home = () => {
             className="glitch"
             style={{
               fontSize: isMobile ? "30px" : "75px",
-              padding: isMobile ? "30px 33px" : "0px 240px",
+              padding: isMobile ? "30px 33px" : "0px 293px",
             }}
           >
             COUNTESS
@@ -119,7 +119,7 @@ const Home = () => {
           <SubTitleWebsiteWeb
             style={{
               fontSize: isMobile ? "30px" : "50px",
-              padding: isMobile ? "24rem 4.9rem" : "16rem 14rem",
+              padding: isMobile ? "24rem 4.9rem" : "16rem 16rem",
             }}
           >
             TATOUEUSE
@@ -135,7 +135,7 @@ const Home = () => {
           <SubTitleWebsiteDesigner
             style={{
               fontSize: isMobile ? "30px" : "50px",
-              padding: isMobile ? "28rem 1.9rem" : "24rem 11rem",
+              padding: isMobile ? "28rem 1.9rem" : "24rem 13rem",
             }}
           >
             ORNEMENTAL

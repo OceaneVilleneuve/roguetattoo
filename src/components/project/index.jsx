@@ -34,7 +34,7 @@ const Button = styled.button`
 const ProjectNumber = styled.p`
   font-size: 11px;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   padding-right: 4rem;
 `;
 
@@ -45,13 +45,10 @@ const Projects = () => {
   const projectList = [
     {
       entreprise: "Alexa Studio Création",
-      site: "https://alexastudiocreation.fr/",
-      text: "J'ai créé pour Alexa un portfolio personnalisé pour son activité de photographe et vidéaste. Le site comprend également un formulaire de contact avec un calendrier pour la prise de rendez-vous téléphonique.",
       image: AlexaStudioPicture,
     },
     {
       entreprise: "Ferd",
-      text: "Nous créons en collaboration avec Ferdinand un site portfolio pour son activité de vidéaste. Le site possède un formulaire de contact. Il est toujours en cours de développement.",
       image: FerdPicture,
     },
   ];
