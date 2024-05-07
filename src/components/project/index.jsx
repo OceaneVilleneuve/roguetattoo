@@ -44,7 +44,7 @@ const Projects = () => {
 
   const projectList = [
     {
-      entreprise: "Alexa Studio Création",
+      entreprise: "ECHEC",
       image: AlexaStudioPicture,
     },
     {

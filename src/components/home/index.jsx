@@ -130,7 +130,7 @@ const Home = () => {
               padding: isMobile ? "26rem 2rem" : "20rem 5rem",
             }}
           >
-            HEAVY BLACKWORK
+          ABSTRACT BLACKWORK
           </SubTitleWebsiteDeveloper>
           <SubTitleWebsiteDesigner
             style={{
