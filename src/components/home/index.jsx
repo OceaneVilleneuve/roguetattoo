@@ -130,7 +130,7 @@ const Home = () => {
               padding: isMobile ? "26rem 2rem" : "20rem 5rem",
             }}
           >
-          ABSTRACT BLACKWORK
+          ABSTRACT BLACKOUT
           </SubTitleWebsiteDeveloper>
           <SubTitleWebsiteDesigner
             style={{

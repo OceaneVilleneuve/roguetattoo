@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Form from "./form";
-// import HeartPicture from "../../assets/heart.png";
+// import HeartPicture from "../../assets/pngegg.png";
 import { useMediaQuery } from "react-responsive";
 
 const PageContact = styled.div`
@@ -45,10 +45,10 @@ const PaddingName = styled.div`
 
 // const HeartWrapper = styled.img`
 //   position: absolute;
-//   transform: rotate(-25deg);
-//   top: -179px;
-//   right: -31em;
-//   z-index: -2;
+//   transform: rotate(-20deg);
+//   top: -160px;
+//   right: -3em;
+//   z-index: 1;
 // `;
 
 function Contact() {
@@ -108,8 +108,8 @@ function Contact() {
             alt="Heart"
             style={{
               height: isMobile ? "24em" : "43em",
-              top: isMobile ? "-36px" : "-179px",
-              right: isMobile ? "50px" : "-385px",
+              top: isMobile ? "-36px" : "-266px",
+              right: isMobile ? "50px" : "-80px",
             }}
           /> */}
           <SubTitle
