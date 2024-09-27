@@ -13,6 +13,15 @@ const FooterInformation = styled.p`
   justify-content: center;
 `;
 
+const Name = styled.span`
+  color: #70e000;
+  font-family: "Metal Vengeance";
+`;
+
+const Hidden = styled.span`
+  visibility: hidden;
+`
+
 const Footer = () => {
   const isMobile = useMediaQuery({ maxWidth: 767 });
 
@@ -23,7 +32,7 @@ const Footer = () => {
       }}
     >
       <FooterInformation>
-        2024 - Développement et design par Rogue
+        2024 - Développement et design par <Hidden>..</Hidden> <Name>ROGUE</Name>
       </FooterInformation>
     </FooterContainer>
   );

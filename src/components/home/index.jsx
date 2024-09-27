@@ -46,7 +46,7 @@ const PictureContainer = styled.div`
   justify-content: center;
 `;
 
-const OpenToWorkContainer = styled.h2`
+const OpenToWorkContainer = styled.h1`
   word-spacing: 1rem;
   font-weight: lighter;
 `;
@@ -140,18 +140,18 @@ const Home = () => {
           <SubTitleWebsiteDeveloper
             style={{
               fontSize: isMobile ? "30px" : "50px",
-              padding: isMobile ? "26rem 2rem" : "20rem 5rem",
+              padding: isMobile ? "26rem 2rem" : "20rem 7rem",
             }}
           >
-          ABSTRACT BLACKOUT
+          HEAVY BLACKOUT
           </SubTitleWebsiteDeveloper>
           <SubTitleWebsiteDesigner
             style={{
               fontSize: isMobile ? "30px" : "50px",
-              padding: isMobile ? "28rem 1.9rem" : "24rem 13rem",
+              padding: isMobile ? "28rem 1.9rem" : "24rem 14rem",
             }}
           >
-            ORNEMENTAL
+            BLACKWORK
           </SubTitleWebsiteDesigner>
         </motion.div>
       </div>

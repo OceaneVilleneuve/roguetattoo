@@ -51,16 +51,19 @@ const AboutMe = () => {
       >
         <div
           style={{
-            paddingBottom: "6rem",
+
             textAlign: "center",
           }}
         >
           <img src={Logo} alt="logo" />
 
           <AboutMeTitle>
-            JE M'APPELLE <Name>ROGUE</Name> JE SUIS UNE TATOUEUSE DEBUTANTE
-            SITUEE A NANTES EN FRANCE. JE SOUHAITE ME SPECIALISER DANS LE HEAVYBLACK
-            WORK ORNEMENTAL MAIS JE RESTE OUVERTE A TOUTE DEMANDE.{" "}
+          JE SUIS <Name>ROGUE</Name>, UNE TATOUEUSE DEBUTANTE
+          SITUEE À NANTES EN FRANCE. JE SOUHAITE ME SPECIALISER DANS LE HEAVY BLACKOUT ORNEMENTAL
+          ET LE BLACKWORK. JE SUIS OUVERTE À TOUTE DEMANDE DE PROJETS PERSONNELS.
+          <br/>
+          <br/>
+          JE VOUS ACCUEILLE DANS MON ANTRE UNIQUEMENT SUR RENDEZ-VOUS.
           </AboutMeTitle>
         </div>
       </motion.div>

@@ -70,7 +70,7 @@ const Process = () => {
             padding: isMobile ? "45px 33px" : "85px 85px 10px 85px",
           }}
         >
-          Mon Processus
+          MON PROCESSUS
         </h1>
         {sectionsData.map((section, index) => (
           <ProcessStage
