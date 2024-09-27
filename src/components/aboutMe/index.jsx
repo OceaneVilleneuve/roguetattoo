@@ -14,7 +14,7 @@ const AboutMeContainer = styled.div`
   margin-top: 4.5rem;
 `;
 
-const AboutMeTitle = styled.h1`
+const AboutMeTitle = styled.h2`
   padding: 2rem 5rem;
   font-size: 2.5rem;
   color: white;

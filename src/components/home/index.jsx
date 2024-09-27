@@ -11,27 +11,24 @@ const HeightPage = styled.div`
   min-height: 100vh;
 `;
 const TitleWebsite = styled.h1`
-  font-weight: lighter;
-  font-family: "Metal Vengeance";
   position: absolute; /* Modifier cette ligne */
   z-index: -2;
-  color: #70e000;
 `;
 
-const SubTitleWebsiteWeb = styled.h1`
+const SubTitleWebsiteWeb = styled.h2`
   position: absolute;
   z-index: -2;
   top: 0;
   right: 0;
 `;
-const SubTitleWebsiteDeveloper = styled.h1`
+const SubTitleWebsiteDeveloper = styled.h2`
   font-weight: lighter;
   position: absolute;
   z-index: -2;
   top: 0;
   right: 0;
 `;
-const SubTitleWebsiteDesigner = styled.h1`
+const SubTitleWebsiteDesigner = styled.h2`
   font-weight: lighter;
   position: absolute;
   z-index: -2;
@@ -49,7 +46,7 @@ const PictureContainer = styled.div`
   justify-content: center;
 `;
 
-const OpenToWorkContainer = styled.h1`
+const OpenToWorkContainer = styled.h2`
   word-spacing: 1rem;
   font-weight: lighter;
 `;
@@ -98,13 +95,29 @@ const Home = () => {
           <TitleWebsite
             className="glitch"
             style={{
-              fontSize: isMobile ? "30px" : "75px",
               padding: isMobile ? "30px 33px" : "0px 293px",
             }}
           >
-            COUNTESS
-            <br />
+            <span
+              style={{
+                fontFamily: "Familia Herlequin",
+                fontSize: isMobile ? "30px" : "200px",
+                color: "white",
+              }}
+            >
+              COUNTESS
+            </span>
+            <br/>
+            <span
+              style={{
+                fontFamily: "Metal Vengeance",
+                fontWeight: "lighter",
+                fontSize: isMobile ? "30px" : "75px",
+                color: "#70e000",
+              }}
+            >
             ROGUE
+            </span>
           </TitleWebsite>
         </motion.div>
       </div>
@@ -152,7 +165,7 @@ const Home = () => {
         <div
           style={{
             position: "absolute",
-            padding: isMobile ? "32rem 0px 0px 33px" : " 18rem 0px 0px 85px",
+            padding: isMobile ? "32rem 0px 0px 33px" : " 23rem 0px 0px 85px",
           }}
         >
           <SocialLink

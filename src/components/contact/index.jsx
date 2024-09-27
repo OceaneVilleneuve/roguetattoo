@@ -69,9 +69,10 @@ function Contact() {
             marginLeft: isMobile ? null : "3em",
             justifyContent: isMobile ? "center" : null,
             textAlign: isMobile ? "center" : null,
+            fontSize: "60px",
           }}
         >
-          CONTACTE MOI
+          Ccontacte Moi
         </h1>
         <Description
           style={{

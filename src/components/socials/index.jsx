@@ -4,7 +4,7 @@ import Logo from "../../assets/IMG_0751-removebg-preview.png";
 // import styled from 'styled-components';
 // import colors from '../../utils/style/colors';
 
-const Title = styled.h1`
+const Title = styled.h2`
   font-size: 30px;
 `;
 const SocialLink = styled.a`
