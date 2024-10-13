@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useMediaQuery } from "react-responsive";
 import styled from "styled-components";
-import ProfilPicture from "../../assets/IMG_0748.JPG";
+import ProfilPicture from "../../assets/IMG_6361.JPG";
 import "./infiniteScolling.css";
 import "./glitch.css";
 import { motion } from "framer-motion";

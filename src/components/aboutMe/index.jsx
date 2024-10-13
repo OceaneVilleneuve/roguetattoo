@@ -58,7 +58,7 @@ const AboutMe = () => {
           <img src={Logo} alt="logo" />
 
           <AboutMeTitle>
-          JE SUIS <Name>ROGUE</Name>, UNE TATOUEUSE DEBUTANTE
+          JE SUIS <Name>ROGUE</Name>, UNE BABY TATOUEUSE
           SITUEE À NANTES EN FRANCE. JE SOUHAITE ME SPECIALISER DANS LE HEAVY BLACKOUT ORNEMENTAL
           ET LE BLACKWORK. JE SUIS OUVERTE À TOUTE DEMANDE DE PROJETS PERSONNELS.
           <br/>
