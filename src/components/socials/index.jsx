@@ -56,9 +56,10 @@ const Socials = () => {
         style={{
           display: "flex",
           justifyContent: "space-between",
+          color: "black",
         }}
       >
-        api
+        .
         {/* API INSTAGRAM POUR RÉCUPERER LES REELS */}
         <div
           style={{
@@ -79,8 +80,12 @@ const Socials = () => {
             TIK TOK
           </SocialLink>
         </div>
-        <div>
-          api
+        <div
+          style={{
+
+          color: "black",
+        }}>
+          .
           {/* API INSTAGRAM POUR RECUP LES RÉELS */}
         </div>
       </div>
