@@ -75,8 +75,8 @@ function Contact() {
 
         <PersonnalInfo
           style={{
-            marginRight: isMobile ? null : "15em",
-            marginLeft: isMobile ? "6em" : null,
+            marginRight: isMobile ? null : "10rem",
+            marginLeft: isMobile ? "5em" : null,
           }}
         >
           <Logo>

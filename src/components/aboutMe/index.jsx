@@ -60,7 +60,7 @@ const AboutMe = () => {
 
           <AboutMeTitle
           style={{
-            fontSize: isMobile ? "1rem" : "2.5rem",
+            fontSize: isMobile ? "1.2rem" : "2.5rem",
           }}>
           JE SUIS <Name>ROGUE</Name>, UNE BABY TATOUEUSE
           SITUEE À NANTES EN FRANCE. JE SOUHAITE ME SPECIALISER DANS LE HEAVY BLACKOUT ORNEMENTAL

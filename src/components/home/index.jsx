@@ -81,8 +81,8 @@ const Home = () => {
 <HeightPage
     id="homePage"
     style={{
-      paddingTop: isMobile ? "1rem" : "1rem",
-      minHeight: isMobile ? "75vh" : "100vh",
+      paddingTop: isMobile ? "2rem" : "1rem",
+      minHeight: isMobile ? "60vh" : "100vh",
     }}
   >
     <div ref={ref}>
@@ -95,14 +95,14 @@ const Home = () => {
         <TitleWebsite
           className="glitch"
           style={{
-            padding: isMobile ? "0px 0px" : "0px 190px", // Ajuste le padding pour centrer
+            padding: isMobile ? "10px 40px" : "0px 190px", // Ajuste le padding pour centrer
             textAlign: "center", // Centre le texte
           }}
         >
           <span
             style={{
               fontFamily: "Familia Herlequin",
-              fontSize: isMobile ? "80px" : "200px",
+              fontSize: isMobile ? "115px" : "200px",
               color: "white",
             }}
           >
@@ -113,7 +113,7 @@ const Home = () => {
             style={{
               fontFamily: "Metal Vengeance",
               fontWeight: "lighter",
-              fontSize: isMobile ? "30px" : "75px",
+              fontSize: isMobile ? "45px" : "75px",
               color: "#70e000",
             }}
           >
@@ -133,7 +133,7 @@ const Home = () => {
         <SubTitleWebsiteWeb
           style={{
             fontSize: isMobile ? "30px" : "50px",
-            padding: isMobile ? "24rem 0" : "16rem 16rem", // Ajuste le padding pour centrer
+            padding: isMobile ? "25rem 2rem" : "16rem 16rem", // Ajuste le padding pour centrer
             textAlign: "center", // Centre le texte
           }}
         >
@@ -142,7 +142,7 @@ const Home = () => {
         <SubTitleWebsiteDeveloper
           style={{
             fontSize: isMobile ? "30px" : "50px",
-            padding: isMobile ? "26rem 0" : "20rem 7rem", // Ajuste le padding pour centrer
+            padding: isMobile ? "27rem 2rem" : "20rem 7rem", // Ajuste le padding pour centrer
             textAlign: "center", // Centre le texte
           }}
         >
@@ -151,7 +151,7 @@ const Home = () => {
         <SubTitleWebsiteDesigner
           style={{
             fontSize: isMobile ? "30px" : "50px",
-            padding: isMobile ? "28rem 0" : "24rem 14rem", // Ajuste le padding pour centrer
+            padding: isMobile ? "29rem 2rem" : "24rem 14rem", // Ajuste le padding pour centrer
             textAlign: "center", // Centre le texte
           }}
         >
@@ -200,14 +200,14 @@ const Home = () => {
           transition={{ ease: "easeOut", duration: 1 }}
           style={{
             zIndex: -3,
-            height: isMobile ? "230px" : "420px",
-            width: isMobile ? "230px" : "420px",
+            height: isMobile ? "290px" : "420px",
+            width: isMobile ? "290px" : "420px",
           }}
           src={ProfilPicture}
           alt="Rogue"
         />
       </PictureContainer>
-      <div style={{ paddingTop: isMobile ? "18rem" : "7rem" }}>
+      <div style={{ paddingTop: isMobile ? "15rem" : "7rem" }}>
         <div className="m-scroll">
           <div className="m-scroll__title">
             <div>

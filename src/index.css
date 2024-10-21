@@ -112,3 +112,11 @@ button {
   font-size: 40px;
   color: #70e000;
 }
+
+@media (max-width: 767px) {
+  .swiper-slide img {
+    width: 100%; /* L'image prend toute la largeur */
+    height: auto; /* Ajuste la hauteur tout en gardant le ratio */
+    max-height: 80vh; /* Limiter la hauteur max de l'image */
+  }
+}

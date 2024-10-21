@@ -38,6 +38,12 @@ const Flex = styled.div`
   margin-top: 2em;
   margin-bottom: 3em;
 `;
+const FlexButton = styled.div`
+  display: flex;
+  margin-top: 2em;
+  margin-bottom: 3em;
+  justify-content: center;
+`;
 const InputForm = styled.input`
   width: 50em;
   height: 3em;
@@ -231,9 +237,9 @@ function Form() {
                 />
               </FlexInputs>
             </div>
-            <Flex>
+            <FlexButton>
               <SendButton type="submit">{formStatus}</SendButton>
-            </Flex>
+            </FlexButton>
           </form>
         </div>
       ) : (
