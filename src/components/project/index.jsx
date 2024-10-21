@@ -1,113 +1,91 @@
-import React, { useState } from "react";
-import styled from "styled-components";
-import Cards from "./projectCarousselCards";
-import AlexaStudioPicture from "../../assets/alexa_dark-min-p-1600 2-Photoroom.png-Photoroom.png";
-import FerdPicture from "../../assets/ferd-removebg-preview 2-Photoroom.png-Photoroom.png";
+import React, { useEffect, useState } from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
 import { useMediaQuery } from "react-responsive";
+import styled from "styled-components";
+import "swiper/css";
+import "swiper/css/effect-coverflow";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+import { EffectCoverflow, Navigation } from "swiper/modules";
+import { motion } from "framer-motion";
+import { useInView } from "react-intersection-observer";
 
-const ContainerProjects = styled.div`
-  position: relative;
-  overflow: hidden;
-  margin-top: 7rem;
+const HeightPage = styled.div`
+  min-height: 90vh;
+  padding-bottom: 15rem;
+  padding-top: 2rem;
 `;
 
-const ProjectContainer = styled.div`
-  display: flex;
-  transition: transform 0.5s ease-in-out;
-`;
-
-const Project = styled.div`
-  flex: 0 0 100vw;
-`;
-
-const Button = styled.button`
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  background-color: transparent;
-  border: none;
-  z-index: 1;
-  font-size: 24px;
-  ${({ direction }) => (direction === "prev" ? "left: 0;" : "right: 0;")}
-`;
-
-const ProjectNumber = styled.p`
-  font-size: 11px;
-  display: flex;
-  justify-content: center;
-  padding-right: 4rem;
-`;
-
-const Projects = () => {
+const Project = () => {
   const isMobile = useMediaQuery({ maxWidth: 767 });
-  const [currentIndex, setCurrentIndex] = useState(0);
+  const [animationKey, setAnimationKey] = useState(0);
 
-  const projectList = [
-    {
-      entreprise: "ECHEC",
-      image: AlexaStudioPicture,
-    },
-    {
-      entreprise: "Ferd",
-      image: FerdPicture,
-    },
-  ];
+  const [ref, inView] = useInView({
+    threshold: 0.2,
+  });
 
-  const handlePrev = () => {
-    setCurrentIndex((prevIndex) =>
-      prevIndex > 0 ? prevIndex - 1 : projectList.length - 1
-    );
-  };
-
-  const handleNext = () => {
-    setCurrentIndex((prevIndex) =>
-      prevIndex < projectList.length - 1 ? prevIndex + 1 : 0
-    );
-  };
+  useEffect(() => {
+    if (inView) {
+      setAnimationKey((prevKey) => prevKey + 1);
+    }
+  }, [inView]);
 
   return (
-    <ContainerProjects
-      id="projectsPage"
-      style={{ minHeight: isMobile ? "80vh" : "100vh" }}
-    >
-      <div>
-        {/* <h1
-        style={{
-          fontSize: isMobile ? "10px" : null,
-          padding: isMobile ? "45px 33px" : "200px 85px 0px ",
-        }}
+    <HeightPage id="projectsPage">
+      <motion.div
+        ref={ref} // Ajoutez le ref ici pour le lier à useInView
+        key={animationKey}
+        initial={{ x: +50, opacity: 0 }}
+        animate={inView ? { x: 0, opacity: 1 } : {}} // Vérifiez si inView est vrai
+        transition={{ duration: 1.3 }}
+        style={!inView ? { visibility: "hidden" } : {}}
       >
-        MES TATOUAGES
-      </h1> */}
-      </div>
-      <Button direction="prev" onClick={handlePrev}>
-        {"<"}
-      </Button>
-      <ProjectContainer
-        style={{ transform: `translateX(-${currentIndex * 100}vw)` }}
-      >
-        {projectList.map((project, index) => (
-          <Project key={index}>
-            <Cards
-              index={index}
-              site={project.site}
-              entreprise={project.entreprise}
-              text={project.text}
-              image={project.image}
-            />
-            <ProjectNumber>
-              {projectList.length < 10 && index + 1 < 10
-                ? `0${index + 1} / 0${projectList.length}`
-                : `${index + 1} / ${projectList.length}`}
-            </ProjectNumber>
-          </Project>
-        ))}
-      </ProjectContainer>
-      <Button direction="next" onClick={handleNext}>
-        {">"}
-      </Button>
-    </ContainerProjects>
+        <h1
+          style={{
+            marginBottom: isMobile ? "9rem" : "9rem",
+            fontSize: isMobile ? "10px" : null,
+            padding: isMobile ? "45px 33px" : "85px 85px 10px 85px",
+          }}
+        >
+          MES FLASHS
+        </h1>
+        <Swiper
+          effect={"coverflow"}
+          grabCursor={true}
+          centeredSlides={true}
+          slidesPerView={3} // Changez pour 3 pour afficher plus de slides
+          spaceBetween={30} // Ajoutez de l'espacement entre les slides
+          loop={true}
+          coverflowEffect={{
+            rotate: 30, // Réduire l'angle de rotation
+            stretch: 0, // Gardez à 0 pour ne pas étirer les slides
+            depth: 100, // Réduire la profondeur pour rendre les slides visibles
+            modifier: 2.5, // Augmentez le modificateur pour un effet plus marqué
+            slideShadows: true, // Gardez les ombres sur les slides
+          }}
+          navigation={true}
+          modules={[EffectCoverflow, Navigation]}
+          className="mySwiper"
+        >
+          <SwiperSlide>
+            <img src="https://via.placeholder.com/300" alt="slide 1" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src="https://via.placeholder.com/300" alt="slide 2" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src="https://via.placeholder.com/300" alt="slide 3" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src="https://via.placeholder.com/300" alt="slide 4" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src="https://via.placeholder.com/300" alt="slide 5" />
+          </SwiperSlide>
+        </Swiper>
+      </motion.div>
+    </HeightPage>
   );
 };
 
-export default Projects;
+export default Project;

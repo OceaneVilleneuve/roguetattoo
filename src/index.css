@@ -76,3 +76,39 @@ a{
 button {
   font-family: "Mina", sans-serif;
 }
+.swiper {
+  width: 100%;
+  max-width: 1500px; /* Limite la largeur totale */
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 600px; /* Ajustez cette valeur pour correspondre au ratio souhaité */
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Assure le recadrage de l'image */
+}
+
+.mySwiper .swiper-slide-active img {
+  position: relative;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  padding: 10px;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+
+  font-size: 40px;
+  color: #70e000;
+}
