@@ -88,12 +88,13 @@ function Form() {
   const [message, setMessage] = React.useState("");
   const [size, setSize] = React.useState("");
   const [placement, setPlacement] = React.useState("");
+  const [number, setNumber] = React.useState("");
 
   const onSubmit = (e) => {
     e.preventDefault();
     setIsLoading(true);
     setFormStatus("Envoi en cours...");
-    const { name, email, message, size, placement } = e.target.elements;
+    const { name, email, message, size, placement, number } = e.target.elements;
 
     // Send the form data to EmailJS
     emailjs
@@ -106,6 +107,7 @@ function Form() {
           message: message.value,
           size: size.value,
           placement: placement.value,
+          number: number.value,
         },
         "l0FUOUOrma9W3qPJ8" // Replace with your EmailJS user ID
       )
@@ -119,6 +121,7 @@ function Form() {
           // Réinitialiser les valeurs des champs de formulaire
           setName("");
           setEmail("");
+          setNumber("");
           setPlacement("");
           setSize("");
           setMessage("");
@@ -175,6 +178,20 @@ function Form() {
             </div>
             <div className="mb-3">
               <FlexInputs>
+                <Label>Numéro de Téléphone :</Label>
+                <InputFormMobile
+                  className="form-control"
+                  type="text"
+                  id="number"
+                  required
+                  value={number}
+                  onChange={(e) => setNumber(e.target.value)}
+                  disabled={isLoading}
+                />
+              </FlexInputs>
+            </div>
+            <div className="mb-3">
+              <FlexInputs>
                 <Label>Emplacement :</Label>
                 <InputFormMobile
                   className="form-control"
@@ -186,7 +203,8 @@ function Form() {
                   disabled={isLoading}
                 />
               </FlexInputs>
-            </div><div className="mb-3">
+            </div>
+            <div className="mb-3">
               <FlexInputs>
                 <Label>Taille en cm :</Label>
                 <InputFormMobile
@@ -245,6 +263,20 @@ function Form() {
                   required
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
+                  disabled={isLoading}
+                />
+              </FlexInputs>
+            </div>
+            <div className="mb-3">
+              <FlexInputs>
+                <Label>Numéro de Téléphone :</Label>
+                <InputForm
+                  className="form-control"
+                  type="text"
+                  id="number"
+                  required
+                  value={number}
+                  onChange={(e) => setNumber(e.target.value)}
                   disabled={isLoading}
                 />
               </FlexInputs>
