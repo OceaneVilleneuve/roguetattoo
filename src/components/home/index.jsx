@@ -76,85 +76,89 @@ const Home = () => {
       // Réinitialise hasHovered à false lorsque l'ancre est revisitée
     }
   }, [inView]);
-
   return (
-    <HeightPage
-      id="homePage"
-      style={{
-        paddingTop: isMobile ? "1rem" : "1rem",
-        minHeight: isMobile ? "75vh" : "100vh",
-      }}
-    >
-      <div ref={ref}>
-        <motion.div
-          key={animationKey}
-          initial={{ opacity: 0, scale: 0 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ ease: "easeOut", duration: 1 }}
+
+<HeightPage
+    id="homePage"
+    style={{
+      paddingTop: isMobile ? "1rem" : "1rem",
+      minHeight: isMobile ? "75vh" : "100vh",
+    }}
+  >
+    <div ref={ref}>
+      <motion.div
+        key={animationKey}
+        initial={{ opacity: 0, scale: 0 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{ ease: "easeOut", duration: 1 }}
+      >
+        <TitleWebsite
+          className="glitch"
+          style={{
+            padding: isMobile ? "0px 0px" : "0px 190px", // Ajuste le padding pour centrer
+            textAlign: "center", // Centre le texte
+          }}
         >
-          <TitleWebsite
-            className="glitch"
+          <span
             style={{
-              padding: isMobile ? "30px 33px" : "0px 293px",
+              fontFamily: "Familia Herlequin",
+              fontSize: isMobile ? "80px" : "200px",
+              color: "white",
             }}
           >
-            <span
-              style={{
-                fontFamily: "Familia Herlequin",
-                fontSize: isMobile ? "30px" : "200px",
-                color: "white",
-              }}
-            >
-              COUNTESS
-            </span>
-            <br/>
-            <span
-              style={{
-                fontFamily: "Metal Vengeance",
-                fontWeight: "lighter",
-                fontSize: isMobile ? "30px" : "75px",
-                color: "#70e000",
-              }}
-            >
+            COUNTESS
+          </span>
+          <br />
+          <span
+            style={{
+              fontFamily: "Metal Vengeance",
+              fontWeight: "lighter",
+              fontSize: isMobile ? "30px" : "75px",
+              color: "#70e000",
+            }}
+          >
             ROGUE
-            </span>
-          </TitleWebsite>
-        </motion.div>
-      </div>
-      <div ref={ref}>
-        <motion.div
-          key={animationKey}
-          initial={{ opacity: 0, scale: 0.5 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ ease: "easeOut", duration: 1 }}
-          style={{ position: "relative" }}
+          </span>
+        </TitleWebsite>
+      </motion.div>
+    </div>
+    <div ref={ref}>
+      <motion.div
+        key={animationKey}
+        initial={{ opacity: 0, scale: 0.5 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{ ease: "easeOut", duration: 1 }}
+        style={{ position: "relative" }}
+      >
+        <SubTitleWebsiteWeb
+          style={{
+            fontSize: isMobile ? "30px" : "50px",
+            padding: isMobile ? "24rem 0" : "16rem 16rem", // Ajuste le padding pour centrer
+            textAlign: "center", // Centre le texte
+          }}
         >
-          <SubTitleWebsiteWeb
-            style={{
-              fontSize: isMobile ? "30px" : "50px",
-              padding: isMobile ? "24rem 4.9rem" : "16rem 16rem",
-            }}
-          >
-            TATOUEUSE
-          </SubTitleWebsiteWeb>
-          <SubTitleWebsiteDeveloper
-            style={{
-              fontSize: isMobile ? "30px" : "50px",
-              padding: isMobile ? "26rem 2rem" : "20rem 7rem",
-            }}
-          >
+          TATOUEUSE
+        </SubTitleWebsiteWeb>
+        <SubTitleWebsiteDeveloper
+          style={{
+            fontSize: isMobile ? "30px" : "50px",
+            padding: isMobile ? "26rem 0" : "20rem 7rem", // Ajuste le padding pour centrer
+            textAlign: "center", // Centre le texte
+          }}
+        >
           HEAVY BLACKOUT
-          </SubTitleWebsiteDeveloper>
-          <SubTitleWebsiteDesigner
-            style={{
-              fontSize: isMobile ? "30px" : "50px",
-              padding: isMobile ? "28rem 1.9rem" : "24rem 14rem",
-            }}
-          >
-            BLACKWORK
-          </SubTitleWebsiteDesigner>
-        </motion.div>
-      </div>
+        </SubTitleWebsiteDeveloper>
+        <SubTitleWebsiteDesigner
+          style={{
+            fontSize: isMobile ? "30px" : "50px",
+            padding: isMobile ? "28rem 0" : "24rem 14rem", // Ajuste le padding pour centrer
+            textAlign: "center", // Centre le texte
+          }}
+        >
+          BLACKWORK
+        </SubTitleWebsiteDesigner>
+      </motion.div>
+    </div>
       <motion.div
         key={animationKey}
         initial={{ opacity: 0, scale: 0.5 }}

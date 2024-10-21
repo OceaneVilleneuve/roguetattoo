@@ -12,7 +12,6 @@ import { useInView } from "react-intersection-observer";
 
 const HeightPage = styled.div`
   min-height: 90vh;
-  padding-bottom: 15rem;
   padding-top: 2rem;
 `;
 
@@ -31,7 +30,10 @@ const Project = () => {
   }, [inView]);
 
   return (
-    <HeightPage id="projectsPage">
+    <HeightPage id="projectsPage"
+    style={{
+      paddingBottom: isMobile ? null : "15rem",
+    }}>
       <motion.div
         ref={ref} // Ajoutez le ref ici pour le lier à useInView
         key={animationKey}

@@ -5,7 +5,6 @@ import Form from "./form";
 import { useMediaQuery } from "react-responsive";
 
 const PageContact = styled.div`
-  min-height: 80vh;
   justify-content: space-between;
 `;
 
@@ -37,6 +36,7 @@ function Contact() {
         marginTop: isMobile ? null : "9em",
         display: isMobile ? "flex" : null,
         flexDirection: isMobile ? "column" : null,
+        minHeight: isMobile ? "65vh" : "80vh",
       }}
     >
       <div>
@@ -83,7 +83,8 @@ function Contact() {
           <span
             style={{
                 fontFamily: "Familia Herlequin",
-                fontSize: isMobile ? "30px" : "180px",
+                fontSize: "180px",
+                display: isMobile ? "none" : "true",
               }}
             >
               COUNTESS
@@ -93,8 +94,9 @@ function Contact() {
               style={{
                 fontFamily: "Metal Vengeance",
                 fontWeight: "lighter",
-                fontSize: isMobile ? "30px" : "70px",
-                paddingLeft: "3rem"
+                fontSize: "70px",
+                paddingLeft: "3rem",
+                display: isMobile ? "none" : "true",
               }}
             >
             ROGUE

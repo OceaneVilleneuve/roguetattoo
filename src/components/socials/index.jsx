@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Logo from "../../assets/IMG_0751-removebg-preview.png";
-// import styled from 'styled-components';
+import { useMediaQuery } from "react-responsive";
 // import colors from '../../utils/style/colors';
 
 const Title = styled.h2`
@@ -19,15 +19,15 @@ const SocialLink = styled.a`
 `;
 
 const Socials = () => {
-  // const isMobile = useMediaQuery({ maxWidth: 767 });
+  const isMobile = useMediaQuery({ maxWidth: 767 });
   // const location = useLocation();
 
   return (
     <div
       id="socialsPage"
       style={{
-        height: "100vh",
-        marginTop: "20rem",
+        height: isMobile ? "80vh" : "100vh",
+        marginTop: isMobile ? "3rem" : "20rem",
         textAlign: "center",
       }}
     >
