@@ -7,8 +7,13 @@ import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import Projet1 from "../../assets/IMG_0978.JPG";
-import Projet2 from "../../assets/IMG_0998.JPG";
+import Projet2 from "../../assets/IMG_1136.JPG";
 import Projet3 from "../../assets/IMG_1120.JPG";
+import Projet4 from "../../assets/IMG_1131 2.jpg";
+import Projet5 from "../../assets/IMG_1131 3.jpg";
+import Projet6 from "../../assets/IMG_1131.jpg";
+import Projet7 from "../../assets/IMG_1132 2.jpg";
+import Projet8 from "../../assets/IMG_1132.jpg";
 import { EffectCoverflow, Navigation } from "swiper/modules";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
@@ -48,6 +53,23 @@ const FullscreenImage = styled.div`
   }
 `;
 
+const PictureProject = styled.img`
+  object-fit: cover;
+  width: 300px;
+  height: 600px;
+  overflow: hidden;
+`;
+
+const PictureText = styled.p`
+  text-align: center;
+  font-family: "Angel Wish";
+  font-size: 40px;
+
+  @media (max-width: 768px) {
+    font-size: 20px;
+  }
+`;
+
 const Project = () => {
   const isMobile = useMediaQuery({ maxWidth: 767 });
   const [animationKey, setAnimationKey] = useState(0);
@@ -81,9 +103,9 @@ const Project = () => {
     <div
       id="projectsPage"
       style={{
-        paddingBottom: isMobile ? null : "15rem",
+        paddingBottom: isMobile ? null : "6rem",
         minHeight: isMobile ? "84vh" : "90vh",
-        paddingTop: isMobile ? null : "2rem",
+        paddingTop: isMobile ? "2rem" : "2rem",
       }}
     >
       <motion.div
@@ -96,8 +118,8 @@ const Project = () => {
       >
         <h1
           style={{
-            marginBottom: isMobile ? "9rem" : "6rem",
-            fontSize: isMobile ? "10px" : null,
+            marginBottom: isMobile ? "1rem" : "6rem",
+            fontSize: isMobile ? "17px" : null,
             padding: isMobile ? "45px 33px" : "85px 85px 10px 85px",
           }}
         >
@@ -105,7 +127,7 @@ const Project = () => {
         </h1>
         <Swiper
           effect={"coverflow"}
-          grabCursor={true}
+          grabCursor={false}
           centeredSlides={true}
           slidesPerView={2} // 1 pour mobile, 3 pour desktop
           spaceBetween={isMobile ? 20 : 30} // Espace entre les diapositives
@@ -124,27 +146,50 @@ const Project = () => {
           <SwiperSlide
             onClick={() => openFullscreen("https://via.placeholder.com/300")}
           >
-            <img src={Projet1} alt="slide 1" />
+            <PictureProject src={Projet3} alt="slide 3" />
+            <PictureText>✥ Burried ✥</PictureText>
           </SwiperSlide>
           <SwiperSlide
             onClick={() => openFullscreen("https://via.placeholder.com/300")}
           >
-            <img src={Projet2} alt="slide 2" />
+            <PictureProject src={Projet1} alt="slide 1" />
+            <PictureText>✥ Two-Headed Fawn ✥</PictureText>
           </SwiperSlide>
           <SwiperSlide
             onClick={() => openFullscreen("https://via.placeholder.com/300")}
           >
-            <img src={Projet3} alt="slide 3" />
+            <PictureProject src={Projet2} alt="slide 2" />
+            <PictureText>✥ Delicate Mutation ✥</PictureText>
           </SwiperSlide>
           <SwiperSlide
             onClick={() => openFullscreen("https://via.placeholder.com/300")}
           >
-            <img src="https://via.placeholder.com/300" alt="slide 4" />
+            <PictureProject src={Projet4} alt="slide 4" />
+            <PictureText>✥ Nipple Ring ✥</PictureText>
           </SwiperSlide>
           <SwiperSlide
             onClick={() => openFullscreen("https://via.placeholder.com/300")}
           >
-            <img src="https://via.placeholder.com/300" alt="slide 5" />
+            <PictureProject src={Projet5} alt="slide 5" />
+            <PictureText>✥ Veins ✥</PictureText>
+          </SwiperSlide>
+          <SwiperSlide
+            onClick={() => openFullscreen("https://via.placeholder.com/300")}
+          >
+            <PictureProject src={Projet6} alt="slide 6" />
+            <PictureText>✥ Jewel ✥</PictureText>
+          </SwiperSlide>
+          <SwiperSlide
+            onClick={() => openFullscreen("https://via.placeholder.com/300")}
+          >
+            <PictureProject src={Projet7} alt="slide 7" />
+            <PictureText>✥ Carnage ✥</PictureText>
+          </SwiperSlide>
+          <SwiperSlide
+            onClick={() => openFullscreen("https://via.placeholder.com/300")}
+          >
+            <PictureProject src={Projet8} alt="slide 8" />
+            <PictureText>✥ Chaos ✥</PictureText>
           </SwiperSlide>
         </Swiper>
       </motion.div>

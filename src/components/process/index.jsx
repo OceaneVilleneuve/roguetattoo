@@ -66,7 +66,7 @@ const Process = () => {
       >
         <h1
           style={{
-            fontSize: isMobile ? "10px" : null,
+            fontSize: isMobile ? "17px" : null,
             padding: isMobile ? "45px 33px" : "85px 85px 10px 85px",
           }}
         >

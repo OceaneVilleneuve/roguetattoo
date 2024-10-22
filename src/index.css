@@ -49,6 +49,13 @@ code {
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Angel Wish';
+  src: url('./fonts/angel_wish/Angel\ wish.ttf') format('truetype');
+  font-weight: lighter;
+  font-style: normal;
+}
+
 
 
 h1 {
@@ -108,7 +115,6 @@ button {
 
 .swiper-button-prev::after,
 .swiper-button-next::after {
-
   font-size: 40px;
   color: #70e000;
 }
