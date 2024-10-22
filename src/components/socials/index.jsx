@@ -59,8 +59,7 @@ const Socials = () => {
           color: "black",
         }}
       >
-        .
-        {/* API INSTAGRAM POUR RÉCUPERER LES REELS */}
+        .{/* API INSTAGRAM POUR RÉCUPERER LES REELS */}
         <div
           style={{
             display: "flex",
@@ -82,11 +81,10 @@ const Socials = () => {
         </div>
         <div
           style={{
-
-          color: "black",
-        }}>
-          .
-          {/* API INSTAGRAM POUR RECUP LES RÉELS */}
+            color: "black",
+          }}
+        >
+          .{/* API INSTAGRAM POUR RECUP LES RÉELS */}
         </div>
       </div>
     </div>

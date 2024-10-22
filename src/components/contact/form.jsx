@@ -31,7 +31,7 @@ const SendButton = styled.button`
   font-family: "Mina";
   font-size: 12px;
   color: white;
-  font-family: 'Metal Vengeance';
+  font-family: "Metal Vengeance";
 `;
 const Flex = styled.div`
   display: flex;

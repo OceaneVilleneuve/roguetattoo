@@ -1,5 +1,5 @@
-import styled from 'styled-components'
-import colors from '../../utils/style/colors'
+import styled from "styled-components";
+import colors from "../../utils/style/colors";
 import Error from "../../assets/3814348.jpg";
 
 const ErrorWrapper = styled.div`
@@ -8,20 +8,20 @@ const ErrorWrapper = styled.div`
   flex-direction: column;
   background-color: ${colors.primary};
   align-items: center;
-`
+`;
 
 const ErrorTitle = styled.h1`
   font-weight: 300;
-`
+`;
 
 const ErrorSubtitle = styled.h2`
   font-weight: 300;
   color: ${colors.black};
-`
+`;
 
 const Illustration = styled.img`
   max-width: 800px;
-`
+`;
 
 function Error() {
   return (
@@ -32,7 +32,7 @@ function Error() {
         Il semblerait que la page que vous cherchez n’existe pas
       </ErrorSubtitle>
     </ErrorWrapper>
-  )
+  );
 }
 
-export default Error
+export default Error;

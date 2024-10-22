@@ -1,7 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 import Form from "./form";
-// import HeartPicture from "../../assets/pngegg.png";
 import { useMediaQuery } from "react-responsive";
 
 const PageContact = styled.div`
@@ -51,7 +50,8 @@ function Contact() {
         </h1>
         <Description
           style={{
-            marginLeft: isMobile ? "66px" : "10em",
+            marginLeft: isMobile ? null : "10em",
+            textAlign: isMobile ? "center" : null,
           }}
         >
           Je suis disponible pour répondre à tes demandes de projet.
@@ -72,16 +72,15 @@ function Contact() {
         >
           <Form />
         </div>
-
         <PersonnalInfo
           style={{
-            marginRight: isMobile ? null : "10rem",
+            marginRight: isMobile ? null : "8rem",
             marginLeft: isMobile ? "5em" : null,
           }}
         >
           <Logo>
-          <span
-            style={{
+            <span
+              style={{
                 fontFamily: "Familia Herlequin",
                 fontSize: "180px",
                 display: isMobile ? "none" : "true",
@@ -89,7 +88,7 @@ function Contact() {
             >
               COUNTESS
             </span>
-            <br/>
+            <br />
             <span
               style={{
                 fontFamily: "Metal Vengeance",
@@ -99,8 +98,8 @@ function Contact() {
                 display: isMobile ? "none" : "true",
               }}
             >
-            ROGUE
-          </span>
+              ROGUE
+            </span>
           </Logo>
         </PersonnalInfo>
       </PageContact>

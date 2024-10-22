@@ -20,7 +20,7 @@ const Name = styled.span`
 
 const Hidden = styled.span`
   visibility: hidden;
-`
+`;
 
 const Footer = () => {
   const isMobile = useMediaQuery({ maxWidth: 767 });
@@ -32,7 +32,8 @@ const Footer = () => {
       }}
     >
       <FooterInformation>
-        2024 - Développement et design par <Hidden>..</Hidden> <Name>ROGUE</Name>
+        2024 - Développement et design par <Hidden>..</Hidden>{" "}
+        <Name>ROGUE</Name>
       </FooterInformation>
     </FooterContainer>
   );

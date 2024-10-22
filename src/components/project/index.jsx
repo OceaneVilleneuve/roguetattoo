@@ -10,7 +10,6 @@ import { EffectCoverflow, Navigation } from "swiper/modules";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
-
 // Styles pour l'image en plein écran
 const FullscreenImage = styled.div`
   position: fixed;
@@ -25,7 +24,9 @@ const FullscreenImage = styled.div`
   z-index: 1000; /* Assure que l'image est au-dessus des autres éléments */
   opacity: 0; /* Commence avec une opacité de 0 */
   transition: opacity 0.5s ease-in-out; /* Ajoute une transition pour le fondu */
-  ${({ isVisible }) => isVisible && `
+  ${({ isVisible }) =>
+    isVisible &&
+    `
     opacity: 1; /* Change l'opacité à 1 lorsque visible */
   `}
 
@@ -33,8 +34,12 @@ const FullscreenImage = styled.div`
     max-width: 90%; /* Limite la largeur max de l'image */
     max-height: 90%; /* Limite la hauteur max de l'image */
     transition: transform 0.5s ease-in-out; /* Ajoute une transition pour l'image elle-même */
-    transform: scale(0.5); /* Commence avec une échelle réduite pour le "petit case" */
-    ${({ isVisible }) => isVisible && `
+    transform: scale(
+      0.5
+    ); /* Commence avec une échelle réduite pour le "petit case" */
+    ${({ isVisible }) =>
+      isVisible &&
+      `
       transform: scale(1); /* Rétablit l'échelle lorsque l'image est visible */
     `}
   }
@@ -88,7 +93,7 @@ const Project = () => {
       >
         <h1
           style={{
-            marginBottom: isMobile ? "9rem" : "9rem",
+            marginBottom: isMobile ? "9rem" : "6rem",
             fontSize: isMobile ? "10px" : null,
             padding: isMobile ? "45px 33px" : "85px 85px 10px 85px",
           }}
@@ -109,23 +114,33 @@ const Project = () => {
             modifier: 2.5, // Augmentez le modificateur pour un effet plus marqué
             slideShadows: true, // Gardez les ombres sur les slides
           }}
-          navigation={true}
+          navigation={!isMobile}
           modules={[EffectCoverflow, Navigation]}
           className="mySwiper"
         >
-          <SwiperSlide onClick={() => openFullscreen("https://via.placeholder.com/300")}>
+          <SwiperSlide
+            onClick={() => openFullscreen("https://via.placeholder.com/300")}
+          >
             <img src="https://via.placeholder.com/300" alt="slide 1" />
           </SwiperSlide>
-          <SwiperSlide onClick={() => openFullscreen("https://via.placeholder.com/300")}>
+          <SwiperSlide
+            onClick={() => openFullscreen("https://via.placeholder.com/300")}
+          >
             <img src="https://via.placeholder.com/300" alt="slide 2" />
           </SwiperSlide>
-          <SwiperSlide onClick={() => openFullscreen("https://via.placeholder.com/300")}>
+          <SwiperSlide
+            onClick={() => openFullscreen("https://via.placeholder.com/300")}
+          >
             <img src="https://via.placeholder.com/300" alt="slide 3" />
           </SwiperSlide>
-          <SwiperSlide onClick={() => openFullscreen("https://via.placeholder.com/300")}>
+          <SwiperSlide
+            onClick={() => openFullscreen("https://via.placeholder.com/300")}
+          >
             <img src="https://via.placeholder.com/300" alt="slide 4" />
           </SwiperSlide>
-          <SwiperSlide onClick={() => openFullscreen("https://via.placeholder.com/300")}>
+          <SwiperSlide
+            onClick={() => openFullscreen("https://via.placeholder.com/300")}
+          >
             <img src="https://via.placeholder.com/300" alt="slide 5" />
           </SwiperSlide>
         </Swiper>
