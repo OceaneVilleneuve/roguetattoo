@@ -6,6 +6,9 @@ import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
+import Projet1 from "../../assets/IMG_0978.JPG";
+import Projet2 from "../../assets/IMG_0998.JPG";
+import Projet3 from "../../assets/IMG_1120.JPG";
 import { EffectCoverflow, Navigation } from "swiper/modules";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
@@ -121,17 +124,17 @@ const Project = () => {
           <SwiperSlide
             onClick={() => openFullscreen("https://via.placeholder.com/300")}
           >
-            <img src="https://via.placeholder.com/300" alt="slide 1" />
+            <img src={Projet1} alt="slide 1" />
           </SwiperSlide>
           <SwiperSlide
             onClick={() => openFullscreen("https://via.placeholder.com/300")}
           >
-            <img src="https://via.placeholder.com/300" alt="slide 2" />
+            <img src={Projet2} alt="slide 2" />
           </SwiperSlide>
           <SwiperSlide
             onClick={() => openFullscreen("https://via.placeholder.com/300")}
           >
-            <img src="https://via.placeholder.com/300" alt="slide 3" />
+            <img src={Projet3} alt="slide 3" />
           </SwiperSlide>
           <SwiperSlide
             onClick={() => openFullscreen("https://via.placeholder.com/300")}
