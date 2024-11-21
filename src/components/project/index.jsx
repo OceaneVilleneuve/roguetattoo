@@ -111,6 +111,8 @@ const Project = () => {
         paddingBottom: isMobile ? null : "6rem",
         minHeight: isMobile ? "84vh" : "90vh",
         paddingTop: isMobile ? "2rem" : "2rem",
+        overflow: "hidden",
+        width: "100vw"
       }}
     >
       <motion.div
@@ -130,103 +132,79 @@ const Project = () => {
         >
           MES FLASHS
         </h1>
-        <Swiper
-          effect={"coverflow"}
-          grabCursor={false}
-          centeredSlides={true}
-          slidesPerView={2} // 1 pour mobile, 3 pour desktop
-          spaceBetween={isMobile ? 20 : 30} // Espace entre les diapositives
-          loop={true}
-          coverflowEffect={{
-            rotate: 30, // Réduire l'angle de rotation
-            stretch: 0, // Gardez à 0 pour ne pas étirer les slides
-            depth: 100, // Réduire la profondeur pour rendre les slides visibles
-            modifier: 2.5, // Augmentez le modificateur pour un effet plus marqué
-            slideShadows: true, // Gardez les ombres sur les slides
-          }}
-          navigation={!isMobile}
-          modules={[EffectCoverflow, Navigation]}
-          className="mySwiper"
-        >
-          <SwiperSlide
-            onClick={() => openFullscreen(Projet3)}
+        <div style={{overflow: 'hidden'}}>
+          <Swiper
+            effect={"coverflow"}
+            grabCursor={false}
+            centeredSlides={true}
+            slidesPerView={2} // 1 pour mobile, 3 pour desktop
+            spaceBetween={isMobile ? 20 : 30} // Espace entre les diapositives
+            loop={true}
+            coverflowEffect={{
+              rotate: 30, // Réduire l'angle de rotation
+              stretch: 0, // Gardez à 0 pour ne pas étirer les slides
+              depth: 100, // Réduire la profondeur pour rendre les slides visibles
+              modifier: 2.5, // Augmentez le modificateur pour un effet plus marqué
+              slideShadows: true, // Gardez les ombres sur les slides
+            }}
+            navigation={!isMobile}
+            modules={[EffectCoverflow, Navigation]}
+            className="mySwiper"
           >
-            <PictureProject src={Projet3} alt="slide 3" />
-            <PictureText>✥ Burried ✥</PictureText>
-          </SwiperSlide>
-          <SwiperSlide
-            onClick={() => openFullscreen(Projet1)}
-          >
-            <PictureProject src={Projet1} alt="slide 1" />
-            <PictureText>✥ Two-Headed Fawn ✥</PictureText>
-          </SwiperSlide>
-          <SwiperSlide
-            onClick={() => openFullscreen(Projet2)}
-          >
-            <PictureProject src={Projet2} alt="slide 2" />
-            <PictureText>✥ Delicate Mutation ✥</PictureText>
-          </SwiperSlide>
-          <SwiperSlide
-            onClick={() => openFullscreen(Projet4)}
-          >
-            <PictureProject src={Projet4} alt="slide 4" />
-            <PictureText>✥ Nipple Ring ✥</PictureText>
-          </SwiperSlide>
-          <SwiperSlide
-            onClick={() => openFullscreen(Projet5)}
-          >
-            <PictureProject src={Projet5} alt="slide 5" />
-            <PictureText>✥ Veins ✥</PictureText>
-          </SwiperSlide>
-          <SwiperSlide
-            onClick={() => openFullscreen(Projet6)}
-          >
-            <PictureProject src={Projet6} alt="slide 6" />
-            <PictureText>✥ Jewel ✥</PictureText>
-          </SwiperSlide>
-          <SwiperSlide
-            onClick={() => openFullscreen(Projet7)}
-          >
-            <PictureProject src={Projet7} alt="slide 7" />
-            <PictureText>✥ Carnage ✥</PictureText>
-          </SwiperSlide>
-          <SwiperSlide
-            onClick={() => openFullscreen(Projet8)}
-          >
-            <PictureProject src={Projet8} alt="slide 8" />
-            <PictureText>✥ Chaos ✥</PictureText>
-          </SwiperSlide>
-          <SwiperSlide
-            onClick={() => openFullscreen(Projet9)}
-          >
-            <PictureProject src={Projet9} alt="slide 8" />
-            <PictureText>✥ Planche Flash 1 ✥</PictureText>
-          </SwiperSlide>
-          <SwiperSlide
-            onClick={() => openFullscreen(Projet10)}
-          >
-            <PictureProject src={Projet10} alt="slide 8" />
-            <PictureText>✥ Planche Flash 2 ✥</PictureText>
-          </SwiperSlide>
-          <SwiperSlide
-            onClick={() => openFullscreen(Projet11)}
-          >
-            <PictureProject src={Projet11} alt="slide 8" />
-            <PictureText>✥ Planche Flash 3 ✥</PictureText>
-          </SwiperSlide>
-          <SwiperSlide
-            onClick={() => openFullscreen(Projet12)}
-          >
-            <PictureProject src={Projet12} alt="slide 8" />
-            <PictureText>✥ Planche Flash 4 ✥</PictureText>
-          </SwiperSlide>
-          <SwiperSlide
-            onClick={() => openFullscreen(Projet13)}
-          >
-            <PictureProject src={Projet13} alt="slide 8" />
-            <PictureText>✥ Planche Flash 5 ✥</PictureText>
-          </SwiperSlide>
-        </Swiper>
+            <SwiperSlide onClick={() => openFullscreen(Projet3)}>
+              <PictureProject src={Projet3} alt="slide 3" />
+              <PictureText>✥ Burried ✥</PictureText>
+            </SwiperSlide>
+            <SwiperSlide onClick={() => openFullscreen(Projet1)}>
+              <PictureProject src={Projet1} alt="slide 1" />
+              <PictureText>✥ Two-Headed Fawn ✥</PictureText>
+            </SwiperSlide>
+            <SwiperSlide onClick={() => openFullscreen(Projet2)}>
+              <PictureProject src={Projet2} alt="slide 2" />
+              <PictureText>✥ Delicate Mutation ✥</PictureText>
+            </SwiperSlide>
+            <SwiperSlide onClick={() => openFullscreen(Projet4)}>
+              <PictureProject src={Projet4} alt="slide 4" />
+              <PictureText>✥ Nipple Ring ✥</PictureText>
+            </SwiperSlide>
+            <SwiperSlide onClick={() => openFullscreen(Projet5)}>
+              <PictureProject src={Projet5} alt="slide 5" />
+              <PictureText>✥ Veins ✥</PictureText>
+            </SwiperSlide>
+            <SwiperSlide onClick={() => openFullscreen(Projet6)}>
+              <PictureProject src={Projet6} alt="slide 6" />
+              <PictureText>✥ Jewel ✥</PictureText>
+            </SwiperSlide>
+            <SwiperSlide onClick={() => openFullscreen(Projet7)}>
+              <PictureProject src={Projet7} alt="slide 7" />
+              <PictureText>✥ Carnage ✥</PictureText>
+            </SwiperSlide>
+            <SwiperSlide onClick={() => openFullscreen(Projet8)}>
+              <PictureProject src={Projet8} alt="slide 8" />
+              <PictureText>✥ Chaos ✥</PictureText>
+            </SwiperSlide>
+            <SwiperSlide onClick={() => openFullscreen(Projet9)}>
+              <PictureProject src={Projet9} alt="slide 8" />
+              <PictureText>✥ Planche Flash 1 ✥</PictureText>
+            </SwiperSlide>
+            <SwiperSlide onClick={() => openFullscreen(Projet10)}>
+              <PictureProject src={Projet10} alt="slide 8" />
+              <PictureText>✥ Planche Flash 2 ✥</PictureText>
+            </SwiperSlide>
+            <SwiperSlide onClick={() => openFullscreen(Projet11)}>
+              <PictureProject src={Projet11} alt="slide 8" />
+              <PictureText>✥ Planche Flash 3 ✥</PictureText>
+            </SwiperSlide>
+            <SwiperSlide onClick={() => openFullscreen(Projet12)}>
+              <PictureProject src={Projet12} alt="slide 8" />
+              <PictureText>✥ Planche Flash 4 ✥</PictureText>
+            </SwiperSlide>
+            <SwiperSlide onClick={() => openFullscreen(Projet13)}>
+              <PictureProject src={Projet13} alt="slide 8" />
+              <PictureText>✥ Planche Flash 5 ✥</PictureText>
+            </SwiperSlide>
+          </Swiper>
+        </div>
       </motion.div>
 
       {/* Affichage de l'image en plein écran uniquement sur mobile */}
