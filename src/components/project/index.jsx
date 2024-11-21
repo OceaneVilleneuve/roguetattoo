@@ -151,24 +151,24 @@ const Project = () => {
             modules={[EffectCoverflow, Navigation]}
             className="mySwiper"
           >
-            <SwiperSlide onClick={() => openFullscreen(Projet9)}>
-              <PictureProject src={Projet9} alt="slide 8" />
+            <SwiperSlide onClick={() => openFullscreen(Projet13)}>
+              <PictureProject src={Projet13} alt="slide 8" />
               <PictureText>✥ Planche Flash 1 ✥</PictureText>
-            </SwiperSlide>
-            <SwiperSlide onClick={() => openFullscreen(Projet10)}>
-              <PictureProject src={Projet10} alt="slide 8" />
-              <PictureText>✥ Planche Flash 2 ✥</PictureText>
-            </SwiperSlide>
-            <SwiperSlide onClick={() => openFullscreen(Projet11)}>
-              <PictureProject src={Projet11} alt="slide 8" />
-              <PictureText>✥ Planche Flash 3 ✥</PictureText>
             </SwiperSlide>
             <SwiperSlide onClick={() => openFullscreen(Projet12)}>
               <PictureProject src={Projet12} alt="slide 8" />
+              <PictureText>✥ Planche Flash 2 ✥</PictureText>
+            </SwiperSlide>
+            <SwiperSlide onClick={() => openFullscreen(Projet9)}>
+              <PictureProject src={Projet9} alt="slide 8" />
+              <PictureText>✥ Planche Flash 3 ✥</PictureText>
+            </SwiperSlide>
+            <SwiperSlide onClick={() => openFullscreen(Projet11)}>
+              <PictureProject src={Projet11} alt="slide 8" />
               <PictureText>✥ Planche Flash 4 ✥</PictureText>
             </SwiperSlide>
-            <SwiperSlide onClick={() => openFullscreen(Projet13)}>
-              <PictureProject src={Projet13} alt="slide 8" />
+            <SwiperSlide onClick={() => openFullscreen(Projet10)}>
+              <PictureProject src={Projet10} alt="slide 8" />
               <PictureText>✥ Planche Flash 5 ✥</PictureText>
             </SwiperSlide>
             <SwiperSlide onClick={() => openFullscreen(Projet3)}>
