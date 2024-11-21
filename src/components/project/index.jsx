@@ -14,6 +14,11 @@ import Projet5 from "../../assets/IMG_1131 3.jpg";
 import Projet6 from "../../assets/IMG_1131.jpg";
 import Projet7 from "../../assets/IMG_1132 2.jpg";
 import Projet8 from "../../assets/IMG_1132.jpg";
+import Projet9 from "../../assets/IMG_1361.JPG";
+import Projet10 from "../../assets/IMG_1362.JPG";
+import Projet11 from "../../assets/IMG_1363.JPG";
+import Projet12 from "../../assets/IMG_1364.JPG";
+import Projet13 from "../../assets/IMG_1365.JPG";
 import { EffectCoverflow, Navigation } from "swiper/modules";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
@@ -144,52 +149,82 @@ const Project = () => {
           className="mySwiper"
         >
           <SwiperSlide
-            onClick={() => openFullscreen("https://via.placeholder.com/300")}
+            onClick={() => openFullscreen(Projet3)}
           >
             <PictureProject src={Projet3} alt="slide 3" />
             <PictureText>✥ Burried ✥</PictureText>
           </SwiperSlide>
           <SwiperSlide
-            onClick={() => openFullscreen("https://via.placeholder.com/300")}
+            onClick={() => openFullscreen(Projet1)}
           >
             <PictureProject src={Projet1} alt="slide 1" />
             <PictureText>✥ Two-Headed Fawn ✥</PictureText>
           </SwiperSlide>
           <SwiperSlide
-            onClick={() => openFullscreen("https://via.placeholder.com/300")}
+            onClick={() => openFullscreen(Projet2)}
           >
             <PictureProject src={Projet2} alt="slide 2" />
             <PictureText>✥ Delicate Mutation ✥</PictureText>
           </SwiperSlide>
           <SwiperSlide
-            onClick={() => openFullscreen("https://via.placeholder.com/300")}
+            onClick={() => openFullscreen(Projet4)}
           >
             <PictureProject src={Projet4} alt="slide 4" />
             <PictureText>✥ Nipple Ring ✥</PictureText>
           </SwiperSlide>
           <SwiperSlide
-            onClick={() => openFullscreen("https://via.placeholder.com/300")}
+            onClick={() => openFullscreen(Projet5)}
           >
             <PictureProject src={Projet5} alt="slide 5" />
             <PictureText>✥ Veins ✥</PictureText>
           </SwiperSlide>
           <SwiperSlide
-            onClick={() => openFullscreen("https://via.placeholder.com/300")}
+            onClick={() => openFullscreen(Projet6)}
           >
             <PictureProject src={Projet6} alt="slide 6" />
             <PictureText>✥ Jewel ✥</PictureText>
           </SwiperSlide>
           <SwiperSlide
-            onClick={() => openFullscreen("https://via.placeholder.com/300")}
+            onClick={() => openFullscreen(Projet7)}
           >
             <PictureProject src={Projet7} alt="slide 7" />
             <PictureText>✥ Carnage ✥</PictureText>
           </SwiperSlide>
           <SwiperSlide
-            onClick={() => openFullscreen("https://via.placeholder.com/300")}
+            onClick={() => openFullscreen(Projet8)}
           >
             <PictureProject src={Projet8} alt="slide 8" />
             <PictureText>✥ Chaos ✥</PictureText>
+          </SwiperSlide>
+          <SwiperSlide
+            onClick={() => openFullscreen(Projet9)}
+          >
+            <PictureProject src={Projet9} alt="slide 8" />
+            <PictureText>✥ Planche Flash 1 ✥</PictureText>
+          </SwiperSlide>
+          <SwiperSlide
+            onClick={() => openFullscreen(Projet10)}
+          >
+            <PictureProject src={Projet10} alt="slide 8" />
+            <PictureText>✥ Planche Flash 2 ✥</PictureText>
+          </SwiperSlide>
+          <SwiperSlide
+            onClick={() => openFullscreen(Projet11)}
+          >
+            <PictureProject src={Projet11} alt="slide 8" />
+            <PictureText>✥ Planche Flash 3 ✥</PictureText>
+          </SwiperSlide>
+          <SwiperSlide
+            onClick={() => openFullscreen(Projet12)}
+          >
+            <PictureProject src={Projet12} alt="slide 8" />
+            <PictureText>✥ Planche Flash 4 ✥</PictureText>
+          </SwiperSlide>
+          <SwiperSlide
+            onClick={() => openFullscreen(Projet13)}
+          >
+            <PictureProject src={Projet13} alt="slide 8" />
+            <PictureText>✥ Planche Flash 5 ✥</PictureText>
           </SwiperSlide>
         </Swiper>
       </motion.div>
