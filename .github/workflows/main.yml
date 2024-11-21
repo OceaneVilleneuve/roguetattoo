@@ -24,4 +24,4 @@ jobs:
         username: ${{ secrets.ftp_login }}
         password: ${{ secrets.ftp_password }}
         local-dir: build/
-        server-dir: www/
+        server-dir: www/rogue/
