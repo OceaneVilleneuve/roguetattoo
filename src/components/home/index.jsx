@@ -56,7 +56,6 @@ const SocialLink = styled.a`
   color: white;
   &:hover {
     text-shadow: 2px 2px 10px #fff;
-
     filter: dropshadow(color=#fff, offx=2, offy=2);
   }
 `;
