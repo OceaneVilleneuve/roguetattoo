@@ -150,6 +150,7 @@ const Project = () => {
             modules={[EffectCoverflow, Navigation]}
             className="mySwiper"
           >
+
             <SwiperSlide onClick={() => openFullscreen(Projet13)}>
               <PictureProject src={Projet16} alt="slide 8" />
               <PictureText>✥ Fenrir ✥</PictureText>
