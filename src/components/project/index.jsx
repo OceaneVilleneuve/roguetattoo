@@ -9,16 +9,15 @@ import "swiper/css/navigation";
 import Projet1 from "../../assets/IMG_0978.JPG";
 import Projet2 from "../../assets/IMG_1136.JPG";
 import Projet3 from "../../assets/IMG_1120.JPG";
-import Projet4 from "../../assets/IMG_1131 2.jpg";
-import Projet5 from "../../assets/IMG_1131 3.jpg";
-import Projet6 from "../../assets/IMG_1131.jpg";
-import Projet7 from "../../assets/IMG_1132 2.jpg";
-import Projet8 from "../../assets/IMG_1132.jpg";
-import Projet9 from "../../assets/IMG_1361.JPG";
-import Projet10 from "../../assets/IMG_1362.JPG";
-import Projet11 from "../../assets/IMG_1363.JPG";
-import Projet12 from "../../assets/IMG_1364.JPG";
 import Projet13 from "../../assets/IMG_1365.JPG";
+import Projet14 from "../../assets/att.cueCLFYneGXBfK9jL03iwBdzAqDPJEWMeATcDftM7DE.JPG";
+import Projet16 from "../../assets/att.Og9bjT3pc5NNRqUUCFhUHCGXcv7AQWTivOiMZfMDvBg.JPG";
+import Projet17 from "../../assets/att.SJP-XbW-9EwpicsG08KVZx40jl3q05b93AdmfLVQgEo.JPG";
+import Projet18 from "../../assets/IMG_2676.JPG";
+import Projet19 from "../../assets/IMG_2681.JPG";
+import Projet20 from "../../assets/IMG_2694.JPG";
+import Projet21 from "../../assets/IMG_2732.JPG";
+import Projet22 from "../../assets/IMG_2733.JPG";
 import { EffectCoverflow, Navigation } from "swiper/modules";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
@@ -152,24 +151,32 @@ const Project = () => {
             className="mySwiper"
           >
             <SwiperSlide onClick={() => openFullscreen(Projet13)}>
-              <PictureProject src={Projet13} alt="slide 8" />
-              <PictureText>✥ Planche Flash 1 ✥</PictureText>
+              <PictureProject src={Projet16} alt="slide 8" />
+              <PictureText>✥ Fenrir ✥</PictureText>
             </SwiperSlide>
-            <SwiperSlide onClick={() => openFullscreen(Projet12)}>
-              <PictureProject src={Projet12} alt="slide 8" />
-              <PictureText>✥ Planche Flash 2 ✥</PictureText>
+            <SwiperSlide onClick={() => openFullscreen(Projet13)}>
+              <PictureProject src={Projet14} alt="slide 8" />
+              <PictureText>✥ Mephisto ✥</PictureText>
             </SwiperSlide>
-            <SwiperSlide onClick={() => openFullscreen(Projet9)}>
-              <PictureProject src={Projet9} alt="slide 8" />
-              <PictureText>✥ Planche Flash 3 ✥</PictureText>
+            <SwiperSlide onClick={() => openFullscreen(Projet13)}>
+              <PictureProject src={Projet22} alt="slide 8" />
+              <PictureText>✥ Spring ✥</PictureText>
             </SwiperSlide>
-            <SwiperSlide onClick={() => openFullscreen(Projet11)}>
-              <PictureProject src={Projet11} alt="slide 8" />
-              <PictureText>✥ Planche Flash 4 ✥</PictureText>
+            <SwiperSlide onClick={() => openFullscreen(Projet13)}>
+              <PictureProject src={Projet18} alt="slide 8" />
+              <PictureText>✥ Jackalope ✥</PictureText>
             </SwiperSlide>
-            <SwiperSlide onClick={() => openFullscreen(Projet10)}>
-              <PictureProject src={Projet10} alt="slide 8" />
-              <PictureText>✥ Planche Flash 5 ✥</PictureText>
+            <SwiperSlide onClick={() => openFullscreen(Projet13)}>
+              <PictureProject src={Projet19} alt="slide 8" />
+              <PictureText>✥ Soft embrace ✥</PictureText>
+            </SwiperSlide>
+            <SwiperSlide onClick={() => openFullscreen(Projet13)}>
+              <PictureProject src={Projet20} alt="slide 8" />
+              <PictureText>✥ Munin and Hugin ✥</PictureText>
+            </SwiperSlide>
+            <SwiperSlide onClick={() => openFullscreen(Projet13)}>
+              <PictureProject src={Projet21} alt="slide 8" />
+              <PictureText>✥ Just a sweetie ✥</PictureText>
             </SwiperSlide>
             <SwiperSlide onClick={() => openFullscreen(Projet3)}>
               <PictureProject src={Projet3} alt="slide 3" />
@@ -183,25 +190,9 @@ const Project = () => {
               <PictureProject src={Projet2} alt="slide 2" />
               <PictureText>✥ Delicate Mutation ✥</PictureText>
             </SwiperSlide>
-            <SwiperSlide onClick={() => openFullscreen(Projet4)}>
-              <PictureProject src={Projet4} alt="slide 4" />
-              <PictureText>✥ Nipple Ring ✥</PictureText>
-            </SwiperSlide>
-            <SwiperSlide onClick={() => openFullscreen(Projet5)}>
-              <PictureProject src={Projet5} alt="slide 5" />
-              <PictureText>✥ Veins ✥</PictureText>
-            </SwiperSlide>
-            <SwiperSlide onClick={() => openFullscreen(Projet6)}>
-              <PictureProject src={Projet6} alt="slide 6" />
-              <PictureText>✥ Jewel ✥</PictureText>
-            </SwiperSlide>
-            <SwiperSlide onClick={() => openFullscreen(Projet7)}>
-              <PictureProject src={Projet7} alt="slide 7" />
-              <PictureText>✥ Carnage ✥</PictureText>
-            </SwiperSlide>
-            <SwiperSlide onClick={() => openFullscreen(Projet8)}>
-              <PictureProject src={Projet8} alt="slide 8" />
-              <PictureText>✥ Chaos ✥</PictureText>
+            <SwiperSlide onClick={() => openFullscreen(Projet13)}>
+              <PictureProject src={Projet17} alt="slide 8" />
+              <PictureText>✥ A sweet little terror ✥</PictureText>
             </SwiperSlide>
           </Swiper>
         </div>
