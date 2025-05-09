@@ -156,20 +156,12 @@ const Project = () => {
               <PictureText>✥ Fenrir ✥</PictureText>
             </SwiperSlide>
             <SwiperSlide onClick={() => openFullscreen(Projet13)}>
-              <PictureProject src={Projet14} alt="slide 8" />
-              <PictureText>✥ Mephisto ✥</PictureText>
-            </SwiperSlide>
-            <SwiperSlide onClick={() => openFullscreen(Projet13)}>
               <PictureProject src={Projet22} alt="slide 8" />
               <PictureText>✥ Spring ✥</PictureText>
             </SwiperSlide>
             <SwiperSlide onClick={() => openFullscreen(Projet13)}>
               <PictureProject src={Projet18} alt="slide 8" />
               <PictureText>✥ Jackalope ✥</PictureText>
-            </SwiperSlide>
-            <SwiperSlide onClick={() => openFullscreen(Projet13)}>
-              <PictureProject src={Projet19} alt="slide 8" />
-              <PictureText>✥ Soft embrace ✥</PictureText>
             </SwiperSlide>
             <SwiperSlide onClick={() => openFullscreen(Projet13)}>
               <PictureProject src={Projet20} alt="slide 8" />
@@ -182,10 +174,6 @@ const Project = () => {
             <SwiperSlide onClick={() => openFullscreen(Projet3)}>
               <PictureProject src={Projet3} alt="slide 3" />
               <PictureText>✥ Burried ✥</PictureText>
-            </SwiperSlide>
-            <SwiperSlide onClick={() => openFullscreen(Projet1)}>
-              <PictureProject src={Projet1} alt="slide 1" />
-              <PictureText>✥ Two-Headed Fawn ✥</PictureText>
             </SwiperSlide>
             <SwiperSlide onClick={() => openFullscreen(Projet2)}>
               <PictureProject src={Projet2} alt="slide 2" />
