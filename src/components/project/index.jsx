@@ -187,7 +187,7 @@ const Project = () => {
         </div>
       </motion.div>
 
-      {/* Affichage de l'image en plein écran uniquement sur mobile */}
+      {/* Affichage de l'image en plein écran uniquemet sur mobile */}
       {fullscreenImage && isMobile && (
         <FullscreenImage isVisible={isVisible} onClick={closeFullscreen}>
           <img src={fullscreenImage} alt="Fullscreen" isVisible={isVisible} />
