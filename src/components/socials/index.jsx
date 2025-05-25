@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import Logo from "../../assets/IMG_3075.PNG";
+import Logo from "../../assets/IMG_3077.PNG";
 import { useMediaQuery } from "react-responsive";
 // import colors from '../../utils/style/colors';
 
@@ -33,12 +33,11 @@ const Socials = () => {
     >
       <div
         style={{
-          paddingBottom: "8rem",
+          paddingBottom: "4rem",
         }}
       >
         <Title>
           RETROUVE MOI
-          <br />
           <br />
           SUR MES RESEAUX SOCIAUX
         </Title>
@@ -47,7 +46,8 @@ const Socials = () => {
             src={Logo}
             alt="logo"
             style={{
-              paddingTop: "6rem",
+              paddingTop: "3rem",
+              height: isMobile ? "10rem" : "20rem",
             }}
           />
         </div>

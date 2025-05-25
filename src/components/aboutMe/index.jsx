@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useMediaQuery } from "react-responsive";
 import styled from "styled-components";
-import Logo from "../../assets/IMG_3075.PNG";
+import Logo from "../../assets/IMG_3077.PNG";
 import { useInView } from "react-intersection-observer";
 import { motion } from "framer-motion";
 
@@ -58,7 +58,10 @@ const AboutMe = () => {
             textAlign: "center",
           }}
         >
-          <img src={Logo} alt="logo" />
+          <img src={Logo} alt="logo"
+          style={{
+              height: isMobile ? "10rem" : "20rem",
+            }} />
 
           <AboutMeTitle
             style={{
@@ -66,12 +69,14 @@ const AboutMe = () => {
             }}
           >
             JE SUIS <Name>ROGUE</Name>, UNE TATOUEUSE SITUEE À NANTES EN
-            FRANCE. JE SUIS SPECIALISE DANS LE BLACKWORK MAIS AODRE AUSSI LES PROJETS DE HEAVY BLACKOUT ORNEMENTAL.
-              JE SUIS OUVERTE À TOUTE DEMANDE DE PROJETS
-            PERSONNELS DANS CES DEUX STYLES.
+            FRANCE. JE SUIS SPECIALISEE DANS LE BLACKWORK.
             <br />
             <br />
-            JE VOUS ACCUEILLE DANS MON ANTRE UNIQUEMENT SUR RENDEZ-VOUS.
+              JE SUIS OUVERTE A TOUTE DEMANDE DE PROJETS
+            PERSONNELS DANS MON STYLE.
+            <br />
+            <br />
+            JE VOUS ACCUEILLE DANS MON ATELIER PRIVE UNIQUEMENT SUR RENDEZ-VOUS.
           </AboutMeTitle>
         </div>
       </motion.div>
