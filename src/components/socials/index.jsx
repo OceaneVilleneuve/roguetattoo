@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import Logo from "../../assets/IMG_0751-removebg-preview.png";
+import Logo from "../../assets/IMG_3075.PNG";
 import { useMediaQuery } from "react-responsive";
 // import colors from '../../utils/style/colors';
 
