@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useMediaQuery } from "react-responsive";
 import styled from "styled-components";
-import Logo from "../../assets/IMG_0751-removebg-preview.png";
+import Logo from "../../assets/IMG_3075.PNG";
 import { useInView } from "react-intersection-observer";
 import { motion } from "framer-motion";
 
@@ -65,10 +65,10 @@ const AboutMe = () => {
               fontSize: isMobile ? "1.2rem" : "2.5rem",
             }}
           >
-            JE SUIS <Name>ROGUE</Name>, UNE BABY TATOUEUSE SITUEE À NANTES EN
-            FRANCE. JE SOUHAITE ME SPECIALISER DANS LE HEAVY BLACKOUT ORNEMENTAL
-            ET LE BLACKWORK. JE SUIS OUVERTE À TOUTE DEMANDE DE PROJETS
-            PERSONNELS.
+            JE SUIS <Name>ROGUE</Name>, UNE TATOUEUSE SITUEE À NANTES EN
+            FRANCE. JE SUIS SPECIALISE DANS LE BLACKWORK MAIS AODRE AUSSI LES PROJETS DE HEAVY BLACKOUT ORNEMENTAL.
+              JE SUIS OUVERTE À TOUTE DEMANDE DE PROJETS
+            PERSONNELS DANS CES DEUX STYLES.
             <br />
             <br />
             JE VOUS ACCUEILLE DANS MON ANTRE UNIQUEMENT SUR RENDEZ-VOUS.
