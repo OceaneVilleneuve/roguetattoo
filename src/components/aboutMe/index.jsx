@@ -68,7 +68,7 @@ const AboutMe = () => {
               fontSize: isMobile ? "1.2rem" : "2.5rem",
             }}
           >
-            JE SUIS <Name>ROGUE</Name>, UNE TATOUEUSE SITUEE À NANTES EN
+            JE SUIS <Name>ROGUE</Name>, UNE TATOUEUSE SITUEE A NANTES EN
             FRANCE. JE SUIS SPECIALISEE DANS LE BLACKWORK.
             <br />
             <br />
