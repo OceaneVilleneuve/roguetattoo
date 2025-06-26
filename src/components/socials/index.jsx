@@ -84,7 +84,6 @@ const Socials = () => {
             color: "black",
           }}
         >
-          .{/* API INSTAGRAM POUR RECUP LES RÉELS */}
         </div>
       </div>
     </div>

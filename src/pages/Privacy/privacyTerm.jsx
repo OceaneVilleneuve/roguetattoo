@@ -16,8 +16,8 @@ const Title = styled.h1`
   text-align: center;
   padding-top: 1rem;
   @media (max-width: 768px) {
-    font-size: 50px;
-  }
+    font-size: 20px;
+
 `;
 
 const SubTitle = styled.h2`
@@ -28,12 +28,17 @@ const SubTitle = styled.h2`
   padding-bottom: 1.5rem;
 
   @media (max-width: 768px) {
-    font-size: 20px;
+    font-size: 23px;
   }
 `;
 
 const AllText = styled.p`
   text-align: center;
+    @media (max-width: 768px) {
+    font-size: 12px;
+    padding-left: 1.8rem;
+    padding-right: 1.8rem;
+  }
 `;
 
 const Privacy = () => {
@@ -83,7 +88,7 @@ const Privacy = () => {
           <AllText>
             <br />
             En tant que tatoueuse professionnelle, je peux être amenée à
-            collecter certaines données personnelles via ce site, notamment :
+            collecter certaines données personnelles via ce site, notamment:
             <br />
             <br />
             ⊛ Nom et prénom

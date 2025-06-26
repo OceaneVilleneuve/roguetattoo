@@ -17,14 +17,15 @@ const LinkDiv = styled.div`
   justify-content: center;
   padding-top: 8rem;
   flex-direction: column;
+  @media (max-width: 768px) {
+    padding-top: 3rem;
+  }
 `;
 
 const StyledLink = styled(Link)`
   text-decoration: none;
   text-decoration: underline;
   color: inherit;
-  padding-right: 1rem;
-  padding-left: 15px;
   font-family: "Ade Display", serif;
   font-weight: lighter;
   font-size: 28px;
@@ -32,6 +33,9 @@ const StyledLink = styled(Link)`
   &:hover {
     text-shadow: 2px 2px 10px #fff;
     filter: drop-shadow(2px 2px 2px #fff);
+  }
+  @media (max-width: 768px) {
+    font-size: 15px;
   }
 `;
 
@@ -111,7 +115,13 @@ const Process = () => {
           />
         ))}
         <LinkDiv>
-          <h3>POUR PLUS D'INFORMATIONS CONSULTE MES :</h3>
+          <h3
+            style={{
+              fontSize: isMobile ? "10px" : null,
+            }}
+          >
+            POUR PLUS D'INFORMATIONS CONSULTE MES :
+          </h3>
           <StyledLink to="/cgv"> CONDITIONS GENERALES DE VENTE</StyledLink>
         </LinkDiv>
       </motion.div>

@@ -7,6 +7,7 @@ import Menu from "../menu";
 import { useMediaQuery } from "react-responsive";
 import { useState } from "react";
 import Item from "../menu/item";
+import { Link } from "react-router-dom";
 
 const HeaderContainer = styled.nav`
   display: flex;
@@ -18,9 +19,9 @@ const HeaderContainer = styled.nav`
   z-index: 3;
 `;
 
-const HeaderBanner = styled.h1`
+const HeaderBanner = styled(Link)`
   font-size: 16px;
-  font-family: 'Metal Vengeance';
+  font-family: "Metal Vengeance";
 `;
 
 const WrapperFlex = styled.div`
@@ -48,7 +49,16 @@ const Header = () => {
           width: isMobile ? null : "25%",
         }}
       />
-      <HeaderBanner>ROGUE</HeaderBanner>
+      <HeaderBanner
+        style={{
+          textDecoration: "none",
+          color: "inherit",
+          paddingRight: "1rem",
+        }}
+        to="/"
+      >
+        ROGUE
+      </HeaderBanner>
       <WrapperFlex
         style={{
           width: isMobile ? null : "25%",

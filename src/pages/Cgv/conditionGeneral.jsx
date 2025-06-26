@@ -16,12 +16,17 @@ const Title = styled.h1`
   text-align: center;
   padding-top: 1rem;
   @media (max-width: 768px) {
-    font-size: 50px;
+    font-size: 20px;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
   }
 `;
 const Private = styled.h3`
   text-align: center;
   padding-bottom: 2rem;
+  @media (max-width: 768px) {
+    font-size: 13px;
+  }
 `;
 const SubTitle = styled.h2`
   text-align: center;
@@ -31,12 +36,17 @@ const SubTitle = styled.h2`
   padding-bottom: 2rem;
 
   @media (max-width: 768px) {
-    font-size: 20px;
+    font-size: 23px;
   }
 `;
 
 const AllText = styled.p`
   text-align: center;
+  @media (max-width: 768px) {
+    font-size: 12px;
+    padding-left: 1.8rem;
+    padding-right: 1.8rem;
+  }
 `;
 
 const CGV = () => {
@@ -80,7 +90,7 @@ const CGV = () => {
             }}
           />
 
-          <Title>CONDITIONS GENERAL DE VENTE ( CGV )</Title>
+          <Title>CONDITIONS GENERAL DE VENTE</Title>
           <Private>TATOUEUSE – SALON PRIVE SUR RENDEZ-VOUS UNIQUEMENT</Private>
           <SubTitle>1. Informations légales</SubTitle>
           <br />
