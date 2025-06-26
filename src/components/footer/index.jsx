@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { useMediaQuery } from "react-responsive";
+import { Link } from "react-router-dom";
 
 const FooterContainer = styled.div`
   padding-bottom: 2em;
@@ -22,6 +23,11 @@ const Hidden = styled.span`
   visibility: hidden;
 `;
 
+const LinkDiv = styled.div`
+  display: flex;
+  justify-content: center;
+`;
+
 const Footer = () => {
   const isMobile = useMediaQuery({ maxWidth: 767 });
 
@@ -35,6 +41,29 @@ const Footer = () => {
         2024 - Développement et design par <Hidden>..</Hidden>{" "}
         <Name>ROGUE</Name>
       </FooterInformation>
+      <LinkDiv>
+        <Link
+          style={{
+            textDecoration: "none",
+            color: "inherit",
+            paddingRight: "1rem",
+          }}
+          to="/cgv"
+        >
+          CGV
+        </Link>
+        |
+        <Link
+          style={{
+            textDecoration: "none",
+            color: "inherit",
+            paddingLeft: "1rem",
+          }}
+          to="/privacy"
+        >
+          CONFIDENTIALITÉ
+        </Link>
+      </LinkDiv>
     </FooterContainer>
   );
 };

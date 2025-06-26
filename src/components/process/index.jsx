@@ -4,10 +4,35 @@ import { useMediaQuery } from "react-responsive";
 import { motion } from "framer-motion";
 import styled from "styled-components";
 import "../home/infiniteScolling.css";
+import { Link } from "react-router-dom";
 import ProcessStage from "./processStage";
 
 const ContainerProcess = styled.div`
   position: relative;
+`;
+
+const LinkDiv = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 8rem;
+  flex-direction: column;
+`;
+
+const StyledLink = styled(Link)`
+  text-decoration: none;
+  text-decoration: underline;
+  color: inherit;
+  padding-right: 1rem;
+  padding-left: 15px;
+  font-family: "Ade Display", serif;
+  font-weight: lighter;
+  font-size: 28px;
+
+  &:hover {
+    text-shadow: 2px 2px 10px #fff;
+    filter: drop-shadow(2px 2px 2px #fff);
+  }
 `;
 
 const Process = () => {
@@ -27,15 +52,15 @@ const Process = () => {
   const sectionsData = [
     {
       title: "CONTACT",
-      text: "Lors de notre premier contact, je t'invite à me décrire précisément ton projet, son emplacement ainsi que sa taille en longueur et largeur en centimètres, et à fournir des références si tu en as. Je favorise les contacts par mail ou via le formulaire de contact de mon site plutôt que les DM. N'hésite pas à être le.la plus précis·e possible. Je te dirais si il est réalisable par mes soins ou non.",
+      text: "Lors de notre premier contact, je t'invite à me décrire précisément ton projet, son emplacement ainsi que sa taille en longueur et largeur en centimètres mesuré précisement, et à fournir des références si tu en as. N'hésite pas à être le.la plus précis·e possible. Je te dirais si il est réalisable par mes soins ou non.",
     },
     {
       title: "ECHANGE",
-      text: "Lors de cette phase d'échange, nous discuterons plus précisément de ton design et nous nous fixerons sur une idée. Je te proposerai un nombre de séances afin de pouvoir réaliser ton projet, ainsi que le tarif et l'acompte nécessaire pour réserver le ou les rendez-vous. N'hésite pas à me parler de tes appréhensions ou de toute chose qui te semble nécessaire. Nous trouverons toujours une solution pour que tu te sentes le.la plus à l'aise possible.",
+      text: "Lors de cette phase d'échange, nous discuterons plus précisément de ton design et nous nous fixerons sur une idée. Je te proposerai un nombre de séances afin de pouvoir réaliser ton projet, ainsi que le tarif et les arrhes nécessaire pour réserver le ou les rendez-vous. N'hésite pas à me parler de tes appréhensions ou de toute chose qui te semble nécessaire. Nous trouverons toujours une solution pour que tu te sentes le.la plus à l'aise possible.",
     },
     {
       title: "PRISE DE RENDEZ-VOUS",
-      text: "Une fois nos échanges sur ton projet terminés et que tout est validé, je te demanderai un acompte afin de pouvoir réserver la ou les dates de rendez-vous. L'acompte sera conservé en cas d'annulation, mais aucun acompte supplémentaire ne sera demandé en cas de report de rendez-vous réalisé au minimum 48h à l'avance. Je n'envoie pas mes dessins par DM ni par mail, mais nous pourrons fixer des rendez-vous avant notre séance si tu souhaites le voir à l'avance. Dans tous les cas, un temps est prévu en début de chaque séance afin de pouvoir retoucher les designs autant qu'il le faut pour atteindre tes attentes.",
+      text: "Une fois nos échanges sur ton projet terminés et que tout est validé, je te demanderai des arrhes via paypal afin de pouvoir réserver la ou les dates de rendez-vous. Les arrhes seront conservé en cas d'annulation de ta part, mais aucun arrhes supplémentaire ne sera demandé en cas de report de rendez-vous réalisé au minimum 48h à l'avance.",
     },
     {
       title: "RENDEZ-VOUS",
@@ -85,6 +110,10 @@ const Process = () => {
             }
           />
         ))}
+        <LinkDiv>
+          <h3>POUR PLUS D'INFORMATIONS CONSULTE MES :</h3>
+          <StyledLink to="/cgv"> CONDITIONS GENERALES DE VENTE</StyledLink>
+        </LinkDiv>
       </motion.div>
     </ContainerProcess>
   );

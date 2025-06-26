@@ -21,7 +21,6 @@ import Projet26 from "../../assets/IMG_3140.JPG";
 import Projet27 from "../../assets/IMG_3141.JPG";
 import Projet28 from "../../assets/IMG_3142.JPG";
 import Projet29 from "../../assets/IMG_3143.JPG";
-import Projet30 from "../../assets/IMG_3144.JPG";
 import { EffectCoverflow, Navigation } from "swiper/modules";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
@@ -154,10 +153,6 @@ const Project = () => {
             modules={[EffectCoverflow, Navigation]}
             className="mySwiper"
           >
-            <SwiperSlide onClick={() => openFullscreen(Projet30)}>
-              <PictureProject src={Projet30} alt="slide 30" />
-              <PictureText>✥ Trench ✥</PictureText>
-            </SwiperSlide>
             <SwiperSlide onClick={() => openFullscreen(Projet29)}>
               <PictureProject src={Projet29} alt="slide 29" />
               <PictureText>✥ Sweet little lamb ✥</PictureText>

@@ -68,6 +68,12 @@ h2 {
   font-weight: lighter;
 }
 
+
+h3 {
+  font-family: 'Ade Display', serif;
+  font-weight: lighter;
+}
+
 @import '~typeface-mina';
 
 p {
