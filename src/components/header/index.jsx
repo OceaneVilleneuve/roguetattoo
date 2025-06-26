@@ -53,7 +53,6 @@ const Header = () => {
         style={{
           textDecoration: "none",
           color: "inherit",
-          paddingRight: "1rem",
         }}
         to="/"
       >

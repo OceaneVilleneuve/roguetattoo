@@ -122,7 +122,15 @@ const Process = () => {
           >
             POUR PLUS D'INFORMATIONS CONSULTE MES :
           </h3>
-          <StyledLink to="/cgv"> CONDITIONS GENERALES DE VENTE</StyledLink>
+          <StyledLink
+            to="/cgv"
+            onClick={() => {
+              window.scrollTo(0, 0); // scroll vers le haut au moment du clic
+            }}
+          >
+            {" "}
+            CONDITIONS GENERALES DE VENTE
+          </StyledLink>
         </LinkDiv>
       </motion.div>
     </ContainerProcess>

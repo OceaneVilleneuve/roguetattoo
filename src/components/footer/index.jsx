@@ -49,6 +49,9 @@ const Footer = () => {
             paddingRight: "1rem",
           }}
           to="/cgv"
+          onClick={() => {
+    window.scrollTo(0, 0); // scroll vers le haut au moment du clic
+  }}
         >
           CGV
         </Link>
@@ -60,6 +63,9 @@ const Footer = () => {
             paddingLeft: "1rem",
           }}
           to="/privacy"
+          onClick={() => {
+    window.scrollTo(0, 0); // scroll vers le haut au moment du clic
+  }}
         >
           CONFIDENTIALITÉ
         </Link>
