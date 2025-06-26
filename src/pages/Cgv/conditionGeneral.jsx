@@ -37,6 +37,7 @@ const SubTitle = styled.h2`
 
   @media (max-width: 768px) {
     font-size: 23px;
+      padding-bottom: 1rem;
   }
 `;
 
