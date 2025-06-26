@@ -50,6 +50,7 @@ const Privacy = () => {
   });
 
   useEffect(() => {
+    window.scrollTo(0, 0);
     if (inView) {
       setAnimationKey((prevKey) => prevKey + 1);
     }
