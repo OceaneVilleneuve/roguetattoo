@@ -176,6 +176,7 @@ const CGV = () => {
             client adopte un comportement inapproprié,
             <br />
             irrespectueux ou déplacé ( propos sexistes, comportement déplacé, drague insistante,
+            <br/>
             non-respect du cadre professionnel, propos inappropriés, non respect des consignes etc. ).
             <br />
             Le respect mutuel est fondamental.

@@ -15,7 +15,7 @@ const HeaderContainer = styled.nav`
   z-index: 3;
 `;
 
-const HeaderBanner = styled(Link)`
+const HeaderBanner = styled.p`
   font-size: 16px;
   font-family: "Metal Vengeance";
   textalign: "center";
@@ -56,7 +56,6 @@ const SimpleHeader = () => {
           display: "flex",
           alignItems: "center",
         }}
-        to="/"
       >
         ROGUE
       </HeaderBanner>
@@ -65,7 +64,6 @@ const SimpleHeader = () => {
         style={{
           width: isMobile ? null : "25%",
           textDecoration: "none",
-          cursor: "pointer",
           flex: "1",
           textAlign: "right",
         }}
