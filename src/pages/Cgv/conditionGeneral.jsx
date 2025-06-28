@@ -139,7 +139,7 @@ const CGV = () => {
             initial est envoyé pour validation de l’idée.
             <br />
             <br />
-            Jusqu’à 2 ou 3 modifications/retours sont acceptés ( croquis inclus ),
+            Jusqu’à 2 ou 3 modifications/retours sont acceptés,
             dans un esprit de collaboration respectueuse.
             <br />
             Au-delà, des frais supplémentaires pourront être appliqués.
@@ -152,6 +152,15 @@ const CGV = () => {
             <br />
             Ce montant est déduit du prix final ( de la dernière séances si
             plusieurs séances programmées ).
+            <br/>
+            <br/>
+            Le montant des arrhes correspond à 25% du prix du tatouage.
+            <br/>
+            Toutefois un <strong><em>montant minimum de 50€</em></strong> s'applique à chaque prestation,
+            quel que soit le prix final.
+            <br/>
+            Ainsi, pour toute prestation dont le prix final est<strong><em> inférieur à 200€</em></strong>, les arrhes facturées seront
+            <strong><em> automatiquement ajustées à 50€ TTC</em></strong>.
             <br />
             <br />
             Les arrhes sont à régler par virement bancaire ou PayPal.

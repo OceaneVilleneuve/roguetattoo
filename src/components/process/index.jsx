@@ -64,11 +64,11 @@ const Process = () => {
     },
     {
       title: "PRISE DE RENDEZ-VOUS",
-      text: "Une fois nos échanges sur ton projet terminés et que tout est validé, je te demanderai des arrhes via paypal afin de pouvoir réserver la ou les dates de rendez-vous. Les arrhes seront conservé en cas d'annulation de ta part, mais aucun arrhes supplémentaire ne sera demandé en cas de report de rendez-vous réalisé au minimum 48h à l'avance.",
+      text: "Une fois nos échanges sur ton projet terminés et que tout est validé, je te demanderai des arrhes via paypal afin de pouvoir réserver la ou les dates de rendez-vous. Les arrhes seront conservé en cas d'annulation de ta part, mais aucun arrhes supplémentaire ne sera demandé en cas de report de rendez-vous réalisé au minimum 48h à l'avance. Le montant des arrhes correspond à 25% du prix du tatouage. Toutefois un montant minimum de 50€ s'applique à chaque prestation, quel que soit le prix final. Ainsi, pour toute prestation dont le prix final est inférieur à 200€, les arrhes facturées seront automatiquement ajustées à 50€ TTC.",
     },
     {
       title: "RENDEZ-VOUS",
-      text: "Le jour du rendez-vous, il faudra que tu suives précisément les consignes que je t'aurai préalablement envoyées par mail concernant l'hygiène nécessaire avant la pratique du tatouage. Je me réserve le droit de refuser les personnes qui n'auront pas respecté ces règles, car il en va de votre santé. L'adresse du salon te sera communiquée à l'avance par mail, ainsi que les lignes de transport en commun et les commodités près du salon. N'hésite pas à me poser tes questions si tu viens de loin.",
+      text: "Avant le rendez-vous et après versement des arrhes, un croquis initial est envoyé pour validation de l’idée. Jusqu’à 2 ou 3 modifications/retours sont acceptés, dans un esprit de collaboration respectueuse. Le jour du rendez-vous, il faudra que tu suives précisément les consignes que je t'aurai préalablement envoyées par mail concernant l'hygiène nécessaire avant la pratique du tatouage. Je me réserve le droit de refuser les personnes qui n'auront pas respecté ces règles. L'adresse du salon te sera communiquée à l'avance par mail, ainsi que les lignes de transport en commun et les commodités près du salon.",
     },
   ];
 
