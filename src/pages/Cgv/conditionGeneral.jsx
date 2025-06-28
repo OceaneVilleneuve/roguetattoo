@@ -134,7 +134,7 @@ const CGV = () => {
             initial est envoyé pour validation de l’idée.
             <br />
             <br />
-            Jusqu’à 3 ou 4 modifications/retours sont acceptés (croquis inclus),
+            Jusqu’à 2 ou 3 modifications/retours sont acceptés ( croquis inclus ),
             dans un esprit de collaboration respectueuse.
             <br />
             Au-delà, des frais supplémentaires pourront être appliqués.
@@ -163,7 +163,7 @@ const CGV = () => {
             <br />
             Tout report ou annulation doit être signalé au moins 48h à l’avance.
             <br />
-            Les arrhes ne sont pas remboursable en cas d'annulation mais
+            Les arrhes ne sont pas remboursable en cas d'annulation de la part du client mais
             d'autres arrhes ne sont pas nécéssaire pour un repors de
             rendez-vous.
             <br />
@@ -174,8 +174,8 @@ const CGV = () => {
             Je me réserve le droit d’annuler ou refuser toute prestation si le
             client adopte un comportement inapproprié,
             <br />
-            irrespectueux ou déplacé (propos sexistes, drague insistante,
-            non-respect du cadre professionnel, etc.).
+            irrespectueux ou déplacé ( propos sexistes, comportement déplacé, drague insistante,
+            non-respect du cadre professionnel, propos inappropriés, non respect des consignes etc. ).
             <br />
             Le respect mutuel est fondamental.
             <br />
