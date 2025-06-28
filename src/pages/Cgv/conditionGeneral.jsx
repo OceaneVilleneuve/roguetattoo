@@ -33,6 +33,7 @@ const SubTitle = styled.h2`
   font-family: "Angel Wish";
   font-size: 30px;
   padding-top: 2rem;
+  padding-bottom: 0.5rem;
 
   @media (max-width: 768px) {
     font-size: 23px;
