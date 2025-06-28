@@ -14,6 +14,7 @@ const PrivacyContainer = styled.div`
 
 const Title = styled.h1`
   text-align: center;
+  padding-bottom: 2rem;
   padding-top: 1rem;
   @media (max-width: 768px) {
     font-size: 20px;
@@ -24,18 +25,16 @@ const SubTitle = styled.h2`
   text-align: center;
   font-family: "Angel Wish";
   font-size: 30px;
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
+  padding-top: 2rem;
 
   @media (max-width: 768px) {
     font-size: 23px;
-    padding-bottom: 1rem;
   }
 `;
 
 const AllText = styled.p`
   text-align: center;
-    @media (max-width: 768px) {
+  @media (max-width: 768px) {
     font-size: 12px;
     padding-left: 1.8rem;
     padding-right: 1.8rem;
@@ -87,7 +86,6 @@ const Privacy = () => {
 
           <SubTitle>1. Collecte des données personnelles</SubTitle>
           <AllText>
-            <br />
             En tant que tatoueuse professionnelle, je peux être amenée à
             collecter certaines données personnelles via ce site, notamment:
             <br />
@@ -111,7 +109,6 @@ const Privacy = () => {
 
           <SubTitle>2. Utilisation des données</SubTitle>
           <AllText>
-            <br />
             Les données sont utilisées uniquement pour :
             <br />
             <br />
@@ -131,7 +128,6 @@ const Privacy = () => {
 
           <SubTitle>3. Stockage et sécurité</SubTitle>
           <AllText>
-            <br />
             Les données sont conservées dans un environnement sécurisé (boîte
             mail professionnelle, outils de réservation ou formulaires).
             <br />
@@ -140,7 +136,6 @@ const Privacy = () => {
 
           <SubTitle>4. Droits de la personne concernée</SubTitle>
           <AllText>
-            <br />
             Conformément au RGPD, vous disposez des droits suivants :
             <br />
             <br />
@@ -159,7 +154,6 @@ const Privacy = () => {
           </AllText>
           <SubTitle>5. Cookies</SubTitle>
           <AllText>
-            <br />
             Ce site peut utiliser des cookies techniques nécessaires à son bon
             fonctionnement.
             <br />
@@ -171,7 +165,6 @@ const Privacy = () => {
           </AllText>
           <SubTitle>6. Responsable du traitement</SubTitle>
           <AllText>
-            <br />
             Le responsable du traitement des données est : Countess Rogue
             <br />
             <br />⊛ E-mail de contact : countess.rogue@gmail.com

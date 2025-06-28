@@ -33,11 +33,9 @@ const SubTitle = styled.h2`
   font-family: "Angel Wish";
   font-size: 30px;
   padding-top: 2rem;
-  padding-bottom: 2rem;
 
   @media (max-width: 768px) {
     font-size: 23px;
-      padding-bottom: 1rem;
   }
 `;
 
@@ -94,9 +92,8 @@ const CGV = () => {
           <Title>CONDITIONS GENERAL DE VENTE</Title>
           <Private>TATOUEUSE – SALON PRIVE SUR RENDEZ-VOUS UNIQUEMENT</Private>
           <SubTitle>1. Informations légales</SubTitle>
-          <br />
           <AllText>
-            Nom de l’artiste : Countess Rogue
+            ⊛ Nom de l’artiste : Countess Rogue
             <br />
             ⊛ Statut : Auto-entrepreneuse
             <br />
@@ -105,16 +102,17 @@ const CGV = () => {
             ⊛ Contact : countess.rogue@gmail.com
             <br />
             <br />
-            ⊛ Les rendez-vous se font exclusivement sur rendez-vous dans un
-            salon privé situé à st herblain.
-            <br />⊛ Pour des raisons de confidentialité et de sécurité,
-            l’adresse exacte est transmise uniquement après validation du
-            rendez-vous.
+            <br />
+            Les rendez-vous se font exclusivement sur rendez-vous dans un salon
+            privé situé à st herblain.
+            <br />
+            <br />
+            Pour des raisons de confidentialité et de sécurité, l’adresse exacte
+            est transmise uniquement après validation du rendez-vous.
           </AllText>
           <br />
           <br />
           <SubTitle>2. Prise de rendez-vous et communication</SubTitle>
-          <br />
           <AllText>
             Les demandes se font via le formulaire de contact ou e-mail.
             <br />
@@ -131,7 +129,6 @@ const CGV = () => {
             <br />
           </AllText>
           <SubTitle>3. Déroulement du projet et modifications</SubTitle>
-          <br />
           <AllText>
             Avant le rendez-vous et après versement des arrhes, un croquis
             initial est envoyé pour validation de l’idée.
@@ -146,7 +143,6 @@ const CGV = () => {
           </AllText>
           <SubTitle>4. Paiement, arrhes et conditions d’annulation</SubTitle>
           <AllText>
-            <br />
             Un versement d’arrhes est demandé pour toute prise de rendez-vous.
             <br />
             Ce montant est déduit du prix final ( de la dernière séances si
@@ -175,7 +171,6 @@ const CGV = () => {
           </AllText>
           <SubTitle>5. Comportement et droit de refus</SubTitle>
           <AllText>
-            <br />
             Je me réserve le droit d’annuler ou refuser toute prestation si le
             client adopte un comportement inapproprié,
             <br />
@@ -192,7 +187,6 @@ const CGV = () => {
           </AllText>
           <SubTitle>6. Hygiène, soins et responsabilité</SubTitle>
           <AllText>
-            <br />
             Je travaille selon les normes d’hygiène strictes exigées par la
             réglementation.
             <br />
@@ -207,7 +201,6 @@ const CGV = () => {
           </AllText>
           <SubTitle>7. Contre-indications</SubTitle>
           <AllText>
-            <br />
             Le client déclare ne présenter aucune contre-indication médicale (ex
             : grossesse, traitement médical, allergies, maladie de la peau).
             <br />
@@ -218,7 +211,6 @@ const CGV = () => {
           </AllText>
           <SubTitle>8. Droit d’auteur</SubTitle>
           <AllText>
-            <br />
             Les dessins et tatouages sont des œuvres originales protégées par le
             droit d’auteur.
             <br />
@@ -229,7 +221,6 @@ const CGV = () => {
           </AllText>
           <SubTitle>9. Données personnelles</SubTitle>
           <AllText>
-            <br />
             Les données collectées (nom, e-mail, etc.) sont utilisées uniquement
             pour le traitement des demandes.
             <br />
@@ -242,7 +233,6 @@ const CGV = () => {
             En validant sa demande de rendez-vous, le client déclare avoir lu et
             accepté les présentes conditions générales de vente.
           </AllText>
-
           <img
             src={Logo}
             alt="logo"
