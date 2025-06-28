@@ -143,16 +143,16 @@ const Home = () => {
               textAlign: "center", // Centre le texte
             }}
           >
-            HEAVY BLACKOUT
+            DARK BLACKWORK
           </SubTitleWebsiteDeveloper>
           <SubTitleWebsiteDesigner
             style={{
               fontSize: isMobile ? "30px" : "50px",
-              padding: isMobile ? "29rem 2rem" : "24rem 14rem", // Ajuste le padding pour centrer
+              padding: isMobile ? "29rem 2rem" : "24rem 12rem", // Ajuste le padding pour centrer
               textAlign: "center", // Centre le texte
             }}
           >
-            BLACKWORK
+            WHIPSHADING
           </SubTitleWebsiteDesigner>
         </motion.div>
       </div>

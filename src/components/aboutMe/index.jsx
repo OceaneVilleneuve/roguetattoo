@@ -70,6 +70,9 @@ const AboutMe = () => {
           >
             JE SUIS <Name>ROGUE</Name>, UNE TATOUEUSE SITUEE A NANTES EN
             FRANCE. JE SUIS SPECIALISEE DANS LE BLACKWORK.
+            <br/>
+            <br/>
+            J'AIME PARTICULIEREMENT TATOUER LES ANIMAUX, PLANTES, MONSTRES ET CREATURE DE L'OMBRE.
             <br />
             <br />
               JE SUIS OUVERTE A TOUTE DEMANDE DE PROJETS
