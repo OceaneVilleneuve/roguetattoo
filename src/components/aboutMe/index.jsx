@@ -75,10 +75,6 @@ const AboutMe = () => {
             J'AIME PARTICULIEREMENT TATOUER LES ANIMAUX, PLANTES, MONSTRES ET CREATURES DE L'OMBRE.
             <br />
             <br />
-              JE SUIS OUVERTE A TOUTE DEMANDE DE PROJETS
-            PERSONNELS DANS MON STYLE.
-            <br />
-            <br />
             JE VOUS ACCUEILLE DANS MON ATELIER PRIVE UNIQUEMENT SUR RENDEZ-VOUS.
           </AboutMeTitle>
         </div>
