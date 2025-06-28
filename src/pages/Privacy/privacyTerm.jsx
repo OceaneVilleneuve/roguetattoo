@@ -35,6 +35,8 @@ const SubTitle = styled.h2`
 
 const AllText = styled.p`
   text-align: center;
+  padding-left: 2rem;
+  padding-right: 2rem;
   @media (max-width: 768px) {
     font-size: 12px;
     padding-left: 1.8rem;

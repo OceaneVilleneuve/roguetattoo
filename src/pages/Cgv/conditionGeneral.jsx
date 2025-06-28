@@ -42,6 +42,8 @@ const SubTitle = styled.h2`
 
 const AllText = styled.p`
   text-align: center;
+  padding-left: 2rem;
+  padding-right: 2rem;
   @media (max-width: 768px) {
     font-size: 12px;
     padding-left: 1.8rem;
@@ -108,8 +110,10 @@ const CGV = () => {
             privé situé à st herblain.
             <br />
             <br />
-            Pour des raisons de confidentialité et de sécurité, l’adresse exacte
-            est transmise uniquement après validation du rendez-vous.
+            Le salon se situant dans une dépendance de mon domicile réservé au tatouage.
+            <br/>
+            L’adresse exacte ne sera transmise uniquement après validation du rendez-vous,
+            pour des raisons de confidentialité et de sécurité.
           </AllText>
           <br />
           <br />
