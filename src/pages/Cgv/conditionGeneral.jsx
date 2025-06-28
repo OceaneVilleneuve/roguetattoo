@@ -92,7 +92,7 @@ const CGV = () => {
             }}
           />
 
-          <Title>CONDITIONS GENERAL DE VENTE</Title>
+          <Title>CONDITIONS GENERALES DE VENTE</Title>
           <Private>TATOUEUSE – SALON PRIVE SUR RENDEZ-VOUS UNIQUEMENT</Private>
           <SubTitle>1. Informations légales</SubTitle>
           <AllText>
