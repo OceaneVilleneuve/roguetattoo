@@ -177,9 +177,12 @@ const CGV = () => {
             <br />
             Tout report ou annulation doit être signalé au moins 48h à l’avance.
             <br />
-            Les arrhes ne sont pas remboursable en cas d'annulation de la part du client mais
-            d'autres arrhes ne sont pas nécéssaire pour un repors de
-            rendez-vous.
+            Au delà de trois report je considère que tu annules le projet.
+            <br />
+            Les arrhes ne sont pas remboursable en cas d'annulation de la part du client
+            <br />
+            D'autres arrhes ne sont pas nécéssaire pour un repors de
+            rendez-vous sauf après trois annulations.
             <br />
             <br />
           </AllText>
