@@ -51,7 +51,7 @@ const Links = () => {
         >
           <PictureContainer
             ref={ref}
-            style={{ paddingTop: isMobile ? "9rem" : "2rem" }}
+            style={{ paddingTop: "2rem" }}
           >
             <img
               src={Me}
