@@ -246,7 +246,30 @@ const CGV = () => {
             <br />
             <br />
           </AllText>
-          <SubTitle>10. Acceptation des conditions</SubTitle>
+          <SubTitle>10. Litige - Médiation de la consommation</SubTitle>
+          <AllText>
+          En cas de litige entre le Client et l’entreprise, ceux-ci s’efforceront de le résoudre à l’amiable
+          <br />
+          (le Client adressera une réclamation écrite auprès du professionnel ou, le cas échéant,
+          <br/>
+          auprès du Service Relations Clientèle du professionnel).
+          <br/>
+          A défaut d’accord amiable ou en l’absence de réponse du professionnel dans un délai raisonnable d’un (1) mois,
+          <br/>
+          le Client consommateur au sens de l’article L.612-2 du code de la consommation a la possibilité de saisir gratuitement,
+          <br/>
+          si un désaccord subsiste, le médiateur compétent inscrit sur la liste des médiateurs établie par la Commission d’évaluation
+          <br/>
+          et de contrôle de la médiation de la consommation en application de l’article L.615-1 du code de la consommation, à savoir :
+          <br/>
+          <br/>
+          La Société Médiation Professionnelle
+          <br/>
+          http://www.mediateur-consommation-smp.fr
+          <br/>
+          Alteritae 5 rue Salvaing 12000 Rodez
+          </AllText>
+          <SubTitle>11. Acceptation des conditions</SubTitle>
           <AllText>
             En validant sa demande de rendez-vous, le client déclare avoir lu et
             accepté les présentes conditions générales de vente.
