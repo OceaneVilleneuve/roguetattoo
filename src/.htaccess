@@ -1,0 +1,18 @@
+# Forcer HTTPS
+RewriteEngine On
+RewriteBase /
+
+RewriteCond %{ENV:HTTPS} !on
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+# --- SPA routing pour React ---
+# (désactive MultiViews si actif côté OVH)
+Options -MultiViews
+
+# Laisse passer les fichiers/dossiers réels (images, css, js, fonts, etc.)
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+# Tout le reste -> index.html (React gère ensuite /links, /about, etc.)
+RewriteRule . /index.html [L]
