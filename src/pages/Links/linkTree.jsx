@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import styled from "styled-components";
 import { motion } from "framer-motion";
 import Me from "../../assets/IMG_6.PNG";
-import Logo from "../../assets/IMG_3077.PNG";
 import Logoname from "../../assets/IMG_1807.PNG";
 import { useMediaQuery } from "react-responsive";
 import { useInView } from "react-intersection-observer";
