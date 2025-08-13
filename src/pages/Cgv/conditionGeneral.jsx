@@ -251,16 +251,16 @@ const CGV = () => {
           En cas de litige entre le Client et l’entreprise, ceux-ci s’efforceront de le résoudre à l’amiable
           <br />
           (le Client adressera une réclamation écrite auprès du professionnel ou, le cas échéant,
-          <br/>
           auprès du Service Relations Clientèle du professionnel).
+          <br/>
           <br/>
           A défaut d’accord amiable ou en l’absence de réponse du professionnel dans un délai raisonnable d’un (1) mois,
           <br/>
           le Client consommateur au sens de l’article L.612-2 du code de la consommation a la possibilité de saisir gratuitement,
           <br/>
-          si un désaccord subsiste, le médiateur compétent inscrit sur la liste des médiateurs établie par la Commission d’évaluation
+          si un désaccord subsiste, le médiateur compétent inscrit sur la liste des médiateurs établie par la Commission d’évaluation et
           <br/>
-          et de contrôle de la médiation de la consommation en application de l’article L.615-1 du code de la consommation, à savoir :
+          de contrôle de la médiation de la consommation en application de l’article L.615-1 du code de la consommation, à savoir :
           <br/>
           <br/>
           La Société Médiation Professionnelle
