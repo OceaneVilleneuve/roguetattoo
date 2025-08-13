@@ -1,10 +1,11 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import styled from "styled-components";
 import { motion } from "framer-motion";
+import Me from "../../assets/IMG_6.PNG";
 import Logo from "../../assets/IMG_3077.PNG";
+import Logoname from "../../assets/IMG_1807.PNG";
 import { useMediaQuery } from "react-responsive";
 import { useInView } from "react-intersection-observer";
-
 
 const CgvContainer = styled.div`
   position: relative;
@@ -15,14 +16,12 @@ const CgvContainer = styled.div`
 
 const Title = styled.h1`
   text-align: center;
-  padding-top: 1rem;
-  @media (max-width: 768px) {
-    font-size: 20px;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-  }
+  font-size: 17px;
 `;
 
+const PictureContainer = styled.div`
+  justify-content: center;
+`;
 
 const Links = () => {
   const isMobile = useMediaQuery({ maxWidth: 767 });
@@ -39,13 +38,7 @@ const Links = () => {
   }, [inView]);
 
   return (
-    <CgvContainer
-      id="terms"
-      ref={ref}
-      style={{
-        minHeight: isMobile ? "65vh" : "96vh",
-      }}
-    >
+    <CgvContainer id="terms" ref={ref}>
       <motion.div
         key={animationKey}
         initial={{ x: +50, opacity: 0 }}
@@ -57,16 +50,35 @@ const Links = () => {
             textAlign: "center",
           }}
         >
-          <img
-            src={Logo}
-            alt="logo"
-            style={{
-              height: isMobile ? "5rem" : "9rem",
-            }}
-          />
-
-          <Title>Links</Title>
-          </div>
+          <PictureContainer
+            ref={ref}
+            style={{ paddingTop: isMobile ? "9rem" : "2rem" }}
+          >
+            <img
+              src={Me}
+              alt="me"
+              style={{
+                height: isMobile ? "10rem" : "10rem",
+                width: isMobile ? "10rem" : "10rem",
+                borderRadius: "100%",
+                objectFit: "cover",
+              }}
+            />
+          </PictureContainer>
+          <PictureContainer ref={ref}>
+            <img
+              src={Logoname}
+              alt="me"
+              style={{
+                height: "12rem",
+                marginTop: "-4.5rem",
+                zIndex: "1",
+                paddingRight : "22px",
+              }}
+            />
+          </PictureContainer>
+          <Title>‌✧  A VAMPIRE TATTOO ARTIST FASCINATED BY NATURE AND DARK CREATURES.  ✧</Title>
+        </div>
       </motion.div>
     </CgvContainer>
   );
