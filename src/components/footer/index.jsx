@@ -8,7 +8,7 @@ const FooterContainer = styled.div`
 `;
 const FooterInformation = styled.p`
   color: #fff;
-  font-family: "Mina";
+  font-family: "Bakervville";
   font-size: 10px;
   display: flex;
   justify-content: center;

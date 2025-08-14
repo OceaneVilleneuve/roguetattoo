@@ -3,6 +3,7 @@ import styled from "styled-components";
 const ButtonToggle = styled.button`
   text-decoration: none;
   border: none;
+    font-family: "Midnight Flame", serif;
   background-color: transparent;
 `;
 const IconWrapper = styled.span`

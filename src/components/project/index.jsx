@@ -69,7 +69,7 @@ const PictureProject = styled.img`
 
 const PictureText = styled.p`
   text-align: center;
-  font-family: "Angel Wish";
+  font-family: "Midnight Flame";
   font-size: 40px;
 
   @media (max-width: 768px) {

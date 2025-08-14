@@ -58,6 +58,20 @@ code {
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Bakervville';
+  src: url('./fonts/Baskervville/Baskervville-VariableFont_wght.ttf') format('truetype');
+  font-weight: lighter;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Midnight Flame';
+  src: url('./fonts/midnight-flame/MidnightFlameGothicDemo-1GWMM.otf') format('truetype');
+  font-weight: lighter;
+  font-style: normal;
+}
+
 h1 {
     font-family: 'Ade Display', serif;
   font-weight: lighter;
@@ -77,16 +91,16 @@ h3 {
 @import '~typeface-mina';
 
 p {
-  font-family: "Mina", sans-serif;
+  font-family: "Bakervville", sans-serif;
 }
 
 a{
-  font-family: "Mina", sans-serif;
+  font-family: "Bakervville", sans-serif;
 }
 
 
 button {
-  font-family: "Mina", sans-serif;
+  font-family: "Bakervville", sans-serif;
 }
 .swiper {
   width: 100%;

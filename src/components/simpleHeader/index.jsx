@@ -25,6 +25,7 @@ const HeaderReturn = styled(Link)`
   &:hover {
     cursor: pointer;
   }
+  font-family: "Midnight Flame", serif;
 `;
 
 const SimpleHeader = () => {
@@ -37,7 +38,7 @@ const SimpleHeader = () => {
           textDecoration: "none",
           flex: "1",
           color: "inherit",
-          fontSize: "9px",
+          fontSize: "12px",
         }}
         to="/"
       >

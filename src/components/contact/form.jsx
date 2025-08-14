@@ -5,7 +5,7 @@ import { useMediaQuery } from "react-responsive";
 import LoadingSpinner from "./loadingSpinner";
 
 const Label = styled.label`
-  font-family: "Mina";
+  font-family: "Bakervville";
   color: white;
   font-size: 12px;
 `;

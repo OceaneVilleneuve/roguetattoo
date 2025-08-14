@@ -12,6 +12,7 @@ const MenuButton = styled.button`
   &:hover {
     cursor: pointer;
   }
+  font-family: "Midnight Flame", serif;
 `;
 
 const IconWrapper = styled.div`
@@ -33,11 +34,11 @@ const MenuWrapperNumber = styled.div`
 `;
 
 const menuData = [
-  { label: "à propos de moi", id: "aboutMePage" },
+  { label: "a propos de moi", id: "aboutMePage" },
   { label: "processus", id: "processPage" },
   { label: "mes flashs", id: "projectsPage" },
   { label: "contact", id: "contactPage" },
-  { label: "réseaux sociaux", id: "socialsPage" },
+  { label: "reseaux sociaux", id: "socialsPage" },
 ];
 const Menu = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);

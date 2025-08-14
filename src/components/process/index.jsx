@@ -24,9 +24,8 @@ const LinkDiv = styled.div`
 
 const StyledLink = styled(Link)`
   text-decoration: none;
-  text-decoration: underline;
   color: inherit;
-  font-family: "Ade Display", serif;
+  font-family: "Midnight Flame", serif;
   font-weight: lighter;
   font-size: 28px;
 
@@ -129,7 +128,7 @@ const Process = () => {
             }}
           >
             {" "}
-            CONDITIONS GENERALES DE VENTE
+            Conditions generales de vente
           </StyledLink>
         </LinkDiv>
       </motion.div>

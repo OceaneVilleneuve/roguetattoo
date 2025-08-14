@@ -12,14 +12,14 @@ const Logo = styled.div`
 `;
 
 const Description = styled.p`
-  font-family: "Mina";
+  font-family: "Bakervville";
   font-size: 10px;
   margin-bottom: 6em;
   margin-top: -1em;
 `;
 
 const PersonnalInfo = styled.div`
-  font-family: "Mina";
+  font-family: "Bakervville";
   font-size: 12px;
   margin-top: 3em;
   position: relative;
@@ -54,7 +54,7 @@ function Contact() {
             textAlign: isMobile ? "center" : null,
           }}
         >
-          Je suis disponible pour répondre à tes demandes de projet.
+          Je suis disponible pour repondre a tes demandes de projet.
         </Description>
       </div>
       <PageContact
