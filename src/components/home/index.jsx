@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useMediaQuery } from "react-responsive";
 import styled from "styled-components";
 import ProfilPicture from "../../assets/IMG_3.png";
+import Logoname from "../../assets/IMG_1807.PNG";
 import "./infiniteScolling.css";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
@@ -9,9 +10,9 @@ import { useInView } from "react-intersection-observer";
 const HeightPage = styled.div`
   min-height: 100vh;
 `;
-const TitleWebsite = styled.h1`
+const TitleWebsite = styled(motion.img)`
   position: absolute; /* Modifier cette ligne */
-  z-index: -2;
+  z-index: -5;
 `;
 
 const SubTitleWebsiteWeb = styled.h2`
@@ -92,30 +93,13 @@ const Home = () => {
           <TitleWebsite
             className="glitch"
             style={{
-              padding: isMobile ? "10px 40px" : "0px 190px", // Ajuste le padding pour centrer
-              textAlign: "center", // Centre le texte
-            }}
+              padding: isMobile ? "30px 10px" : "0px 140px", // Ajuste le padding pour centrer
+            zIndex: 1,
+            height: isMobile ? "200px" : "330px",
+          }}
+          src={Logoname}
+          alt="Rogue"
           >
-            <span
-              style={{
-                fontFamily: "Familia Herlequin",
-                fontSize: isMobile ? "115px" : "200px",
-                color: "white",
-              }}
-            >
-              COUNTESS
-            </span>
-            <br />
-            <span
-              style={{
-                fontFamily: "Metal Vengeance",
-                fontWeight: "lighter",
-                fontSize: isMobile ? "45px" : "75px",
-                color: "#70e000",
-              }}
-            >
-              ROGUE
-            </span>
           </TitleWebsite>
         </motion.div>
       </div>
@@ -130,7 +114,7 @@ const Home = () => {
           <SubTitleWebsiteWeb
             style={{
               fontSize: isMobile ? "30px" : "50px",
-              padding: isMobile ? "25rem 2rem" : "16rem 16rem", // Ajuste le padding pour centrer
+              padding: isMobile ? "20rem 2rem" : "16rem 16rem", // Ajuste le padding pour centrer
               textAlign: "center", // Centre le texte
             }}
           >
@@ -139,7 +123,7 @@ const Home = () => {
           <SubTitleWebsiteDeveloper
             style={{
               fontSize: isMobile ? "30px" : "50px",
-              padding: isMobile ? "27rem 2rem" : "20rem 7rem", // Ajuste le padding pour centrer
+              padding: isMobile ? "22rem 2rem" : "20rem 7rem", // Ajuste le padding pour centrer
               textAlign: "center", // Centre le texte
             }}
           >
@@ -148,7 +132,7 @@ const Home = () => {
           <SubTitleWebsiteDesigner
             style={{
               fontSize: isMobile ? "30px" : "50px",
-              padding: isMobile ? "29rem 2rem" : "24rem 12rem", // Ajuste le padding pour centrer
+              padding: isMobile ? "24rem 2rem" : "24rem 12rem", // Ajuste le padding pour centrer
               textAlign: "center", // Centre le texte
             }}
           >
@@ -166,11 +150,11 @@ const Home = () => {
         <div
           style={{
             position: "absolute",
-            padding: isMobile ? "32rem 0px 0px 33px" : " 23rem 0px 0px 85px",
+            padding: isMobile ? "30rem 0px 0px 33px" : " 23rem 0px 0px 85px",
           }}
         >
           <SocialLink
-            style={{ fontSize: isMobile ? "10px" : "25px" }}
+            style={{ fontSize: isMobile ? "15px" : "25px" }}
             href="https://www.instagram.com/countess_rogue/"
             target="_blank"
           >
@@ -180,7 +164,7 @@ const Home = () => {
           <SocialLink
             href="https://www.tiktok.com/@countess_rogue?_t=8m113AW3SaH&_r=1"
             target="_blank"
-            style={{ fontSize: isMobile ? "10px" : "25px" }}
+            style={{ fontSize: isMobile ? "15px" : "25px" }}
           >
             TIKTOK
           </SocialLink>
@@ -197,8 +181,8 @@ const Home = () => {
           transition={{ ease: "easeOut", duration: 1 }}
           style={{
             zIndex: -3,
-            height: isMobile ? "290px" : "420px",
-            width: isMobile ? "290px" : "420px",
+            height: isMobile ? "220px" : "420px",
+            width: isMobile ? "220px" : "420px",
           }}
           src={ProfilPicture}
           alt="Rogue"
