@@ -34,7 +34,7 @@ const Footer = () => {
   return (
     <FooterContainer
       style={{
-        paddingTop: isMobile ? "8em" : "2em",
+        paddingTop: isMobile ? "1.3rem" : "2rem",
       }}
     >
       <FooterInformation>
@@ -50,8 +50,8 @@ const Footer = () => {
           }}
           to="/cgv"
           onClick={() => {
-    window.scrollTo(0, 0); // scroll vers le haut au moment du clic
-  }}
+            window.scrollTo(0, 0); // scroll vers le haut au moment du clic
+          }}
         >
           CGV
         </Link>
@@ -64,8 +64,8 @@ const Footer = () => {
           }}
           to="/privacy"
           onClick={() => {
-    window.scrollTo(0, 0); // scroll vers le haut au moment du clic
-  }}
+            window.scrollTo(0, 0); // scroll vers le haut au moment du clic
+          }}
         >
           CONFIDENTIALITÉ
         </Link>

@@ -95,7 +95,7 @@ const Home = () => {
             style={{
               padding: isMobile ? "30px 10px" : "0px 140px", // Ajuste le padding pour centrer
             zIndex: 1,
-            height: isMobile ? "200px" : "330px",
+            height: isMobile ? "230px" : "330px",
           }}
           src={Logoname}
           alt="Rogue"

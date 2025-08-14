@@ -14,6 +14,9 @@ import Links from './pages/Links/linkTree.jsx'; // ta page d'accueil
 import Cgv from './pages/Cgv/conditionGeneral.jsx'; // page CGV
 import Privacy from './pages/Privacy/privacyTerm.jsx'; // page confidentialité
 
+import '@fortawesome/fontawesome-free/css/all.min.css';
+
+
 reportWebVitals();
 
 const CondionnalHeader = ({path}) => {
