@@ -104,7 +104,7 @@ const Links = () => {
             }}
           >
             <SocialLink
-              href="https://www.instagram.com/ton_compte"
+              href="https://www.instagram.com/countess_rogue/"
               target="_blank"
               style={{
                 fontSize: "34px",
