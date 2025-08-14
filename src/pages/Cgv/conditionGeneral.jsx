@@ -30,7 +30,7 @@ const Private = styled.h3`
 `;
 const SubTitle = styled.h2`
   text-align: center;
-  font-family: "Angel Wish";
+  font-family: "Midnight Flame";
   font-size: 30px;
   padding-top: 2rem;
   padding-bottom: 0.5rem;
@@ -94,7 +94,7 @@ const CGV = () => {
 
           <Title>CONDITIONS GENERALES DE VENTE</Title>
           <Private>TATOUEUSE – SALON PRIVE SUR RENDEZ-VOUS UNIQUEMENT</Private>
-          <SubTitle>1. Informations légales</SubTitle>
+          <SubTitle>1. Informations legales</SubTitle>
           <AllText>
             ⊛ Nom de l’artiste : Countess Rogue
             <br />
@@ -133,7 +133,7 @@ const CGV = () => {
             <br />
             <br />
           </AllText>
-          <SubTitle>3. Déroulement du projet et modifications</SubTitle>
+          <SubTitle>3. Deroulement du projet et modifications</SubTitle>
           <AllText>
             Avant le rendez-vous et après versement des arrhes, un croquis
             initial est envoyé pour validation de l’idée.
@@ -146,7 +146,7 @@ const CGV = () => {
             <br />
             <br />
           </AllText>
-          <SubTitle>4. Paiement, arrhes et conditions d’annulation</SubTitle>
+          <SubTitle>4. Paiement, arrhes et conditions d annulation</SubTitle>
           <AllText>
             Un versement d’arrhes est demandé pour toute prise de rendez-vous.
             <br />
@@ -203,7 +203,7 @@ const CGV = () => {
             <br />
             <br />
           </AllText>
-          <SubTitle>6. Hygiène, soins et responsabilité</SubTitle>
+          <SubTitle>6. Hygiene, soins et responsabilite</SubTitle>
           <AllText>
             Je travaille selon les normes d’hygiène strictes exigées par la
             réglementation.
@@ -227,7 +227,7 @@ const CGV = () => {
             <br />
             <br />
           </AllText>
-          <SubTitle>8. Droit d’auteur</SubTitle>
+          <SubTitle>8. Droit d auteur</SubTitle>
           <AllText>
             Les dessins et tatouages sont des œuvres originales protégées par le
             droit d’auteur.
@@ -237,7 +237,7 @@ const CGV = () => {
             <br />
             <br />
           </AllText>
-          <SubTitle>9. Données personnelles</SubTitle>
+          <SubTitle>9. Donnees personnelles</SubTitle>
           <AllText>
             Les données collectées (nom, e-mail, etc.) sont utilisées uniquement
             pour le traitement des demandes.
@@ -246,7 +246,7 @@ const CGV = () => {
             <br />
             <br />
           </AllText>
-          <SubTitle>10. Litige - Médiation de la consommation</SubTitle>
+          <SubTitle>10. Litige - Mediation de la consommation</SubTitle>
           <AllText>
           En cas de litige entre le Client et l’entreprise, ceux-ci s’efforceront de le résoudre à l’amiable
           <br />

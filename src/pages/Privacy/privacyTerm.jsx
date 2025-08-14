@@ -23,7 +23,7 @@ const Title = styled.h1`
 
 const SubTitle = styled.h2`
   text-align: center;
-  font-family: "Angel Wish";
+  font-family: "Midnight Flame";
   font-size: 30px;
   padding-top: 2rem;
   padding-bottom: 0.5rem;
@@ -87,7 +87,7 @@ const Privacy = () => {
 
           <Title>POLITIQUE DE CONFIDENTIALITE</Title>
 
-          <SubTitle>1. Collecte des données personnelles</SubTitle>
+          <SubTitle>1. Collecte des donnees personnelles</SubTitle>
           <AllText>
             En tant que tatoueuse professionnelle, je peux être amenée à
             collecter certaines données personnelles via ce site, notamment:
@@ -110,7 +110,7 @@ const Privacy = () => {
             <br />
           </AllText>
 
-          <SubTitle>2. Utilisation des données</SubTitle>
+          <SubTitle>2. Utilisation des donnees</SubTitle>
           <AllText>
             Les données sont utilisées uniquement pour :
             <br />
@@ -129,7 +129,7 @@ const Privacy = () => {
             <br />
           </AllText>
 
-          <SubTitle>3. Stockage et sécurité</SubTitle>
+          <SubTitle>3. Stockage et securite</SubTitle>
           <AllText>
             Les données sont conservées dans un environnement sécurisé (boîte
             mail professionnelle, outils de réservation ou formulaires).
@@ -137,7 +137,7 @@ const Privacy = () => {
             <br />
           </AllText>
 
-          <SubTitle>4. Droits de la personne concernée</SubTitle>
+          <SubTitle>4. Droits de la personne concernee</SubTitle>
           <AllText>
             Conformément au RGPD, vous disposez des droits suivants :
             <br />
