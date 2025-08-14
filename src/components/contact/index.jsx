@@ -13,7 +13,6 @@ const Logo = styled.div`
 
 const Description = styled.p`
   font-family: "Midnight Flame";
-  font-size: 10px;
   margin-bottom: 6em;
   margin-top: -1em;
 `;
@@ -52,6 +51,7 @@ function Contact() {
           style={{
             marginLeft: isMobile ? null : "10em",
             textAlign: isMobile ? "center" : null,
+            fontSize: isMobile ? "13px" : "10px",
           }}
         >
           Je suis disponible pour repondre a tes demandes de projet.
