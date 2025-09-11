@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import styled from "styled-components";
 import { motion } from "framer-motion";
-import Me from "../../assets/IMG_6.PNG";
+import Me from "../../assets/IMG_111.JPG";
 import Logoname from "../../assets/IMG_1807.PNG";
 import Logo from "../../assets/IMG_3077.PNG";
 import { useInView } from "react-intersection-observer";
@@ -68,8 +68,8 @@ const Links = () => {
               src={Me}
               alt="me"
               style={{
-                height: "9rem",
-                width: "9rem",
+                height: "7rem",
+                width: "7rem",
                 borderRadius: "100%",
                 objectFit: "cover",
               }}
@@ -80,8 +80,8 @@ const Links = () => {
               src={Logoname}
               alt="me"
               style={{
-                height: "11rem",
-                marginTop: "-5rem",
+                height: "8rem",
+                marginTop: "-4rem",
                 zIndex: "1",
                 paddingRight: "22px",
               }}
@@ -90,7 +90,7 @@ const Links = () => {
           <Description
             style={{
               fontFamily: "Bakervville",
-              marginTop: "-1rem",
+              marginTop: "-0.8rem",
             }}
           >
             ‌✧ A vampire tattoo artist fascinated by nature and dark creatures.
@@ -101,13 +101,14 @@ const Links = () => {
               display: "flex",
               justifyContent: "center",
               paddingTop: "1.5rem",
+              marginTop: "-1rem",
             }}
           >
             <SocialLink
               href="https://www.instagram.com/countess_rogue/"
               target="_blank"
               style={{
-                fontSize: "34px",
+                fontSize: "30px",
                 paddingRight: "15px",
               }}
             >
@@ -118,7 +119,7 @@ const Links = () => {
               href="https://www.tiktok.com/@countess_rogue"
               target="_blank"
               style={{
-                fontSize: "31px",
+                fontSize: "27px",
                 paddingLeft: "15px",
               }}
             >
@@ -129,7 +130,7 @@ const Links = () => {
         <div
           style={{
             textAlign: "center",
-            paddingTop: "1.5rem",
+            paddingTop: "1rem",
           }}
         >
           <img
