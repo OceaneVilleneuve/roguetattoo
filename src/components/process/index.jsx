@@ -63,7 +63,7 @@ const Process = () => {
     },
     {
       title: "PRISE DE RENDEZ-VOUS",
-      text: "Une fois nos échanges sur ton projet terminés et que tout est validé, je te demanderai des arrhes via paypal afin de pouvoir réserver la ou les dates de rendez-vous. Les arrhes seront conservé en cas d'annulation de ta part, mais aucun arrhes supplémentaire ne sera demandé en cas de report de rendez-vous réalisé au minimum 48h à l'avance. Le montant des arrhes correspond à 25% du prix du tatouage. Toutefois un montant minimum de 50€ s'applique à chaque prestation, quel que soit le prix final. Ainsi, pour toute prestation dont le prix final est inférieur à 200€, les arrhes facturées seront automatiquement ajustées à 50€ TTC.",
+      text: "Une fois nos échanges sur ton projet terminés et que tout est validé, je te demanderai des arrhes via un lien myPos envoyé par mail réglable par carte bancaire afin de pouvoir réserver la ou les dates de rendez-vous. Les arrhes seront conservé en cas d'annulation de ta part, mais aucun arrhes supplémentaire ne sera demandé en cas de report de rendez-vous réalisé au minimum 48h à l'avance. Le montant des arrhes correspond à 25% du prix du tatouage. Toutefois un montant minimum de 50€ s'applique à chaque prestation, quel que soit le prix final. Ainsi, pour toute prestation dont le prix final est inférieur à 200€, les arrhes facturées seront automatiquement ajustées à 50€ TTC.",
     },
     {
       title: "RENDEZ-VOUS",
