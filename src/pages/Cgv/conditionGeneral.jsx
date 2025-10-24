@@ -139,10 +139,17 @@ const CGV = () => {
             initial est envoyé pour validation de l’idée.
             <br />
             <br />
+            Un devis estimatif est également fourni à ce moment-là, à titre indicatif.
+            <br />
+            Le montant final peut varier en fonction de la taille réelle, de la complexité du dessin ou du temps nécessaire le jour de la séance.
+            <br />
+            <br />
             Jusqu’à 2 ou 3 modifications/retours sont acceptés,
             dans un esprit de collaboration respectueuse.
             <br />
             Au-delà, des frais supplémentaires pourront être appliqués.
+            <br />
+            Le versement des arrhes confirme la réservation, ainsi que l’engagement du client sur le projet défini.
             <br />
             <br />
           </AllText>
@@ -163,7 +170,10 @@ const CGV = () => {
             <strong><em> automatiquement ajustées à 50€ TTC</em></strong>.
             <br />
             <br />
-            Les arrhes sont à régler par virement bancaire ou PayPal.
+            Les arrhes sont à régler par carte bancaire via le lien MyPos envoyé par mes soins.
+            <br />
+            <br />
+            Une facture est émise après chaque séance, correspondant au montant réglé le jour même.
             <br />
             <br />
             Conformément à l’article 1590 du Code civil, les arrhes ne sont pas
