@@ -2,13 +2,14 @@ import React from "react";
 import styled from "styled-components";
 import Form from "./form";
 import { useMediaQuery } from "react-responsive";
+import Logocontact from "../../assets/logocontact.PNG";
 
 const PageContact = styled.div`
   justify-content: space-between;
 `;
 
-const Logo = styled.div`
-  margin-bottom: 2em;
+const Logo = styled.img`
+
 `;
 
 const Description = styled.p`
@@ -78,28 +79,14 @@ function Contact() {
             marginLeft: isMobile ? "5em" : null,
           }}
         >
-          <Logo>
-            <span
-              style={{
-                fontFamily: "Familia Herlequin",
-                fontSize: "180px",
-                display: isMobile ? "none" : "true",
-              }}
-            >
-              COUNTESS
-            </span>
-            <br />
-            <span
-              style={{
-                fontFamily: "Metal Vengeance",
-                fontWeight: "lighter",
-                fontSize: "70px",
-                paddingLeft: "3rem",
-                display: isMobile ? "none" : "true",
-              }}
-            >
-              ROGUE
-            </span>
+          <Logo
+            style={{
+            display: isMobile ? "none" : "true",
+            height: "330px",
+          }}
+          src={Logocontact}
+          alt="Rogue"
+          >
           </Logo>
         </PersonnalInfo>
       </PageContact>
