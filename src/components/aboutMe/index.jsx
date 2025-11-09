@@ -73,7 +73,7 @@ const AboutMe = () => {
             <br/>
             <br/>
             JE SUIS SPECIALISEE DANS LE TATOUAGE DES DOIGTS ET DES MAINS,
-            MAIS JE TATOUE QUAND MEME LES AUTRES PARTIES DU CORPSs
+            MAIS JE TATOUE QUAND MEME LES AUTRES PARTIES DU CORPS.
             <br />
             <br />
             JE VOUS ACCUEILLE DANS MON ATELIER PRIVE UNIQUEMENT SUR RENDEZ-VOUS.
