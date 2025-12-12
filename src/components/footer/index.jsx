@@ -34,7 +34,7 @@ const Footer = () => {
   return (
     <FooterContainer
       style={{
-        paddingTop: isMobile ? "1.3rem" : "0rem",
+        paddingTop: isMobile ? "3.3rem" : "0rem",
       }}
     >
       <FooterInformation>
