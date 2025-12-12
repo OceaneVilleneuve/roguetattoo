@@ -162,6 +162,25 @@ const Links = () => {
             </ButtonLink>
             ‌✧
             <ButtonLink
+              href="https://app.gotattoo.co/Countess_rogue"
+              target="_blank"
+            >
+              <p
+                style={{
+                  fontFamily: "Midnight Flame",
+                  fontWeight: "light",
+                  padding: "10px 0px ",
+                  fontSize: "18px",
+                  border: "2px solid white",
+                  margin: "1rem 1rem",
+                  borderRadius: "10px",
+                }}
+              >
+                Prise rdv paiement en 3x
+              </p>
+            </ButtonLink>
+            ‌✧
+            <ButtonLink
               href="mailto:countess.rogue@gmail.com"
               target="_blank"
               style={{}}
