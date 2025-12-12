@@ -36,7 +36,8 @@ const MenuWrapperNumber = styled.div`
 const menuData = [
   { label: "a propos de moi", id: "aboutMePage" },
   { label: "processus", id: "processPage" },
-  { label: "mes flashs", id: "projectsPage" },
+  { label: "mes flashs disponibles", id: "projectsPage" },
+    { label: "quelques realisations", id: "realisationPage" },
   { label: "contact", id: "contactPage" },
   { label: "reseaux sociaux", id: "socialsPage" },
 ];

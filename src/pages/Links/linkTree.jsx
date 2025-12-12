@@ -160,7 +160,7 @@ const Links = () => {
                 Formulaire de prise de contact tatouage
               </p>
             </ButtonLink>
-            ‌✧
+
             <ButtonLink
               href="https://app.gotattoo.co/Countess_Rogue"
               target="_blank"
@@ -176,10 +176,10 @@ const Links = () => {
                   borderRadius: "10px",
                 }}
               >
-                Prise rdv paiement en 3x
+                Prise rdv paiement en 3 fois
               </p>
             </ButtonLink>
-            ‌✧
+
             <ButtonLink
               href="mailto:countess.rogue@gmail.com"
               target="_blank"

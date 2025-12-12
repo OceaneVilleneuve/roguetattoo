@@ -11,8 +11,6 @@ import Projet3 from "../../assets/IMG_1120.JPG";
 import Projet16 from "../../assets/att.Og9bjT3pc5NNRqUUCFhUHCGXcv7AQWTivOiMZfMDvBg.JPG";
 import Projet17 from "../../assets/att.SJP-XbW-9EwpicsG08KVZx40jl3q05b93AdmfLVQgEo.JPG";
 import Projet18 from "../../assets/IMG_2676.JPG";
-import Projet20 from "../../assets/IMG_2694.JPG";
-import Projet21 from "../../assets/IMG_2732.JPG";
 import Projet22 from "../../assets/IMG_2733.JPG";
 import Projet23 from "../../assets/IMG_3137.JPG";
 import Projet24 from "../../assets/IMG_3138.JPG";
@@ -132,7 +130,7 @@ const Project = () => {
             padding: isMobile ? "45px 33px" : "85px 85px 10px 85px",
           }}
         >
-          MES FLASHS
+          MES FLASHS DISPONIBLES
         </h1>
         <div style={{overflow: 'hidden'}}>
           <Swiper
@@ -188,14 +186,6 @@ const Project = () => {
             <SwiperSlide onClick={() => openFullscreen(Projet18)}>
               <PictureProject src={Projet18} alt="slide 18" />
               <PictureText>✥ Jackalope ✥</PictureText>
-            </SwiperSlide>
-            <SwiperSlide onClick={() => openFullscreen(Projet20)}>
-              <PictureProject src={Projet20} alt="slide 20" />
-              <PictureText>✥ Munin and Hugin ✥</PictureText>
-            </SwiperSlide>
-            <SwiperSlide onClick={() => openFullscreen(Projet21)}>
-              <PictureProject src={Projet21} alt="slide 21" />
-              <PictureText>✥ Just a sweetie ✥</PictureText>
             </SwiperSlide>
             <SwiperSlide onClick={() => openFullscreen(Projet3)}>
               <PictureProject src={Projet3} alt="slide 3" />

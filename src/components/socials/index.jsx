@@ -75,8 +75,15 @@ const Socials = () => {
           >
             INSTAGRAM
           </SocialLink>
-          <SocialLink href="https://www.tiktok.com/@countess_rogue?_t=8m113AW3SaH&_r=1">
+          <SocialLink
+                style={{
+              paddingBottom: "4rem",
+            }}
+            href="https://www.tiktok.com/@countess_rogue?_t=8m113AW3SaH&_r=1">
             TIK TOK
+          </SocialLink>
+          <SocialLink href="https://app.gotattoo.co/Countess_Rogue">
+            GO TATTOO
           </SocialLink>
         </div>
         <div

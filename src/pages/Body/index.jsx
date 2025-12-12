@@ -5,6 +5,7 @@ import Project from "../../components/project";
 import AboutMe from "../../components/aboutMe";
 import Contact from "../../components/contact";
 import Socials from "../../components/socials";
+import Realisation from "../../components/realisation";
 import "./Body.css";
 
 const Body = () => {
@@ -48,6 +49,7 @@ const Body = () => {
       <Home />
       <AboutMe />
       <Process />
+      <Realisation />
       <Project />
       <Contact />
       <Socials />

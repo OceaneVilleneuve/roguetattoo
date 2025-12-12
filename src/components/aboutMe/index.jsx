@@ -10,7 +10,6 @@ const AboutMeContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 4.5rem;
 `;
 
 const AboutMeTitle = styled.h2`
@@ -44,6 +43,7 @@ const AboutMe = () => {
       ref={ref}
       style={{
         minHeight: isMobile ? "65vh" : "96vh",
+        marginTop: isMobile ? "4.5rem" : "0rem",
       }}
     >
       <motion.div
@@ -72,8 +72,7 @@ const AboutMe = () => {
             FRANCE.
             <br/>
             <br/>
-            JE SUIS SPECIALISEE DANS LE TATOUAGE DES DOIGTS ET DES MAINS,
-            MAIS JE TATOUE QUAND MEME LES AUTRES PARTIES DU CORPS.
+            J'AIME SURTOUT TATOUER LES ANIMAUX, PLANTES ET CREATURES DE L'OMBRE.
             <br />
             <br />
             JE VOUS ACCUEILLE DANS MON ATELIER PRIVE UNIQUEMENT SUR RENDEZ-VOUS.

@@ -182,7 +182,10 @@ const CGV = () => {
             Le reste du prix du tatouage est à régler le jour de la séance, par
             les moyens de paiement acceptés
             <br />
-            ( espèce, paypal et virement bancaire instantané ).
+            ( espèce, carte bancaire et virement bancaire instantané ).
+            <br />
+            <br />
+            Un paiement en 3x via klana ou paypal est possible pour tout rendez-vous pris via l'application GoTattoo.
             <br />
             <br />
             Tout report ou annulation doit être signalé au moins 48h à l’avance.
