@@ -143,6 +143,25 @@ const Links = () => {
           />
           <div>
             <ButtonLink
+              href="mailto:countess.rogue@gmail.com"
+              target="_blank"
+              style={{}}
+            >
+              <p
+                style={{
+                  fontFamily: "Midnight Flame",
+                  fontWeight: "light",
+                  padding: "10px 0px ",
+                  fontSize: "18px",
+                  border: "2px solid white",
+                  margin: "1rem 1rem",
+                  borderRadius: "10px",
+                }}
+              >
+                M'envoyer un mail
+              </p>
+            </ButtonLink>
+            <ButtonLink
               href="https://docs.google.com/forms/d/e/1FAIpQLScPpJrZXHMu42I-OHSR0qIPMiMQdS0VXw9eBjGhRmBX3PJoSw/viewform"
               target="_blank"
             >
@@ -160,7 +179,6 @@ const Links = () => {
                 Formulaire de prise de contact tatouage
               </p>
             </ButtonLink>
-
             <ButtonLink
               href="https://app.gotattoo.co/Countess_Rogue"
               target="_blank"
@@ -177,26 +195,6 @@ const Links = () => {
                 }}
               >
                 Prise rdv paiement en 3 fois
-              </p>
-            </ButtonLink>
-
-            <ButtonLink
-              href="mailto:countess.rogue@gmail.com"
-              target="_blank"
-              style={{}}
-            >
-              <p
-                style={{
-                  fontFamily: "Midnight Flame",
-                  fontWeight: "light",
-                  padding: "10px 0px ",
-                  fontSize: "18px",
-                  border: "2px solid white",
-                  margin: "1rem 1rem",
-                  borderRadius: "10px",
-                }}
-              >
-                M'envoyer un mail
               </p>
             </ButtonLink>
             ‌✧
