@@ -162,7 +162,7 @@ const Links = () => {
             </ButtonLink>
             ‌✧
             <ButtonLink
-              href="https://app.gotattoo.co/Countess_rogue"
+              href="https://app.gotattoo.co/Countess_Rogue"
               target="_blank"
             >
               <p
