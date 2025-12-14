@@ -110,7 +110,7 @@ const Project = () => {
       style={{
         paddingBottom: isMobile ? null : "6rem",
         minHeight: isMobile ? "84vh" : "90vh",
-        paddingTop: isMobile ? "2rem" : "2rem",
+        paddingTop: isMobile ? "0rem" : "2rem",
         overflow: "hidden",
         width: "100vw"
       }}
