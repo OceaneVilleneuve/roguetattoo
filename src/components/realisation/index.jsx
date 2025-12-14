@@ -147,6 +147,9 @@ const Realisation = () => {
             <SwiperSlide onClick={() => openFullscreen(Projet28)}>
               <PictureProject src={Projet28} alt="slide 28" />
             </SwiperSlide>
+            <SwiperSlide onClick={() => openFullscreen(Projet17)}>
+              <PictureProject src={Projet17} alt="slide 17" />
+            </SwiperSlide>
             <SwiperSlide onClick={() => openFullscreen(Projet27)}>
               <PictureProject src={Projet27} alt="slide 27" />
             </SwiperSlide>
@@ -173,9 +176,6 @@ const Realisation = () => {
             </SwiperSlide>
             <SwiperSlide onClick={() => openFullscreen(Projet30)}>
               <PictureProject src={Projet30} alt="slide 2" />
-            </SwiperSlide>
-            <SwiperSlide onClick={() => openFullscreen(Projet17)}>
-              <PictureProject src={Projet17} alt="slide 17" />
             </SwiperSlide>
             <SwiperSlide onClick={() => openFullscreen(Projet23)}>
               <PictureProject src={Projet23} alt="slide 23" />
