@@ -182,11 +182,11 @@ const Realisation = () => {
             <SwiperSlide onClick={() => openFullscreen(Projet23)}>
               <PictureProject src={Projet23} alt="slide 23" />
             </SwiperSlide>
-            <SwiperSlide onClick={() => openFullscreen(Projet31)}>
-              <PictureProject src={Projet31} alt="slide 31" />
-            </SwiperSlide>
             <SwiperSlide onClick={() => openFullscreen(Projet32)}>
               <PictureProject src={Projet32} alt="slide 32" />
+            </SwiperSlide>
+            <SwiperSlide onClick={() => openFullscreen(Projet31)}>
+              <PictureProject src={Projet31} alt="slide 31" />
             </SwiperSlide>
           </Swiper>
         </div>
