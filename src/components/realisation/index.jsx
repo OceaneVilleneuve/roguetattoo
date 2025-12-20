@@ -19,7 +19,7 @@ import Projet27 from "../../assets/Real_9.png";
 import Projet28 from "../../assets/real_1.png";
 import Projet29 from "../../assets/DSC00533.JPG";
 import Projet30 from "../../assets/DSC00551.JPG";
-import Projet31 from "../../assets/REAL31.JPG";
+import Projet31 from "../../assets/Real31.JPG";
 import Projet32 from "../../assets/Real30.JPG";
 import { EffectCoverflow, Navigation } from "swiper/modules";
 import { motion } from "framer-motion";
