@@ -19,6 +19,8 @@ import Projet27 from "../../assets/Real_9.png";
 import Projet28 from "../../assets/real_1.png";
 import Projet29 from "../../assets/DSC00533.JPG";
 import Projet30 from "../../assets/DSC00551.JPG";
+import Projet31 from "../../assets/Capture d’écran 2025-12-20 à 16.13.00.png";
+import Projet32 from "../../assets/Capture d’écran 2025-12-20 à 16.12.25.png";
 import { EffectCoverflow, Navigation } from "swiper/modules";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
@@ -141,14 +143,14 @@ const Realisation = () => {
             modules={[EffectCoverflow, Navigation]}
             className="mySwiper"
           >
-            <SwiperSlide onClick={() => openFullscreen(Projet29)}>
-              <PictureProject src={Projet29} alt="slide 29" />
+            <SwiperSlide onClick={() => openFullscreen(Projet17)}>
+              <PictureProject src={Projet17} alt="slide 17" />
             </SwiperSlide>
             <SwiperSlide onClick={() => openFullscreen(Projet28)}>
               <PictureProject src={Projet28} alt="slide 28" />
             </SwiperSlide>
-            <SwiperSlide onClick={() => openFullscreen(Projet17)}>
-              <PictureProject src={Projet17} alt="slide 17" />
+            <SwiperSlide onClick={() => openFullscreen(Projet29)}>
+              <PictureProject src={Projet29} alt="slide 29" />
             </SwiperSlide>
             <SwiperSlide onClick={() => openFullscreen(Projet27)}>
               <PictureProject src={Projet27} alt="slide 27" />
@@ -179,6 +181,12 @@ const Realisation = () => {
             </SwiperSlide>
             <SwiperSlide onClick={() => openFullscreen(Projet23)}>
               <PictureProject src={Projet23} alt="slide 23" />
+            </SwiperSlide>
+            <SwiperSlide onClick={() => openFullscreen(Projet31)}>
+              <PictureProject src={Projet31} alt="slide 31" />
+            </SwiperSlide>
+            <SwiperSlide onClick={() => openFullscreen(Projet32)}>
+              <PictureProject src={Projet32} alt="slide 32" />
             </SwiperSlide>
           </Swiper>
         </div>
