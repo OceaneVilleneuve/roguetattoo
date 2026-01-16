@@ -199,6 +199,24 @@ const Links = () => {
             </ButtonLink>
             ‌✧
             <ButtonLink
+              href="https://www.etsy.com/fr/shop/CountessRogue"
+              target="_blank"
+            >
+              <p
+                style={{
+                  fontFamily: "Midnight Flame",
+                  fontWeight: "light",
+                  padding: "10px 0px ",
+                  fontSize: "18px",
+                  border: "2px solid white",
+                  margin: "1rem 1rem",
+                  borderRadius: "10px",
+                }}
+              >
+                Ma boutique Etsy
+              </p>
+            </ButtonLink>
+            <ButtonLink
               href="https://www.rogue.tattoo"
               target="_blank"
               style={{}}
