@@ -22,6 +22,16 @@ const Name = styled.span`
   color: #70e000;
   font-family: "Metal Vengeance";
 `;
+const SocialLink = styled.a`
+  text-decoration: none;
+  color: #70e000;
+  font-family: "Metal Vengeance";
+  &:hover {
+    text-shadow: 2px 2px 10px #fff;
+
+    filter: dropshadow(color=#fff, offx=2, offy=2);
+  }
+`;
 
 const Merch = () => {
 const isMobile = useMediaQuery({ maxWidth: 767 });
@@ -74,7 +84,14 @@ const isMobile = useMediaQuery({ maxWidth: 767 });
                   <br/>
                   <br/>
                   <br/>
-                  ❱ <Name>LA BOUTIQUE</Name> ❰
+                   <SocialLink
+            style={{
+              paddingBottom: "4rem",
+            }}
+            href="https://merch.rogue.tattoo"
+          >
+            ❱ <Name>LA BOUTIQUE</Name> ❰
+          </SocialLink>
                 </MerchTitle>
               </div>
             </motion.div>

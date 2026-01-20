@@ -199,7 +199,7 @@ const Links = () => {
             </ButtonLink>
             ‌✧
             <ButtonLink
-              href="https://merch.rogue.tattoo"
+              href="https://countess-rogue.printify.me"
               target="_blank"
             >
               <p
