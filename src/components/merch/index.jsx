@@ -3,6 +3,9 @@ import { useMediaQuery } from "react-responsive";
 import styled from "styled-components";
 import { useInView } from "react-intersection-observer";
 import { motion } from "framer-motion";
+import Merch1 from "../../assets/IMG_5508.JPG";
+import Merch2 from "../../assets/IMG_5509.JPG";
+import Merch3 from "../../assets/IMG_5510.JPG";
 
 
 const MerchContainer = styled.div`

@@ -201,6 +201,7 @@ const Links = () => {
             <ButtonLink
               href="https://countess-rogue.printify.me"
               target="_blank"
+                rel="noopener noreferrer"
             >
               <p
                 style={{
