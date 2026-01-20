@@ -3,9 +3,7 @@ import { useMediaQuery } from "react-responsive";
 import styled from "styled-components";
 import { useInView } from "react-intersection-observer";
 import { motion } from "framer-motion";
-import Merch1 from "../../assets/IMG_5508.JPG";
-import Merch2 from "../../assets/IMG_5509.JPG";
-import Merch3 from "../../assets/IMG_5510.JPG";
+import Merch3 from "../../assets/IMG_5511.PNG";
 
 
 const MerchContainer = styled.div`
@@ -15,10 +13,22 @@ const MerchContainer = styled.div`
   justify-content: center;
 `;
 
+const AnimatedPicture = styled.img`
+  object-fit: cover;
+  filter: opacity(25%);
+  zIndex: -3,
+
+`;
+
 const MerchTitle = styled.h2`
-  padding: 2rem 5rem;
   color: white;
   text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: white;
+  transform: translate(-50%, -50%);
+  z-index: 2;
 `;
 
 const Name = styled.span`
@@ -30,7 +40,7 @@ const SocialLink = styled.a`
   color: #70e000;
   font-family: "Metal Vengeance";
   &:hover {
-    text-shadow: 2px 2px 10px #fff;
+  text-shadow: 2px 2px 10px #fff;
 
     filter: dropshadow(color=#fff, offx=2, offy=2);
   }
@@ -57,9 +67,8 @@ const isMobile = useMediaQuery({ maxWidth: 767 });
       id="merchPage"
       ref={ref}
       style={{
-        height: isMobile ? "80vh" : "100vh",
-        marginTop: isMobile ? "3rem" : "20rem",
-        textAlign: "center",
+        minHeight: isMobile ? "65vh" : "96vh",
+        marginTop: isMobile ? "4.5rem" : "0rem",
       }}
     >
             <motion.div
@@ -69,11 +78,7 @@ const isMobile = useMediaQuery({ maxWidth: 767 });
               transition={{ duration: 1.3 }}
               style={!inView ? { visibility: "hidden" } : {}}
             >
-              <div
-                style={{
-                  textAlign: "center",
-                }}
-              >
+              <div>
                 <MerchTitle
                   style={{
                     fontSize: isMobile ? "1.2rem" : "2.5rem",
@@ -87,16 +92,31 @@ const isMobile = useMediaQuery({ maxWidth: 767 });
                   <br/>
                   <br/>
                   <br/>
-                   <SocialLink
+                <SocialLink
             style={{
               paddingBottom: "4rem",
             }}
-            href="https://merch.rogue.tattoo"
+            href="https://countess-rogue.printify.me"
           >
             ❱ <Name>LA BOUTIQUE</Name> ❰
           </SocialLink>
                 </MerchTitle>
               </div>
+              <AnimatedPicture
+              key={animationKey}
+              initial={{ opacity: 0, scale: 0.5 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ ease: "easeOut", duration: 1 }}
+              style={{
+                zIndex: -3,
+                height: isMobile ? "300px" : "900px",
+                width: isMobile ? "300px" : "900px",
+                top: "19rem",
+                left: "1rem",
+              }}
+              src={Merch3}
+              alt="Tshirt"
+                      />
             </motion.div>
     </MerchContainer>
   );

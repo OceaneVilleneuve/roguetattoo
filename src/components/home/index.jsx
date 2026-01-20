@@ -171,7 +171,7 @@ const Home = () => {
           <br />
           <br />
           <SocialLink
-            href="https://merch.rogue.tattoo"
+            href="https://countess-rogue.printify.me"
             target="_blank"
             style={{ fontSize: isMobile ? "15px" : "25px" }}
           >
