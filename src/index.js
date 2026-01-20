@@ -8,7 +8,6 @@ import Header from './components/header';
 import Footer from './components/footer';
 import AnimatedCursor from "react-animated-cursor";
 import SimpleHeader from './components/simpleHeader';
-
 import Body from './pages/Body'; // ta page d'accueil
 import Links from './pages/Links/linkTree.jsx'; // ta page d'accueil
 import Cgv from './pages/Cgv/conditionGeneral.jsx'; // page CGV
@@ -47,6 +46,7 @@ const Layout = () => {
         <Route path="/cgv" element={<Cgv />} />
         <Route path="/privacy" element={<Privacy />} />
         <Route path="/links" element={<Links />} />
+
       </Routes>
 
       <Footer />
