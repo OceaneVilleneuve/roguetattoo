@@ -169,12 +169,13 @@ const Home = () => {
             TIKTOK
           </SocialLink>
           <br />
+          <br />
           <SocialLink
-            href="https://app.gotattoo.co/Countess_Rogue"
+            href="https://merch.rogue.tattoo"
             target="_blank"
             style={{ fontSize: isMobile ? "15px" : "25px" }}
           >
-            GO TATTOO
+            BOUTIQUE DE MERCH
           </SocialLink>
         </div>
       </motion.div>

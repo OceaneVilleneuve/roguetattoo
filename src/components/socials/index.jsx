@@ -41,7 +41,7 @@ const Socials = () => {
           <br />
           SUR MES RESEAUX SOCIAUX
         </Title>
-        <div>
+              <div>
           <img
             src={Logo}
             alt="logo"
