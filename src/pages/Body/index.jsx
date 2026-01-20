@@ -4,6 +4,7 @@ import Process from "../../components/process";
 import Project from "../../components/project";
 import AboutMe from "../../components/aboutMe";
 import Contact from "../../components/contact";
+import Merch from "../../components/merch";
 import Socials from "../../components/socials";
 import Realisation from "../../components/realisation";
 import "./Body.css";
@@ -52,6 +53,7 @@ const Body = () => {
       <Realisation />
       <Project />
       <Contact />
+      <Merch />
       <Socials />
     </div>
   );

@@ -39,6 +39,7 @@ const menuData = [
   { label: "quelques realisations", id: "realisationPage" },
   { label: "mes flashs disponibles", id: "projectsPage" },
   { label: "contact", id: "contactPage" },
+  { label: "boutique de merch", id: "merchPage" },
   { label: "reseaux sociaux", id: "socialsPage" },
 ];
 const Menu = () => {

@@ -213,7 +213,7 @@ const Links = () => {
                   borderRadius: "10px",
                 }}
               >
-                Ma Boutique merch
+                Ma boutique de merch
               </p>
             </ButtonLink>
             <ButtonLink
