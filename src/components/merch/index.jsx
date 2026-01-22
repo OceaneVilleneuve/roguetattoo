@@ -93,7 +93,7 @@ const isMobile = useMediaQuery({ maxWidth: 767 });
                       />
               <div
                     style={{
-        marginTop: isMobile ? "10rem" : "18rem",
+        marginTop: isMobile ? "8rem" : "18rem",
       }}>
                 <MerchTitle
                   style={{
