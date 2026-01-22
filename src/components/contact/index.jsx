@@ -13,7 +13,7 @@ const Logo = styled.img`
 `;
 
 const Description = styled.p`
-  font-family: "Midnight Flame";
+  font-family: "Bakervville";
   margin-bottom: 6em;
   margin-top: -1em;
 `;

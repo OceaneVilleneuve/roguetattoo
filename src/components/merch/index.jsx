@@ -3,7 +3,7 @@ import { useMediaQuery } from "react-responsive";
 import styled from "styled-components";
 import { useInView } from "react-intersection-observer";
 import { motion } from "framer-motion";
-import Merch3 from "../../assets/IMG_5511.PNG";
+import Merch3 from "../../assets/IMG_5258.PNG";
 
 
 const MerchContainer = styled.div`
@@ -16,24 +16,25 @@ const MerchContainer = styled.div`
 const AnimatedPicture = styled.img`
   object-fit: cover;
   filter: opacity(25%);
+  position: absolute;
   zIndex: -3,
+  left: 50%;
+  transform: translateX(-50%);
 
 `;
 
 const MerchTitle = styled.h2`
   color: white;
   text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
   color: white;
-  transform: translate(-50%, -50%);
   z-index: 2;
+  filter: opacity(100%);
 `;
 
 const Name = styled.span`
   color: #70e000;
   font-family: "Metal Vengeance";
+  filter: opacity(100%);
 `;
 const SocialLink = styled.a`
   text-decoration: none;
@@ -67,8 +68,9 @@ const isMobile = useMediaQuery({ maxWidth: 767 });
       id="merchPage"
       ref={ref}
       style={{
-        minHeight: isMobile ? "65vh" : "96vh",
-        marginTop: isMobile ? "4.5rem" : "0rem",
+        minHeight: isMobile ? "63vh" : "103vh",
+        marginTop: isMobile ? "-6.5rem" : "0rem",
+        marginBottom: isMobile ? "5.5rem" : "10rem",
       }}
     >
             <motion.div
@@ -78,16 +80,34 @@ const isMobile = useMediaQuery({ maxWidth: 767 });
               transition={{ duration: 1.3 }}
               style={!inView ? { visibility: "hidden" } : {}}
             >
-              <div>
+    <AnimatedPicture
+              style={{
+                height: isMobile ? "480px" : "1000px",
+                width: isMobile ? "363px" : "700px",
+                objectFit: "cover",
+                left: "50%",
+
+              }}
+              src={Merch3}
+              alt="Tshirt"
+                      />
+              <div
+                    style={{
+        marginTop: isMobile ? "10rem" : "18rem",
+      }}>
                 <MerchTitle
                   style={{
-                    fontSize: isMobile ? "1.2rem" : "2.5rem",
+                    fontSize: isMobile ? "1.3rem" : "2.5rem",
                   }}
                 >
-                  VOUS POUVEZ RETROUVER MON MERCH
+                  VOUS POUVEZ RETROUVER
+                  <br />
+                  MON MERCH
                   <br/>
                   <br/>
-                  EN CLIQUANT SUR LE LIEN DE LA BOUTIQUE :
+                  EN CLIQUANT SUR LE LIEN
+                  <br />
+                  DE LA BOUTIQUE :
                   <br/>
                   <br/>
                   <br/>
@@ -102,21 +122,6 @@ const isMobile = useMediaQuery({ maxWidth: 767 });
           </SocialLink>
                 </MerchTitle>
               </div>
-              <AnimatedPicture
-              key={animationKey}
-              initial={{ opacity: 0, scale: 0.5 }}
-              animate={{ opacity: 1, scale: 1 }}
-              transition={{ ease: "easeOut", duration: 1 }}
-              style={{
-                zIndex: -3,
-                height: isMobile ? "300px" : "900px",
-                width: isMobile ? "300px" : "900px",
-                top: "19rem",
-                left: "1rem",
-              }}
-              src={Merch3}
-              alt="Tshirt"
-                      />
             </motion.div>
     </MerchContainer>
   );

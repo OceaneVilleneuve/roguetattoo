@@ -27,7 +27,7 @@ const Socials = () => {
       id="socialsPage"
       style={{
         height: isMobile ? "80vh" : "100vh",
-        marginTop: isMobile ? "3rem" : "20rem",
+        marginBottom: isMobile ? "3rem" : "5rem",
         textAlign: "center",
       }}
     >

@@ -149,10 +149,9 @@ const Links = () => {
             >
               <p
                 style={{
-                  fontFamily: "Midnight Flame",
-                  fontWeight: "light",
+                  fontFamily: "Bakervville",
                   padding: "10px 0px ",
-                  fontSize: "18px",
+                  fontSize: "16px",
                   border: "2px solid white",
                   margin: "1rem 1rem",
                   borderRadius: "10px",
@@ -167,16 +166,15 @@ const Links = () => {
             >
               <p
                 style={{
-                  fontFamily: "Midnight Flame",
-                  fontWeight: "light",
+                  fontFamily: "Bakervville",
                   padding: "10px 0px ",
-                  fontSize: "18px",
+                  fontSize: "16px",
                   border: "2px solid white",
                   margin: "1rem 1rem",
                   borderRadius: "10px",
                 }}
               >
-                Formulaire de prise de contact tatouage
+                Formulaire de prise de rdv tatouage
               </p>
             </ButtonLink>
             <ButtonLink
@@ -185,10 +183,9 @@ const Links = () => {
             >
               <p
                 style={{
-                  fontFamily: "Midnight Flame",
-                  fontWeight: "light",
+                  fontFamily: "Bakervville",
                   padding: "10px 0px ",
-                  fontSize: "18px",
+                  fontSize: "16px",
                   border: "2px solid white",
                   margin: "1rem 1rem",
                   borderRadius: "10px",
@@ -198,6 +195,24 @@ const Links = () => {
               </p>
             </ButtonLink>
             ‌✧
+              <ButtonLink
+              href="https://www.rogue.tattoo"
+              target="_blank"
+              style={{}}
+            >
+              <p
+                style={{
+                  fontFamily: "Bakervville",
+                  padding: "10px 0px ",
+                  fontSize: "16px",
+                  border: "2px solid white",
+                  margin: "1rem 1rem",
+                  borderRadius: "10px",
+                }}
+              >
+                Mon site internet
+              </p>
+            </ButtonLink>
             <ButtonLink
               href="https://countess-rogue.printify.me"
               target="_blank"
@@ -205,35 +220,33 @@ const Links = () => {
             >
               <p
                 style={{
-                  fontFamily: "Midnight Flame",
-                  fontWeight: "light",
+                  fontFamily: "Bakervville",
                   padding: "10px 0px ",
-                  fontSize: "18px",
+                  fontSize: "16px",
                   border: "2px solid white",
                   margin: "1rem 1rem",
                   borderRadius: "10px",
                 }}
               >
-                Ma boutique de merch
+                Ma boutique de vêtements
               </p>
             </ButtonLink>
-            <ButtonLink
-              href="https://www.rogue.tattoo"
+                        <ButtonLink
+              href="https://www.etsy.com/shop/CountessRogue"
               target="_blank"
-              style={{}}
+                rel="noopener noreferrer"
             >
               <p
                 style={{
-                  fontFamily: "Midnight Flame",
-                  fontWeight: "light",
+                  fontFamily: "Bakervville",
                   padding: "10px 0px ",
-                  fontSize: "18px",
+                  fontSize: "16px",
                   border: "2px solid white",
                   margin: "1rem 1rem",
                   borderRadius: "10px",
                 }}
               >
-                Mon site internet
+                Mon Etsy
               </p>
             </ButtonLink>
           </div>
