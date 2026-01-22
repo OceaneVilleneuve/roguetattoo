@@ -97,7 +97,7 @@ const isMobile = useMediaQuery({ maxWidth: 767 });
       }}>
                 <MerchTitle
                   style={{
-                    fontSize: isMobile ? "1.3rem" : "2.5rem",
+                    fontSize: isMobile ? "1.2rem" : "2.5rem",
                   }}
                 >
                   VOUS POUVEZ RETROUVER
