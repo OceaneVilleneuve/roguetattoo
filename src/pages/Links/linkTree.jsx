@@ -230,12 +230,6 @@ const Links = () => {
               >
                 Ma boutique de vêtements
               </p>
-            </ButtonLink>
-                        <ButtonLink
-              href="https://www.etsy.com/shop/CountessRogue"
-              target="_blank"
-                rel="noopener noreferrer"
-            >
               <p
                 style={{
                   fontFamily: "Bakervville",
