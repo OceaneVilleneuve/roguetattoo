@@ -230,6 +230,7 @@ const Links = () => {
               >
                 Ma boutique de vêtements
               </p>
+            </ButtonLink>
           </div>
           <img
             src={Logo}
