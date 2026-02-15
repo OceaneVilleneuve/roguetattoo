@@ -8,6 +8,8 @@ import { useInView } from "react-intersection-observer";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTiktok } from "@fortawesome/free-brands-svg-icons";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { faYoutube } from "@fortawesome/free-brands-svg-icons";
+
 
 const LinkContainer = styled.div`
   position: relative;
@@ -124,6 +126,17 @@ const Links = () => {
               }}
             >
               <FontAwesomeIcon icon={faTiktok} aria-label="TikTok" />
+            </SocialLink>
+
+              <SocialLink
+              href="https://www.youtube.com/@CountessRogue"
+              target="_blank"
+              style={{
+                fontSize: "30px",
+                paddingLeft: "30px",
+              }}
+            >
+              <FontAwesomeIcon icon={faYoutube} aria-label="Youtube" />
             </SocialLink>
           </div>
         </div>

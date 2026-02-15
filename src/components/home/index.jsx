@@ -169,6 +169,14 @@ const Home = () => {
             TIKTOK
           </SocialLink>
           <br />
+          <SocialLink
+            href="https://www.youtube.com/@CountessRogue"
+            target="_blank"
+            style={{ fontSize: isMobile ? "15px" : "25px" }}
+          >
+            YOUTUBE
+          </SocialLink>
+          <br />
           <br />
           <SocialLink
             href="https://countess-rogue.printify.me"

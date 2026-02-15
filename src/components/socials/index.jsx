@@ -86,8 +86,8 @@ const Socials = () => {
                     style={{
               paddingBottom: "4rem",
             }}
-            href="https://app.gotattoo.co/Countess_Rogue">
-            GO TATTOO
+            href="https://www.youtube.com/@CountessRogue">
+            YOUTUBE
           </SocialLink>
         </div>
         <div
