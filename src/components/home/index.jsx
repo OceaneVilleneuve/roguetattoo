@@ -178,6 +178,7 @@ const Home = () => {
           </SocialLink>
           <br />
           <br />
+          <br />
           <SocialLink
             href="https://countess-rogue.printify.me"
             target="_blank"

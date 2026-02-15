@@ -17,6 +17,7 @@ const HeaderContainer = styled.nav`
   position: sticky;
   top: 0px;
   z-index: 3;
+  backdrop-filter: blur(7px); /* blur */
 `;
 
 const HeaderBanner = styled(Link)`
