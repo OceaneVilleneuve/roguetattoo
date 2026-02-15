@@ -32,6 +32,7 @@ function Contact() {
     <div
       id="contactPage"
       style={{
+        paddingTop: isMobile ? null : "13em",
         display: isMobile ? "flex" : null,
         flexDirection: isMobile ? "column" : null,
         minHeight: isMobile ? "65vh" : "80vh",

@@ -6,12 +6,11 @@ import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import Projet2 from "../../assets/IMG_5723.JPG";
-import Projet3 from "../../assets/IMG_5712.JPG";
-import Projet16 from "../../assets/IMG_5719.JPG";
-import Projet17 from "../../assets/IMG_5720.JPG";
-import Projet18 from "../../assets/IMG_5721.JPG";
-import Projet22 from "../../assets/IMG_5722.JPG";
+import Projet2 from "../../assets/IMG_5731.JPG";
+import Projet3 from "../../assets/IMG_5732.JPG";
+import Projet16 from "../../assets/IMG_5733.JPG";
+import Projet17 from "../../assets/IMG_5734.JPG";
+import Projet18 from "../../assets/IMG_5735.JPG";
 import { EffectCoverflow, Navigation } from "swiper/modules";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
@@ -145,9 +144,6 @@ const Project = () => {
           >
             <SwiperSlide onClick={() => openFullscreen(Projet16)}>
               <PictureProject src={Projet16} alt="slide 16" />
-            </SwiperSlide>
-            <SwiperSlide onClick={() => openFullscreen(Projet22)}>
-              <PictureProject src={Projet22} alt="slide 22" />
             </SwiperSlide>
             <SwiperSlide onClick={() => openFullscreen(Projet18)}>
               <PictureProject src={Projet18} alt="slide 18" />
