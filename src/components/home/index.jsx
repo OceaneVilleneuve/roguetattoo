@@ -114,7 +114,7 @@ const Home = () => {
           <SubTitleWebsiteWeb
             style={{
               fontSize: isMobile ? "30px" : "50px",
-              padding: isMobile ? "20rem 2rem" : "16rem 16rem", // Ajuste le padding pour centrer
+              padding: isMobile ? "19rem 2rem" : "14rem 16rem", // Ajuste le padding pour centrer
               textAlign: "center", // Centre le texte
             }}
           >
@@ -123,21 +123,31 @@ const Home = () => {
           <SubTitleWebsiteDeveloper
             style={{
               fontSize: isMobile ? "30px" : "50px",
-              padding: isMobile ? "22rem 2rem" : "20rem 7rem", // Ajuste le padding pour centrer
+              padding: isMobile ? "21rem 2rem" : "18rem 7rem", // Ajuste le padding pour centrer
               textAlign: "center", // Centre le texte
             }}
           >
-            GREEN AND BLACKWORK
+            BLACKWORK
           </SubTitleWebsiteDeveloper>
           <SubTitleWebsiteDesigner
             style={{
               fontSize: isMobile ? "30px" : "50px",
-              padding: isMobile ? "24rem 2rem" : "24rem 12rem", // Ajuste le padding pour centrer
+              padding: isMobile ? "23rem 2rem" : "22rem 13rem", // Ajuste le padding pour centrer
               textAlign: "center", // Centre le texte
             }}
           >
             WHIPSHADING
           </SubTitleWebsiteDesigner>
+          <SubTitleWebsiteDesigner
+            style={{
+              fontSize: isMobile ? "30px" : "50px",
+              padding: isMobile ? "25rem 2rem" : "26rem 7rem", // Ajuste le padding pour centrer
+              textAlign: "center", // Centre le texte
+            }}
+          >
+            & GREEN
+          </SubTitleWebsiteDesigner>
+
         </motion.div>
       </div>
       <motion.div
