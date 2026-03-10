@@ -127,7 +127,7 @@ const Home = () => {
               textAlign: "center", // Centre le texte
             }}
           >
-            DARK BLACKWORK
+            GREEN AND BLACKWORK
           </SubTitleWebsiteDeveloper>
           <SubTitleWebsiteDesigner
             style={{
