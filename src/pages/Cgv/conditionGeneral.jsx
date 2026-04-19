@@ -161,13 +161,8 @@ const CGV = () => {
             plusieurs séances programmées ).
             <br/>
             <br/>
-            Le montant des arrhes correspond à 25% du prix du tatouage.
-            <br/>
-            Toutefois un <strong><em>montant minimum de 50€</em></strong> s'applique à chaque prestation,
+            Le montant des arrhes <strong><em> de 50€</em></strong> s'applique à chaque prestation,
             quel que soit le prix final.
-            <br/>
-            Ainsi, pour toute prestation dont le prix final est<strong><em> inférieur à 200€</em></strong>, les arrhes facturées seront
-            <strong><em> automatiquement ajustées à 50€ TTC</em></strong>.
             <br />
             <br />
             Les arrhes sont à régler par carte bancaire via le lien MyPos envoyé par mes soins.
@@ -179,13 +174,11 @@ const CGV = () => {
             Conformément à l’article 1590 du Code civil, les arrhes ne sont pas
             remboursables en cas d’annulation du client.
             <br />
-            Le reste du prix du tatouage est à régler le jour de la séance, par
-            les moyens de paiement acceptés
-            <br />
-            ( espèce, carte bancaire et virement bancaire instantané ).
+          Règlement du solde :
+          Le solde du tatouage est à régler le jour de la séance par les moyens de paiement acceptés (espèces, carte bancaire).
             <br />
             <br />
-            Un paiement en 3x via klana ou paypal est possible pour tout rendez-vous pris via l'application GoTattoo.
+            Un paiement en 3x via klarna ou paypal est possible.
             <br />
             <br />
             Tout report ou annulation doit être signalé au moins 48h à l’avance.
@@ -194,8 +187,20 @@ const CGV = () => {
             <br />
             Les arrhes ne sont pas remboursable en cas d'annulation de la part du client
             <br />
-            D'autres arrhes ne sont pas nécéssaire pour un repors de
-            rendez-vous sauf après trois annulations.
+            Aucun acompte supplémentaire n'est nécessaire pour un report de rendez-vous, sauf après trois annulations.
+            <br />
+            <br />
+            <strong>Paiement fractionné (Klarna) :</strong>
+            <br />
+            Si le client souhaite régler via Klarna (paiement fractionné),
+            <br />
+            le lien de paiement sera envoyé par mes soins 48h avant la date du rendez-vous.
+            <br />
+            Le client s'engage à valider ce lien avant le début de la séance. Afin que je puisse recevoir la validation.
+            <br />
+            En cas de non-validation, de refus par le service financier, ou de défaillance technique le jour J,
+            <br />
+            le règlement total de la prestation devra être effectué <strong>immédiatement par un autre moyen accepté.</strong>
             <br />
             <br />
           </AllText>
