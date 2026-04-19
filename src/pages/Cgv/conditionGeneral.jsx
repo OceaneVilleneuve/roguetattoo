@@ -180,26 +180,36 @@ const CGV = () => {
             Un paiement en 3x via klarna ou paypal est possible.
             <br />
             <br />
+            <br />
             <strong>Paiement fractionné (Klarna) :</strong>
+            <br />
             <br />
             Si le client souhaite régler via Klarna (paiement fractionné),
             <br />
             le lien de paiement sera envoyé par mes soins 48h avant la date du rendez-vous.
             <br />
+            <br />
             Le client s'engage à valider ce lien avant le début de la séance. Afin que je puisse recevoir la validation.
+            <br />
             <br />
             En cas de non-validation, de refus par le service financier, ou de défaillance technique le jour J,
             <br />
-            le règlement total de la prestation devra être effectué <strong>immédiatement par un autre moyen accepté.</strong>
+            le règlement total de la prestation devra être effectué <strong><em>immédiatement par un autre moyen accepté.</em></strong>
+            <br />
+            <br />
+            <br />
+            <strong>Report et annulation :</strong>
             <br />
             <br />
             Tout report ou annulation doit être signalé au moins 48h à l’avance.
             <br />
             Au delà de trois report je considère que tu annules le projet.
             <br />
+            <br />
             Les arrhes ne sont pas remboursable en cas d'annulation de la part du client
             <br />
-            Aucun acompte supplémentaire n'est nécessaire pour un report de rendez-vous, sauf après trois annulations.
+            <br />
+            Aucun acompte supplémentaire n'est nécessaire pour un report de rendez-vous, sauf après trois reports ou annulations.
             <br />
             <br />
             En cas d'annulation moins de 48h avant le rendez-vous ou de non-présentation (no-show),
@@ -207,9 +217,9 @@ const CGV = () => {
             les arrhes de 50€ sont définitivement acquises à l'artiste.
             <br />
             <br />
-            Si un paiement total supérieur aux arrhes a été effectué en amont,
+            <em>Si un paiement total supérieur aux arrhes a été effectué en amont,
             <br />
-            seul le solde (paiement total moins les 50€ d'arrhes) fera l'objet d'un remboursement.
+            seul le solde (paiement total moins les 50€ d'arrhes) fera l'objet d'un remboursement.</em>
             <br />
             <br />
           </AllText>
