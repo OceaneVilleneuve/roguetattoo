@@ -181,7 +181,7 @@ const CGV = () => {
             <br />
             <br />
             <br />
-            <strong>Paiement fractionné (Klarna) :</strong>
+            <strong><u>Paiement fractionné (Klarna) :</u></strong>
             <br />
             <br />
             Si le client souhaite régler via Klarna (paiement fractionné),
@@ -198,7 +198,7 @@ const CGV = () => {
             <br />
             <br />
             <br />
-            <strong>Report et annulation :</strong>
+            <strong><u>Report et annulation :</u></strong>
             <br />
             <br />
             Tout report ou annulation doit être signalé au moins 48h à l’avance.
