@@ -174,20 +174,10 @@ const CGV = () => {
             Conformément à l’article 1590 du Code civil, les arrhes ne sont pas
             remboursables en cas d’annulation du client.
             <br />
-          Règlement du solde :
           Le solde du tatouage est à régler le jour de la séance par les moyens de paiement acceptés (espèces, carte bancaire).
             <br />
             <br />
             Un paiement en 3x via klarna ou paypal est possible.
-            <br />
-            <br />
-            Tout report ou annulation doit être signalé au moins 48h à l’avance.
-            <br />
-            Au delà de trois report je considère que tu annules le projet.
-            <br />
-            Les arrhes ne sont pas remboursable en cas d'annulation de la part du client
-            <br />
-            Aucun acompte supplémentaire n'est nécessaire pour un report de rendez-vous, sauf après trois annulations.
             <br />
             <br />
             <strong>Paiement fractionné (Klarna) :</strong>
@@ -201,6 +191,25 @@ const CGV = () => {
             En cas de non-validation, de refus par le service financier, ou de défaillance technique le jour J,
             <br />
             le règlement total de la prestation devra être effectué <strong>immédiatement par un autre moyen accepté.</strong>
+            <br />
+            <br />
+            Tout report ou annulation doit être signalé au moins 48h à l’avance.
+            <br />
+            Au delà de trois report je considère que tu annules le projet.
+            <br />
+            Les arrhes ne sont pas remboursable en cas d'annulation de la part du client
+            <br />
+            Aucun acompte supplémentaire n'est nécessaire pour un report de rendez-vous, sauf après trois annulations.
+            <br />
+            <br />
+            En cas d'annulation moins de 48h avant le rendez-vous ou de non-présentation (no-show),
+            <br />
+            les arrhes de 50€ sont définitivement acquises à l'artiste.
+            <br />
+            <br />
+            Si un paiement total supérieur aux arrhes a été effectué en amont,
+            <br />
+            seul le solde (paiement total moins les 50€ d'arrhes) fera l'objet d'un remboursement.
             <br />
             <br />
           </AllText>
