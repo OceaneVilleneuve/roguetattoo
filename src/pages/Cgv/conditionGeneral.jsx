@@ -130,6 +130,7 @@ const CGV = () => {
           Pour garantir une collaboration sereine et transparente, voici les conditions relatives à la prestation :
           <br />
           <br />
+          <br />
           <strong><u>Prestation sur-mesure : </u></strong>
           <br />
           <br />
