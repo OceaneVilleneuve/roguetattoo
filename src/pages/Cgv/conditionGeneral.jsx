@@ -91,7 +91,6 @@ const CGV = () => {
               height: isMobile ? "5rem" : "9rem",
             }}
           />
-
           <Title>CONDITIONS GENERALES DE VENTE</Title>
           <Private>TATOUEUSE – SALON PRIVE SUR RENDEZ-VOUS UNIQUEMENT</Private>
           <SubTitle>1. Informations legales</SubTitle>
@@ -106,7 +105,7 @@ const CGV = () => {
             <br />
             <br />
             <br />
-            Les rendez-vous se font exclusivement sur rendez-vous dans un salon
+            L'acceuil se faitt exclusivement sur rendez-vous dans un salon
             privé situé à st herblain.
             <br />
             <br />
@@ -117,7 +116,42 @@ const CGV = () => {
           </AllText>
           <br />
           <br />
-          <SubTitle>2. Prise de rendez-vous et communication</SubTitle>
+          <SubTitle>2. Nature de la prestation</SubTitle>
+          <AllText>
+          Le tatouage est une prestation artistique réalisée sur mesure. Chaque projet nécessite un temps de recherche,
+          de conception graphique
+          <br />
+          et de préparation technique en amont de la séance. En réservant votre séance,
+          vous validez le style de travail et le fait que le
+          <br />
+          tatouage est une modification corporelle permanente et définitive.
+          <br />
+          <br />
+          Pour garantir une collaboration sereine et transparente, voici les conditions relatives à la prestation :
+          <br />
+          <br />
+          <strong><u>Prestation sur-mesure : </u></strong>
+          <br />
+          <br />
+          Le paiement rémunère le temps passé, l'expertise artistique, la création, le matériel stérile et l'hygiène.
+          <br />
+          <br />
+          <br />
+          <strong><u>Caractère définitif :  </u></strong>
+          <br />
+          <br />
+          La prestation est considérée comme intégralement consommée dès sa réalisation.
+          En raison de sa nature artistique et sur-mesure,
+          <br />
+          une fois la séance terminée et le tatouage réalisé,
+          aucun remboursement (total ou partiel) ne peut être exigé, que ce soit directement
+          <br />
+          auprès de l'artiste ou
+          via une procédure de contestation/litige auprès d'un organisme de paiement (type Klarna, banque, etc.).
+          </AllText>
+          <br />
+          <br />
+          <SubTitle>3. Prise de rendez-vous et communication</SubTitle>
           <AllText>
             Les demandes se font via le formulaire de contact ou e-mail.
             <br />
@@ -126,19 +160,22 @@ const CGV = () => {
             <br />
             <br />
             Les rendez-vous sont confirmés uniquement après réception des arrhes
-            (voir section 4).
+            (voir section 5).
+            <br />
+            <br />
+            En procédant au règlement de ces arrhes,
+            le client déclare expressément avoir lu et accepté
+            <br />
+            les présentes conditions générales de vente.
+            <br />
             <br />
             Aucun accueil ne sera fait hors rendez-vous, merci de respecter le
             caractère privé du salon.
             <br />
             <br />
           </AllText>
-          <SubTitle>3. Deroulement du projet et modifications</SubTitle>
+          <SubTitle>4. Deroulement du projet et modifications</SubTitle>
           <AllText>
-            Avant le rendez-vous et après versement des arrhes, un croquis
-            initial est envoyé pour validation de l’idée.
-            <br />
-            <br />
             Un devis estimatif est également fourni à ce moment-là, à titre indicatif.
             <br />
             Le montant final peut varier en fonction de la taille réelle, de la complexité du dessin ou du temps nécessaire le jour de la séance.
@@ -153,7 +190,7 @@ const CGV = () => {
             <br />
             <br />
           </AllText>
-          <SubTitle>4. Paiement, arrhes et conditions d annulation</SubTitle>
+          <SubTitle>5. Paiement, arrhes et conditions d annulation</SubTitle>
           <AllText>
             Un versement d’arrhes est demandé pour toute prise de rendez-vous.
             <br />
@@ -174,10 +211,25 @@ const CGV = () => {
             Conformément à l’article 1590 du Code civil, les arrhes ne sont pas
             remboursables en cas d’annulation du client.
             <br />
-          Le solde du tatouage est à régler le jour de la séance par les moyens de paiement acceptés (espèces, carte bancaire).
             <br />
             <br />
-            Un paiement en 3x via klarna ou paypal est possible.
+            <strong><u>Nature des arrhes : </u></strong>
+            <br />
+            <br />
+            Ces arrhes constituent la rémunération immédiate du travail de création,
+            de dessin et de préparation réalisé par l'artiste dès la
+            <br />
+            validation du projet, ainsi que l'immobilisation du créneau. En conséquence, elles sont définitivement acquises à l'artiste et
+            <br />
+            non-remboursables, quel que soit le motif de l'annulation ou le délai de prévenance,
+            car elles couvrent un travail déjà effectué.
+            <br />
+            <br />
+            Le solde du tatouage est à régler le jour de la séance par les moyens de paiement acceptés (espèces, carte bancaire).
+            <br />
+            <br />
+            <br />
+            Un paiement en 3x via klarna est possible.
             <br />
             <br />
             <br />
@@ -186,7 +238,7 @@ const CGV = () => {
             <br />
             Si le client souhaite régler via Klarna (paiement fractionné),
             <br />
-            le lien de paiement sera envoyé par mes soins 48h avant la date du rendez-vous.
+            le lien de paiement sera envoyé par mes soins <strong>48h avant la date du rendez-vous. </strong>
             <br />
             <br />
             Le client s'engage à valider ce lien avant le début de la séance. Afin que je puisse recevoir la validation.
@@ -223,7 +275,7 @@ const CGV = () => {
             <br />
             <br />
           </AllText>
-          <SubTitle>5. Comportement et droit de refus</SubTitle>
+          <SubTitle>6. Comportement et droit de refus</SubTitle>
           <AllText>
             Je me réserve le droit d’annuler ou refuser toute prestation si le
             client adopte un comportement inapproprié,
@@ -240,7 +292,7 @@ const CGV = () => {
             <br />
             <br />
           </AllText>
-          <SubTitle>6. Hygiene, soins et responsabilite</SubTitle>
+          <SubTitle>7. Hygiene, soins et responsabilite</SubTitle>
           <AllText>
             Je travaille selon les normes d’hygiène strictes exigées par la
             réglementation.
@@ -254,7 +306,7 @@ const CGV = () => {
             <br />
             <br />
           </AllText>
-          <SubTitle>7. Contre-indications</SubTitle>
+          <SubTitle>8. Contre-indications</SubTitle>
           <AllText>
             Le client déclare ne présenter aucune contre-indication médicale (ex
             : grossesse, traitement médical, allergies, maladie de la peau).
@@ -264,7 +316,7 @@ const CGV = () => {
             <br />
             <br />
           </AllText>
-          <SubTitle>8. Droit d auteur</SubTitle>
+          <SubTitle>9. Droit d auteur</SubTitle>
           <AllText>
             Les dessins et tatouages sont des œuvres originales protégées par le
             droit d’auteur.
@@ -274,7 +326,7 @@ const CGV = () => {
             <br />
             <br />
           </AllText>
-          <SubTitle>9. Donnees personnelles</SubTitle>
+          <SubTitle>10. Donnees personnelles</SubTitle>
           <AllText>
             Les données collectées (nom, e-mail, etc.) sont utilisées uniquement
             pour le traitement des demandes.
@@ -283,7 +335,7 @@ const CGV = () => {
             <br />
             <br />
           </AllText>
-          <SubTitle>10. Litige - Mediation de la consommation</SubTitle>
+          <SubTitle>11. Litige - Mediation de la consommation</SubTitle>
           <AllText>
           En cas de litige entre le Client et l’entreprise, ceux-ci s’efforceront de le résoudre à l’amiable
           <br />
@@ -306,7 +358,7 @@ const CGV = () => {
           <br/>
           Alteritae 5 rue Salvaing 12000 Rodez
           </AllText>
-          <SubTitle>11. Acceptation des conditions</SubTitle>
+          <SubTitle>12. Acceptation des conditions</SubTitle>
           <AllText>
             En validant sa demande de rendez-vous, le client déclare avoir lu et
             accepté les présentes conditions générales de vente.
