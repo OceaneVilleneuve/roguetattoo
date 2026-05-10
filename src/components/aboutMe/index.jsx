@@ -73,7 +73,7 @@ const AboutMe = () => {
             NANTES EN FRANCE.
             <br/>
             <br/>
-            J'AIME SURTOUT TATOUER LES ANIMAUX, PLANTES ET CREATURES DE L'OMBRE.
+            J'AIME SURTOUT TATOUER LES MAINS, LES DOIGTS ET PAUMES MAIS TATOUE TOUTES LES ZONES
             <br />
             <br />
             JE VOUS ACCUEILLE DANS MON ATELIER PRIVE UNIQUEMENT SUR RENDEZ-VOUS.

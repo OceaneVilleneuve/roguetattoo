@@ -127,7 +127,7 @@ const Home = () => {
               textAlign: "center", // Centre le texte
             }}
           >
-            BLACKWORK
+            MAIN & DOIGT
           </SubTitleWebsiteDeveloper>
           <SubTitleWebsiteDesigner
             style={{
@@ -145,7 +145,7 @@ const Home = () => {
               textAlign: "center", // Centre le texte
             }}
           >
-            & GREEN
+            & BLACKWORK
           </SubTitleWebsiteDesigner>
 
         </motion.div>
