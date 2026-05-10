@@ -8,14 +8,9 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import Projet2 from "../../assets/IMG_5731.JPG";
 import Projet3 from "../../assets/IMG_5732.JPG";
-import Projet16 from "../../assets/IMG_5733.JPG";
-import Projet17 from "../../assets/IMG_5734.JPG";
-import Projet18 from "../../assets/IMG_5735.JPG";
 import Projet19 from "../../assets/IMG_5885.JPG";
 import Projet20 from "../../assets/IMG_5886.JPG";
 import Projet21 from "../../assets/IMG_5887.JPG";
-import Projet22 from "../../assets/IMG_6085.JPG";
-import Projet23 from "../../assets/IMG_6086.JPG";
 import Projet24 from "../../assets/IMG_6126.JPG";
 import { EffectCoverflow, Navigation } from "swiper/modules";
 import { motion } from "framer-motion";
@@ -148,12 +143,6 @@ const Project = () => {
             modules={[EffectCoverflow, Navigation]}
             className="mySwiper"
           >
-          <SwiperSlide onClick={() => openFullscreen(Projet22)}>
-            <PictureProject src={Projet22} alt="slide 22" />
-          </SwiperSlide>
-          <SwiperSlide onClick={() => openFullscreen(Projet23)}>
-            <PictureProject src={Projet23} alt="slide 23" />
-          </SwiperSlide>
           <SwiperSlide onClick={() => openFullscreen(Projet19)}>
               <PictureProject src={Projet19} alt="slide 19" />
             </SwiperSlide>
@@ -166,17 +155,8 @@ const Project = () => {
           <SwiperSlide onClick={() => openFullscreen(Projet21)}>
               <PictureProject src={Projet21} alt="slide 21" />
             </SwiperSlide>
-            <SwiperSlide onClick={() => openFullscreen(Projet16)}>
-              <PictureProject src={Projet16} alt="slide 16" />
-            </SwiperSlide>
-            <SwiperSlide onClick={() => openFullscreen(Projet18)}>
-              <PictureProject src={Projet18} alt="slide 18" />
-            </SwiperSlide>
             <SwiperSlide onClick={() => openFullscreen(Projet3)}>
               <PictureProject src={Projet3} alt="slide 3" />
-            </SwiperSlide>
-            <SwiperSlide onClick={() => openFullscreen(Projet17)}>
-              <PictureProject src={Projet17} alt="slide 17" />
             </SwiperSlide>
             <SwiperSlide onClick={() => openFullscreen(Projet2)}>
               <PictureProject src={Projet2} alt="slide 2" />
