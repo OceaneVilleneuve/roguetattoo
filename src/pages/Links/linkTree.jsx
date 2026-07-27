@@ -155,7 +155,7 @@ const Links = () => {
             }}
           />
           <div>
-            <ButtonLink
+            {/* <ButtonLink
               href="https://tally.so/r/Xxdxjg"
               target="_blank"
               style={{}}
@@ -173,7 +173,7 @@ const Links = () => {
                 FIGURATION CLIP - VIALISME
               </p>
             </ButtonLink>
-            ‌✧
+            ‌✧ */}
             <ButtonLink
               href="mailto:countess.rogue@gmail.com"
               target="_blank"
