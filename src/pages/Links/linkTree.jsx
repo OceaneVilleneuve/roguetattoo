@@ -156,6 +156,25 @@ const Links = () => {
           />
           <div>
             <ButtonLink
+              href="https://tally.so/r/Xxdxjg"
+              target="_blank"
+              style={{}}
+            >
+              <p
+                style={{
+                  fontFamily: "Bakervville",
+                  padding: "10px 0px ",
+                  fontSize: "16px",
+                  border: "2px solid white",
+                  margin: "1rem 1rem",
+                  borderRadius: "10px",
+                }}
+              >
+                FIGURATION CLIP - VIALISME
+              </p>
+            </ButtonLink>
+            ‌✧
+            <ButtonLink
               href="mailto:countess.rogue@gmail.com"
               target="_blank"
               style={{}}
