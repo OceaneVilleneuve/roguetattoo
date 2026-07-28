@@ -95,8 +95,7 @@ const Links = () => {
               marginTop: "-0.8rem",
             }}
           >
-            ‌✧ A vampire tattoo artist fascinated by nature and dark creatures.
-            ✧
+            ‌✧ Your little hand tattoo artist ✧
           </Description>
           <div
             style={{
