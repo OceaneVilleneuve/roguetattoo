@@ -105,13 +105,13 @@ const CGV = () => {
             <br />
             <br />
             <br />
-            L'acceuil se fait exclusivement sur rendez-vous dans un salon
-            privé situé à st herblain.
+            L'accueil se fait exclusivement sur rendez-vous dans un salon
+            privé situé à Saint-Herblain.
             <br />
             <br />
             Le salon se situant dans une dépendance de mon domicile réservé au tatouage.
             <br/>
-            L’adresse exacte ne sera transmise uniquement après validation du rendez-vous,
+            L’adresse exacte ne sera transmise qu'après validation du rendez-vous,
             pour des raisons de confidentialité et de sécurité.
           </AllText>
           <br />
@@ -148,7 +148,7 @@ const CGV = () => {
           aucun remboursement (total ou partiel) ne peut être exigé, que ce soit directement
           <br />
           auprès de l'artiste ou
-           via une procédure de contestation/litige auprès d'un organisme de paiement (type Klarna, banque, etc.).
+          via une procédure de contestation/litige auprès d'un organisme de paiement (type Klarna, banque, etc.).
           </AllText>
           <br />
           <br />
@@ -274,6 +274,8 @@ const CGV = () => {
             <strong><u>Paiement fractionné (Klarna ou Paypal) :</u></strong>
             <br />
             <br />
+            Un paiement en 3x via Klarna et 4x via PayPal est possible.
+            <br />
             Si le client souhaite régler via Klarna ou Paypal (paiement fractionné),
             <br />
             le lien de paiement sera envoyé par mes soins <strong>48h avant la date du rendez-vous. </strong>
@@ -293,10 +295,10 @@ const CGV = () => {
             <br />
             Tout report ou annulation doit être signalé au moins 48h à l’avance.
             <br />
-            Au delà de trois report je considère que tu annules le projet.
+            Au delà de trois report le projet sera considéré comme annulé de votre fait.
             <br />
             <br />
-            Les arrhes ne sont pas remboursable en cas d'annulation de la part du client
+            Les arrhes ne sont pas remboursables en cas d'annulation de la part du client
             <br />
             <br />
             Aucun acompte supplémentaire n'est nécessaire pour un report de rendez-vous, sauf après trois reports ou annulations.
@@ -335,7 +337,7 @@ const CGV = () => {
             Je travaille selon les normes d’hygiène strictes exigées par la
             réglementation.
             <br />
-            Une fiche de soins est remise dans le mail de confirmation du paiement des arrhes accompagné des informations de venu de rendez-vous.
+            Une fiche de soins est remise dans le mail de confirmation du paiement des arrhes accompagné informations relatives au déroulement/accès du rendez-vous.
             <br />
             Mais n'hésitez pas à me la demander si vous l'égarez.
             <br />
@@ -364,7 +366,7 @@ const CGV = () => {
           <SubTitle>8. Contre-indications</SubTitle>
           <AllText>
             Le client déclare ne présenter aucune contre-indication médicale (ex
-            : grossesse, traitement médical, allergies, maladie de la peau).
+            : grossesse, traitement médical, allergies, maladie de peau).
             <br />
             En cas de doute, je peux refuser la réalisation du tatouage pour des
             raisons de sécurité.
@@ -400,11 +402,11 @@ const CGV = () => {
           <br/>
           A défaut d’accord amiable ou en l’absence de réponse du professionnel dans un délai raisonnable d’un (1) mois,
           <br/>
-          le Client consommateur au sens de l’article L.612-2 du code de la consommation a la possibilité de saisir gratuitement,
+          le Client consommateur au sens de l’article L.612-2 du Code de la consommation a la possibilité de saisir gratuitement,
           <br/>
           si un désaccord subsiste, le médiateur compétent inscrit sur la liste des médiateurs établie par la Commission d’évaluation et
           <br/>
-          de contrôle de la médiation de la consommation en application de l’article L.615-1 du code de la consommation, à savoir :
+          de contrôle de la médiation de la consommation en application de l’article L.615-1 du Code de la consommation, à savoir :
           <br/>
           <br/>
           La Société Médiation Professionnelle
@@ -415,7 +417,7 @@ const CGV = () => {
           </AllText>
           <SubTitle>12. Acceptation des conditions</SubTitle>
           <AllText>
-            En validant sa demande de rendez-vous, le client déclare avoir lu et
+            En validant sa demande de rendez-vous et payant les arrhes, le client déclare avoir lu et
             accepté les présentes conditions générales de vente.
           </AllText>
           <img
