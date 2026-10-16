@@ -174,6 +174,23 @@ const CGV = () => {
             caractère privé du salon.
             <br />
             <br />
+            <br />
+            <strong><u>Accès au salon privé et confirmation de venue :</u></strong>
+            <br />
+            <br />
+            <br />
+            Le salon étant un espace privé situé au domicile de l'artiste,
+            <br />
+            l'accès est strictement réservé aux personnes ayant un rendez-vous dûment confirmé avec les arrhes.
+            <br />
+            <br />
+            Pour des raisons d'organisation et de sécurité, le client s'engage à confirmer
+            <br />
+            sa présence au plus tard la veille du rendez-vous en réponse au mail de confirmation envoyé par mes soins.
+            <br />
+            En l'absence de confirmation, l'accès au domicile ne pourra pas être garanti et le matériel ne sera pas installé.
+            <br />
+            <br />
           </AllText>
           <SubTitle>4. Deroulement du projet et modifications</SubTitle>
           <AllText>
@@ -188,6 +205,26 @@ const CGV = () => {
             Au-delà, des frais supplémentaires pourront être appliqués.
             <br />
             Le versement des arrhes confirme la réservation, ainsi que l’engagement du client sur le projet défini.
+            <br />
+            <br />
+            <br />
+            <strong><u>Validation du projet et silence du client :</u></strong>
+            <br />
+            <br />
+            <br />
+            Le projet nécessite une validation explicite du visuel par le client en amont du rendez-vous.
+            <br />
+            L'artiste effectue les relances nécessaires par e-mail ou messagerie. En l'absence de réponse ou de
+            validation de la part
+            <br />
+            du client au moins 7 jours avant la date du rendez-vous (ou après 3 relances restées sans réponse),
+            <br />
+            le rendez-vous sera automatiquement considéré comme annulé du fait du client.
+            <br />
+            <br />
+            Dans ce cas, les arrhes versées restent définitivement acquises à l'artiste à titre de dédommagement pour le temps d'étude/création
+            <br />
+            du dessin et le créneau horaire bloqué.
             <br />
             <br />
           </AllText>
@@ -234,10 +271,10 @@ const CGV = () => {
             <br />
             <br />
             <br />
-            <strong><u>Paiement fractionné (Klarna) :</u></strong>
+            <strong><u>Paiement fractionné (Klarna ou Paypal) :</u></strong>
             <br />
             <br />
-            Si le client souhaite régler via Klarna (paiement fractionné),
+            Si le client souhaite régler via Klarna ou Paypal (paiement fractionné),
             <br />
             le lien de paiement sera envoyé par mes soins <strong>48h avant la date du rendez-vous. </strong>
             <br />
@@ -298,12 +335,29 @@ const CGV = () => {
             Je travaille selon les normes d’hygiène strictes exigées par la
             réglementation.
             <br />
-            Une fiche de soins est remise après chaque tatouage. Mais n'hésitez
-            pas à me la demander si vous l'égarez.
+            Une fiche de soins est remise dans le mail de confirmation du paiement des arrhes accompagné des informations de venu de rendez-vous.
+            <br />
+            Mais n'hésitez pas à me la demander si vous l'égarez.
             <br />
             <br />
             Le client est seul responsable du respect des soins post-tatouage.
             Aucun retouche gratuite ne sera faite en cas de négligence.
+            <br />
+            <br />
+            <br />
+            <strong><u>Conditions des retouches :</u></strong>
+            <br />
+            <br />
+            <br />
+            Les retouches sont offertes dans un délai de 6 mois suivant la séance initiale,
+            <br />
+            à condition de respecter les consignes de soin. Les retouches sont soumises aux mêmes règles de ponctualité
+            <br />
+            et de prévenance qu'un rendez-vous classique :
+            <br />
+            toute annulation moins de 48h à l'avance, absence de confirmation ou non-présentation (no-show) entraîne définitivement
+            <br />
+            la perte de la gratuité des retouches. Toute nouvelle séance de retouche sera alors facturée au tarif forfaitaire d'ouverture de matériel 80€.
             <br />
             <br />
           </AllText>
