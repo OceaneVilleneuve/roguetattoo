@@ -217,7 +217,7 @@ const CGV = () => {
             L'artiste effectue les relances nécessaires par e-mail ou messagerie. En l'absence de réponse ou de
             validation de la part
             <br />
-            du client au moins 7 jours avant la date du rendez-vous (ou après 3 relances restées sans réponse),
+            du client au moins 2 jours avant la date du rendez-vous (ou après 3 relances restées sans réponse),
             <br />
             le rendez-vous sera automatiquement considéré comme annulé du fait du client.
             <br />
