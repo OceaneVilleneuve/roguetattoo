@@ -105,7 +105,7 @@ const CGV = () => {
             <br />
             <br />
             <br />
-            L'acceuil se faitt exclusivement sur rendez-vous dans un salon
+            L'acceuil se fait exclusivement sur rendez-vous dans un salon
             privé situé à st herblain.
             <br />
             <br />
@@ -148,7 +148,7 @@ const CGV = () => {
           aucun remboursement (total ou partiel) ne peut être exigé, que ce soit directement
           <br />
           auprès de l'artiste ou
-          via une procédure de contestation/litige auprès d'un organisme de paiement (type Klarna, banque, etc.).
+           via une procédure de contestation/litige auprès d'un organisme de paiement (type Klarna, banque, etc.).
           </AllText>
           <br />
           <br />
